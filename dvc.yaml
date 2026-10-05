@@ -1,0 +1,33 @@
+stages:
+
+  extract_corpus:
+    cmd: >
+      python src/scripts/extract_civil_code.py
+      --pdf data/raw/egyptian_civil_code.pdf
+      --output data/processed/final-articles-v2.json
+      --validation data/processed/validation_report-v2.json
+      --expected-max 1149
+    deps:
+      - data/raw/egyptian_civil_code.pdf
+      - src/scripts/extract_civil_code.py
+    outs:
+      - data/processed/final-articles-v2.json
+      - data/processed/validation_report-v2.json
+
+  chunk_corpus:
+    cmd: >
+      python src/scripts/text_splitter.py
+      --input data/processed/final-articles-v2.json
+      --output data/processed/final-chunks-bgem3-v2.json
+      --stats data/processed/chunk_stats-bgem3-v2.json
+      --strategy article
+      --max-tokens 512
+      --overlap 0
+      --context-header full
+      --tokenizer BAAI/bge-m3
+    deps:
+      - data/processed/final-articles-v2.json
+      - src/scripts/text_splitter.py
+    outs:
+      - data/processed/final-chunks-bgem3-v2.json
+      - data/processed/chunk_stats-bgem3-v2.json

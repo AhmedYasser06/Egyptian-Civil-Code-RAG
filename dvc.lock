@@ -1,0 +1,55 @@
+schema: '2.0'
+stages:
+  extract_corpus:
+    cmd: "python src/scripts/extract_civil_code.py --pdf data/raw/egyptian_civil_code.pdf
+      --output data/processed/final-articles-v2.json --validation data/processed/validation_report-v2.json
+      --expected-max 1149\n"
+    deps:
+    - path: data/raw/egyptian_civil_code.pdf
+      hash: md5
+      md5: 5086ef5f16f15d856278db943e58e948
+      size: 2599703
+      isexec: true
+    - path: src/scripts/extract_civil_code.py
+      hash: md5
+      md5: 944c698a547be12afbc6fe025773bf3a
+      size: 43734
+      isexec: true
+    outs:
+    - path: data/processed/final-articles-v2.json
+      hash: md5
+      md5: c20ba3bf35ef591f91fb793d85cfd5cd
+      size: 1837176
+      isexec: true
+    - path: data/processed/validation_report-v2.json
+      hash: md5
+      md5: dc074d062980ca233715dcfdfa21e406
+      size: 5316
+      isexec: true
+  chunk_corpus:
+    cmd: "python src/scripts/text_splitter.py --input data/processed/final-articles-v2.json
+      --output data/processed/final-chunks-bgem3-v2.json --stats data/processed/chunk_stats-bgem3-v2.json
+      --strategy article --max-tokens 512 --overlap 0 --context-header full --tokenizer
+      BAAI/bge-m3\n"
+    deps:
+    - path: data/processed/final-articles-v2.json
+      hash: md5
+      md5: c20ba3bf35ef591f91fb793d85cfd5cd
+      size: 1837176
+      isexec: true
+    - path: src/scripts/text_splitter.py
+      hash: md5
+      md5: 0e4aebe528923c84906bdc42f90d52b7
+      size: 23718
+      isexec: true
+    outs:
+    - path: data/processed/chunk_stats-bgem3-v2.json
+      hash: md5
+      md5: 9920be4ff7a23295ddc7df88dd2f2a2b
+      size: 576
+      isexec: true
+    - path: data/processed/final-chunks-bgem3-v2.json
+      hash: md5
+      md5: 0bee57a5dfdfe66eb6d75728d7a79430
+      size: 3798325
+      isexec: true
