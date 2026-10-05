@@ -184,3 +184,12 @@ data/mlflow/
 
 # Local DVC configuration
 .dvc/config
+# Generated legal RAG data
+data/processed/embedded-chunks*.json
+data/processed/final-articles*.json
+data/processed/final-chunks*.json
+data/processed/layout-*.txt
+data/processed/validation_report*.json
+
+# Evaluation outputs
+data/evaluation/
