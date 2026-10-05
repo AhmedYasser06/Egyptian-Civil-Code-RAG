@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # Egyptian Civil Code — Arabic/English Legal RAG
 
 A bilingual Arabic/English Retrieval-Augmented Generation (RAG) system for question answering over the Egyptian Civil Code.
