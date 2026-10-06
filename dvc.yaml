@@ -31,3 +31,22 @@ stages:
     outs:
       - data/processed/final-chunks-bgem3-v2.json
       - data/processed/chunk_stats-bgem3-v2.json
+
+  embed_corpus:
+    cmd: >
+      python -m src.scripts.embed_civil_code
+    deps:
+      - data/processed/final-chunks-bgem3-v2.json
+      - src/scripts/embed_civil_code.py
+      - src/llm/EmbeddingProviderFactory.py
+      - src/llm/Enums.py
+      - src/llm/providers/HuggingFaceEmbedding.py
+    outs:
+      - data/processed/embedded-chunks-v2.json
+
+  index_corpus:
+    cmd: >
+      python -m src.scripts.index_civil_code
+    deps:
+      - data/processed/embedded-chunks-v2.json
+      - src/scripts/index_civil_code.py

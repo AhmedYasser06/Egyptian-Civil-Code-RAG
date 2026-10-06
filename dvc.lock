@@ -53,3 +53,50 @@ stages:
       md5: 0bee57a5dfdfe66eb6d75728d7a79430
       size: 3798325
       isexec: true
+  embed_corpus:
+    cmd: "python -m src.scripts.embed_civil_code\n"
+    deps:
+    - path: data/processed/final-chunks-bgem3-v2.json
+      hash: md5
+      md5: 0bee57a5dfdfe66eb6d75728d7a79430
+      size: 3798325
+      isexec: true
+    - path: src/llm/EmbeddingProviderFactory.py
+      hash: md5
+      md5: 3ca42df88147abe4b446bb775b435285
+      size: 867
+      isexec: true
+    - path: src/llm/Enums.py
+      hash: md5
+      md5: 2bb905ca49c1715b549512e0c42be72a
+      size: 238
+      isexec: true
+    - path: src/llm/providers/HuggingFaceEmbedding.py
+      hash: md5
+      md5: 9562050b2d742edaf441130fd4c30894
+      size: 1800
+      isexec: true
+    - path: src/scripts/embed_civil_code.py
+      hash: md5
+      md5: d452071744fce6509694ce95155e704f
+      size: 2349
+      isexec: true
+    outs:
+    - path: data/processed/embedded-chunks-v2.json
+      hash: md5
+      md5: f35def8be981d9d0b9086df8f565766b
+      size: 70214747
+      isexec: true
+  index_corpus:
+    cmd: "python -m src.scripts.index_civil_code\n"
+    deps:
+    - path: data/processed/embedded-chunks-v2.json
+      hash: md5
+      md5: f35def8be981d9d0b9086df8f565766b
+      size: 70214747
+      isexec: true
+    - path: src/scripts/index_civil_code.py
+      hash: md5
+      md5: 4361100ad318e6a0892831199bc19360
+      size: 7617
+      isexec: true
