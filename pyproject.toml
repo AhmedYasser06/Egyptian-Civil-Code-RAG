@@ -14,3 +14,7 @@ ignore = []
 [tool.ruff.lint.per-file-ignores]
 "src/evaluation/*" = ["E402"]
 "src/mlflow/*" = ["E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

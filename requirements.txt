@@ -40,3 +40,6 @@ PyMuPDF==1.26.0
 
 # CI linting
 ruff==0.16.5
+
+# Testing
+pytest==8.4.2

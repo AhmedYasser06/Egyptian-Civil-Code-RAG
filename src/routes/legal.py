@@ -5,6 +5,7 @@ from fastapi import APIRouter, HTTPException
 
 from src.llm.LLMProviderFactory import LLMProviderFactory
 from src.retrieval.retriever import LegalRetriever
+from src.schemas.ask import AskResponse
 from src.schemas.legal_query import LegalQueryRequest
 from src.schemas.response import LegalResponse
 from src.schemas.sources import LegalSource
@@ -16,6 +17,13 @@ router = APIRouter(
     prefix="/api/v1/legal",
     tags=["Legal RAG"],
 )
+
+@router.get("/health")
+def health():
+    return {
+        "status": "healthy",
+        "documents_indexed": 1149,
+    }
 
 
 # RETRIEVER
@@ -176,39 +184,30 @@ def retrieve_legal_chunks(
             
 # RAG QUERY ENDPOINT
 @router.post(
-    "/query",
-    response_model=LegalResponse,
+    "/ask",
+    response_model=AskResponse,
 )
-def query_legal(
+def ask_legal(
     request: LegalQueryRequest,
 ):
-
     try:
 
-        # 1. Retrieve
         sources = retriever.retrieve(
             query=request.question,
             top_k=request.top_k,
         )
 
-        # 2. No sources
         if not sources:
-
-            return LegalResponse(
-                answer_ar=(
+            return AskResponse(
+                answer=(
                     "لم يتم العثور على مصادر قانونية "
                     "كافية للإجابة عن السؤال."
                 ),
                 sources=[],
-                cannot_answer=True,
             )
 
-        # 3. Build context
-        context = build_legal_context(
-            sources
-        )
+        context = build_legal_context(sources)
 
-        # 4. Prompt
         prompt = f"""
 {LEGAL_SYSTEM_PROMPT}
 
@@ -223,26 +222,84 @@ Mention the relevant article number(s).
 Use only the provided legal sources.
 """
 
-        # 5. Generate
         response = llm.invoke(prompt)
 
-        answer = response.content
-
-        # 6. Pydantic sources
         legal_sources = [
             LegalSource(**source)
             for source in sources
         ]
 
-        # 7. Response
+        citations = [
+            source.citation
+            for source in legal_sources
+            if source.citation
+        ]
+
+        return AskResponse(
+            answer=response.content,
+            sources=citations,
+        )
+
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=str(e),
+        )
+        
+@router.post(
+    "/query",
+    response_model=LegalResponse,
+)
+def query_legal(
+    request: LegalQueryRequest,
+):
+    try:
+
+        sources = retriever.retrieve(
+            query=request.question,
+            top_k=request.top_k,
+        )
+
+        if not sources:
+            return LegalResponse(
+                answer_ar=(
+                    "لم يتم العثور على مصادر قانونية "
+                    "كافية للإجابة عن السؤال."
+                ),
+                sources=[],
+                cannot_answer=True,
+            )
+
+        context = build_legal_context(sources)
+
+        prompt = f"""
+{LEGAL_SYSTEM_PROMPT}
+
+LEGAL SOURCES:
+{context}
+
+USER QUESTION:
+{request.question}
+
+Answer the question in Arabic.
+Mention the relevant article number(s).
+Use only the provided legal sources.
+"""
+
+        response = llm.invoke(prompt)
+
+        legal_sources = [
+            LegalSource(**source)
+            for source in sources
+        ]
+
         return LegalResponse(
-            answer_ar=answer,
+            answer_ar=response.content,
             sources=legal_sources,
             cannot_answer=False,
         )
 
     except Exception as e:
-
         raise HTTPException(
             status_code=500,
             detail=str(e),

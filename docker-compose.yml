@@ -1,0 +1,40 @@
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: egyptian-legal-api
+
+    ports:
+      - "8000:8000"
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    volumes:
+      - /home/ahmed/.cache/huggingface:/root/.cache/huggingface
+
+    environment:
+      QDRANT_URL: http://host.docker.internal:6333
+      QDRANT_COLLECTION: egyptian_civil_code
+
+      EMBEDDING_MODEL_PROVIDER: HUGGINGFACE
+      EMBEDDING_MODEL_ID: BAAI/bge-m3
+
+      RERANKER_MODEL_ID: BAAI/bge-reranker-v2-m3
+      RERANKER_DEVICE: cpu
+
+      LLM_PROVIDER: ${LLM_PROVIDER:-GROQ}
+
+      GROQ_MODEL_ID: ${GROQ_MODEL_ID:-qwen/qwen3.8-27b}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+
+      GOOGLE_MODEL_ID: ${GOOGLE_MODEL_ID:-gemini-2.5-flash}
+      GOOGLE_API_KEY: ${GOOGLE_API_KEY:-}
+
+      OLLAMA_MODEL_ID: ${OLLAMA_MODEL_ID:-qwen3:1.7b}
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+
+    restart: unless-stopped

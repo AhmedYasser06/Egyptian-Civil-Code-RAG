@@ -18,9 +18,15 @@ class LegalRetriever:
 
     def __init__(
         self,
-        qdrant_url: str = "http://localhost:6333",
+        qdrant_url: str | None = None,
         collection_name: str = "egyptian_civil_code",
     ):
+        if qdrant_url is None:
+            qdrant_url = os.getenv(
+                "QDRANT_URL",
+                "http://localhost:6333",
+            )
+
         self.reranker = LegalReranker(
             model_id=os.getenv(
                 "RERANKER_MODEL_ID",
@@ -31,13 +37,13 @@ class LegalRetriever:
                 "cpu",
             ),
         )
-        
+
         self.collection_name = collection_name
 
         self.client = QdrantClient(
-            url=qdrant_url
+            url=qdrant_url,
         )
-
+        
         embedding_model = os.getenv(
             "EMBEDDING_MODEL_ID",
             "BAAI/bge-m3",

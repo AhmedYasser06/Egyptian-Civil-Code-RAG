@@ -1,6 +1,6 @@
 import json
+import os
 import uuid
-from pathlib import Path
 
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
@@ -13,18 +13,26 @@ from qdrant_client.models import (
 # CONFIG
 # ============================================================
 
-INPUT_FILE = Path(
-    "data/processed/embedded-chunks-v2.json"
+INPUT_FILE = "data/processed/embedded-chunks-v2.json"
+
+QDRANT_URL = os.getenv(
+    "QDRANT_URL",
+    "http://localhost:6333",
 )
 
-QDRANT_URL = "http://localhost:6333"
-
-COLLECTION_NAME = "egyptian_civil_code"
+COLLECTION_NAME = os.getenv(
+    "QDRANT_COLLECTION",
+    "egyptian_civil_code",
+)
 
 VECTOR_SIZE = 1024
 
 BATCH_SIZE = 128
 
+RECREATE_COLLECTION = os.getenv(
+    "RECREATE_COLLECTION",
+    "true",
+).lower() == "true"
 
 # ============================================================
 # HELPERS
@@ -111,26 +119,59 @@ def main():
 
     if COLLECTION_NAME in existing_collections:
 
-        print(
-            f"[INFO] Collection '{COLLECTION_NAME}' "
-            f"already exists."
+        if RECREATE_COLLECTION:
+            print(
+                f"[INFO] Collection '{COLLECTION_NAME}' "
+                "already exists."
+            )
+
+            print("[INFO] Recreating collection...")
+
+            client.delete_collection(
+                collection_name=COLLECTION_NAME
+            )
+
+            client.create_collection(
+                collection_name=COLLECTION_NAME,
+                vectors_config=VectorParams(
+                    size=VECTOR_SIZE,
+                    distance=Distance.COSINE,
+                ),
+            )
+
+            print(
+                f"[OK] Recreated collection: "
+                f"{COLLECTION_NAME}"
+            )
+
+        else:
+            collection_info = client.get_collection(
+                COLLECTION_NAME
+            )
+
+            print(
+                f"[INFO] Collection '{COLLECTION_NAME}' "
+                "already exists with "
+                f"{collection_info.points_count} points."
+            )
+
+            print("[OK] Skipping re-indexing.")
+            return
+
+    else:
+
+        client.create_collection(
+            collection_name=COLLECTION_NAME,
+            vectors_config=VectorParams(
+                size=VECTOR_SIZE,
+                distance=Distance.COSINE,
+            ),
         )
 
         print(
-            "[INFO] Recreating collection..."
+            f"[OK] Created collection: "
+            f"{COLLECTION_NAME}"
         )
-
-        client.delete_collection(
-            collection_name=COLLECTION_NAME
-        )
-
-    client.create_collection(
-        collection_name=COLLECTION_NAME,
-        vectors_config=VectorParams(
-            size=VECTOR_SIZE,
-            distance=Distance.COSINE,
-        ),
-    )
 
     print(
         f"[OK] Created collection: "

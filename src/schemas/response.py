@@ -1,5 +1,3 @@
-from typing import List
-
 from pydantic import BaseModel, Field
 
 from .sources import LegalSource
@@ -7,7 +5,7 @@ from .sources import LegalSource
 
 class LegalResponse(BaseModel):
     """
-    Response returned by the Arabic Legal RAG /ask endpoint.
+    Response returned by the Arabic Legal Document RAG API.
     """
 
     answer_ar: str = Field(
@@ -17,12 +15,12 @@ class LegalResponse(BaseModel):
         )
     )
 
-    sources: List[LegalSource] = Field(
+    sources: list[LegalSource] = Field(
         default_factory=list,
         description=(
-            "The legal articles retrieved and used to support the answer. "
-            "May contain one or multiple articles."
-        )
+            "Legal articles retrieved and used to support the answer. "
+            "Sources are identified by article citation."
+        ),
     )
 
     cannot_answer: bool = Field(
@@ -30,5 +28,5 @@ class LegalResponse(BaseModel):
         description=(
             "Whether the system cannot provide a reliable answer "
             "from the retrieved legal sources."
-        )
+        ),
     )

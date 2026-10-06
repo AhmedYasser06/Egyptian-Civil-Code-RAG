@@ -1,0 +1,14 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+ENV PIP_NO_CACHE_DIR=1
+
+RUN pip install --no-cache-dir qdrant-client==1.19.1
+
+COPY src/scripts/index_civil_code.py ./src/scripts/index_civil_code.py
+COPY data/processed/embedded-chunks-v2.json ./data/processed/embedded-chunks-v2.json
+
+CMD ["python", "src/scripts/index_civil_code.py"]
