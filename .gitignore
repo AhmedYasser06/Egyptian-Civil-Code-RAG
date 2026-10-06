@@ -182,8 +182,6 @@ mlruns/
 # MLflow experiment outputs
 data/mlflow/
 
-# Local DVC configuration
-.dvc/config
 # Generated legal RAG data
 data/processed/embedded-chunks*.json
 data/processed/final-articles*.json
