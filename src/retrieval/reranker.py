@@ -1,8 +1,7 @@
-import os
-from typing import List, Dict
+from typing import Dict, List
 
 import torch
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 
 class LegalReranker:

@@ -3,15 +3,11 @@ import os
 from dotenv import load_dotenv
 from fastapi import APIRouter, HTTPException
 
+from src.llm.LLMProviderFactory import LLMProviderFactory
+from src.retrieval.retriever import LegalRetriever
 from src.schemas.legal_query import LegalQueryRequest
 from src.schemas.response import LegalResponse
 from src.schemas.sources import LegalSource
-
-from src.retrieval.retriever import LegalRetriever
-
-from src.llm.LLMProviderFactory import LLMProviderFactory
-from src.llm.Enums import LLMEnums
-
 
 load_dotenv()
 

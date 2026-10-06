@@ -1,20 +1,17 @@
-import os
 import json
+import os
 from pathlib import Path
 
 from dotenv import load_dotenv
 from openai import AsyncOpenAI
-
-from ragas.llms import llm_factory
 from ragas.embeddings import HuggingFaceEmbeddings
-
+from ragas.llms import llm_factory
 from ragas.metrics.collections import (
-    Faithfulness,
     AnswerRelevancy,
     ContextPrecision,
     ContextRecall,
+    Faithfulness,
 )
-
 
 load_dotenv()
 

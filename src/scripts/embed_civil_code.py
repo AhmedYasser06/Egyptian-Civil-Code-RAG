@@ -4,7 +4,6 @@ from pathlib import Path
 from src.llm.EmbeddingProviderFactory import EmbeddingProviderFactory
 from src.llm.Enums import EmbeddingEnums
 
-
 INPUT_FILE = Path(
     "data/processed/final-chunks-bgem3-v2.json"
 )

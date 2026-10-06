@@ -1,7 +1,7 @@
 from typing import List, Optional
 
-from sentence_transformers import SentenceTransformer
 from langchain_core.embeddings import Embeddings
+from sentence_transformers import SentenceTransformer
 
 
 class HuggingFaceEmbedding(Embeddings):

@@ -1,0 +1,65 @@
+name: Legal RAG CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lint
+        run: |
+          ruff check src main.py
+
+      - name: Verify project imports
+        run: |
+          python - <<'PY'
+          import fastapi
+          import pydantic
+          import qdrant_client
+          import sentence_transformers
+          import transformers
+          import torch
+          import ragas
+          import mlflow
+          import dvc
+          import langchain
+          import langchain_ollama
+          import langchain_groq
+          import langchain_google_genai
+          import openai
+
+          print("All Legal RAG imports: OK")
+          print("FastAPI:", fastapi.__version__)
+          print("Pydantic:", pydantic.__version__)
+          print("Torch:", torch.__version__)
+          print("Transformers:", transformers.__version__)
+          print("Sentence Transformers:", sentence_transformers.__version__)
+          print("RAGAS:", ragas.__version__)
+          print("MLflow:", mlflow.__version__)
+          print("DVC:", dvc.__version__)
+          PY
+
+      - name: Verify FastAPI application
+        run: |
+          python -c "from main import app; print('FastAPI app import: OK'); print('Title:', app.title)"

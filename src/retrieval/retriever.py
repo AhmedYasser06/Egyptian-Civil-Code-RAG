@@ -1,10 +1,10 @@
 import os
 import re
-from typing import List, Dict, Any, Optional
+from typing import Any, Dict, List, Optional
 
-from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue
 from dotenv import load_dotenv
+from qdrant_client import QdrantClient
+from qdrant_client.models import FieldCondition, Filter, MatchValue
 
 from src.llm.providers.HuggingFaceEmbedding import (
     HuggingFaceEmbedding,

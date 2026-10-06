@@ -5,7 +5,6 @@ from statistics import mean
 
 from src.retrieval.retriever import LegalRetriever
 
-
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 EVAL_FILE = (

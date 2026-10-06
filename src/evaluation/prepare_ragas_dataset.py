@@ -1,7 +1,6 @@
 import json
 from pathlib import Path
 
-
 RESULTS_FILE = Path("data/evaluation/rag_results.json")
 EVAL_FILE = Path("data/evaluation/rag_eval.json")
 ARTICLES_FILE = Path("data/processed/final-articles-v2.json")

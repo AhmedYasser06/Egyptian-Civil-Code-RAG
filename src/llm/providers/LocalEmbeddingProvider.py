@@ -1,8 +1,8 @@
-from typing import Dict, List, Optional, Any, Callable, Union
-import numpy as np
-import os
+from typing import List
+
+from langchain.embeddings.base import Embeddings  # Import the base class
 from sentence_transformers import SentenceTransformer, models
-from langchain.embeddings.base import Embeddings # Import the base class
+
 
 class LocalEmbeddingProvider(Embeddings): # Inherit from Embeddings
     def __init__(self, 
@@ -62,7 +62,11 @@ class LocalEmbeddingProvider(Embeddings): # Inherit from Embeddings
     #     return embeddings.tolist()
 
     # The set_embedding_model method is replaced by initializing in __init__
-    # def set_embedding_model(self, model_id: Optional[str] = None, embedding_size: Optional[int] = None):
+    # # def set_embedding_model(
+    #     self,
+    #     model_id: Optional[str] = None,
+    #     embedding_size: Optional[int] = None,
+    # ):
     #     """Set up the embedding model with the specified parameters."""
     #     if model_id:
     #         self.model_id = model_id

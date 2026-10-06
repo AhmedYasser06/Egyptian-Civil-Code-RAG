@@ -1,0 +1,16 @@
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+exclude = [
+    "src/scripts/extract_civil_code.py",
+    "src/scripts/text_splitter.py",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = []
+
+[tool.ruff.lint.per-file-ignores]
+"src/evaluation/*" = ["E402"]
+"src/mlflow/*" = ["E402"]

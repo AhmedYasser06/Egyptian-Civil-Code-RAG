@@ -1,18 +1,15 @@
 from __future__ import annotations
 
 import json
-import os
 import subprocess
 import sys
 from pathlib import Path
 
-import mlflow
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from transformers import AutoTokenizer
 
+import mlflow
 from src.retrieval.reranker import LegalReranker
-
 
 # ============================================================
 # PROJECT CONFIG

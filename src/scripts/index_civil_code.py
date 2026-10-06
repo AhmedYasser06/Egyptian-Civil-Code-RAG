@@ -5,10 +5,9 @@ from pathlib import Path
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
     Distance,
-    VectorParams,
     PointStruct,
+    VectorParams,
 )
-
 
 # ============================================================
 # CONFIG
@@ -311,7 +310,7 @@ def main():
     )
 
     print(
-        f"Distance: COSINE"
+        "Distance: COSINE"
     )
 
 

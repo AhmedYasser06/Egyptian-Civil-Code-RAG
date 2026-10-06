@@ -1,6 +1,6 @@
-from .providers.LocalEmbeddingProvider import LocalEmbeddingProvider
-from .providers.HuggingFaceEmbedding import HuggingFaceEmbedding
 from .Enums import EmbeddingEnums
+from .providers.HuggingFaceEmbedding import HuggingFaceEmbedding
+from .providers.LocalEmbeddingProvider import LocalEmbeddingProvider
 
 
 class EmbeddingProviderFactory:
