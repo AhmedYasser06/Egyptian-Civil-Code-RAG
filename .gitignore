@@ -189,9 +189,6 @@ data/processed/final-chunks*.json
 data/processed/layout-*.txt
 data/processed/validation_report*.json
 
-# Evaluation outputs
-data/evaluation/
-
 # models / scratch outputs of the GPU notebooks
 models/
 eval_out/

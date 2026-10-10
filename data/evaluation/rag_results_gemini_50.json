@@ -1,0 +1,542 @@
+[
+  {
+    "id": "q01_ar",
+    "question": "ما هي الحالات التي يكون فيها استعمال الحق غير مشروع؟",
+    "answer": "وفقاً للمادة (5) من القانون المدني المصري، يكون استعمال الحق غير مشروع في الأحوال الآتية:\n\n(أ) إذا لم يُقصد به سوى الإضرار بالغير.  \n(ب) إذا كانت المصالح التي يرمي إلى تحقيقها قليلة الأهمية، بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها.  \n(ج) إذا كانت المصالح التي يرمي إلى تحقيقها غير مشروعة.",
+    "expected_articles": [
+      5
+    ],
+    "reference_answer": "يكون استعمال الحق غير مشروع إذا قصد به الإضرار بالغير، أو كانت المصالح التي يرمي إلى تحقيقها قليلة الأهمية بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها، أو كانت المصالح التي يرمي إلى تحقيقها غير مشروعة في ذاتها.",
+    "retrieved_article_numbers": [
+      5,
+      988,
+      51
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 5,
+        "text_ar": "يكون استعمال الحق غير مشروع في الاحوال الاتية : )ا) اذا لم يقصد به سوى الاضرار بالغير. (ب) اذا كانت المصالح التي يرمي الى تحقيقها قليلة الاهمية ،بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها. (ج) اذا كان المصالح التي يرمي الى تحقيقها غير مشروعة.",
+        "text_en": "The exercise of a right is considered unlawful in the following cases: ;a) if the sole aim thereof is to harm another person b) if the benefit it is desired to realize is out of proportion to the harm caused thereby to another ;person c) if the benefit it is desired to realize is unlawful.",
+        "citation": "Egyptian Civil Code, Article 5",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9970809817314148
+      },
+      {
+        "article_number": 988,
+        "text_ar": "( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير",
+        "text_en": "The usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+        "citation": "Egyptian Civil Code, Article 988",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.5868751406669617
+      },
+      {
+        "article_number": 51,
+        "text_ar": "",
+        "text_en": "A person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby.",
+        "citation": "Egyptian Civil Code, Article 51",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.058098968118429184
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q01_en",
+    "question": "What are the cases in which the exercise of a right is considered unlawful?",
+    "answer": "According to **Article 5 of the Egyptian Civil Code**, the exercise of a right is considered unlawful in the following cases:\n\n1. If the sole aim thereof is to harm another person.\n2. If the benefit it is desired to realize is out of proportion to the harm caused thereby to another person.\n3. If the benefit it is desired to realize is unlawful.",
+    "expected_articles": [
+      5
+    ],
+    "reference_answer": "The exercise of a right is unlawful when it is intended solely to cause harm to another, when the interests intended to be achieved are so slight that they are wholly disproportionate to the harm caused to another, or when the interests pursued are unlawful in themselves.",
+    "retrieved_article_numbers": [
+      5,
+      51,
+      988
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 5,
+        "text_ar": "يكون استعمال الحق غير مشروع في الاحوال الاتية : )ا) اذا لم يقصد به سوى الاضرار بالغير. (ب) اذا كانت المصالح التي يرمي الى تحقيقها قليلة الاهمية ،بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها. (ج) اذا كان المصالح التي يرمي الى تحقيقها غير مشروعة.",
+        "text_en": "The exercise of a right is considered unlawful in the following cases: ;a) if the sole aim thereof is to harm another person b) if the benefit it is desired to realize is out of proportion to the harm caused thereby to another ;person c) if the benefit it is desired to realize is unlawful.",
+        "citation": "Egyptian Civil Code, Article 5",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.99763023853302
+      },
+      {
+        "article_number": 51,
+        "text_ar": "",
+        "text_en": "A person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby.",
+        "citation": "Egyptian Civil Code, Article 51",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.19031523168087006
+      },
+      {
+        "article_number": 988,
+        "text_ar": "( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير",
+        "text_en": "The usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+        "citation": "Egyptian Civil Code, Article 988",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.03919113054871559
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q02_ar",
+    "question": "ماذا يجوز للمالك أن يفعل إذا استمر المنتفع في استعمال العين استعمالا غير مشروع؟",
+    "answer": "وفقاً للمادة (988) من القانون المدني المصري، للمالك أن يعترض على أي استعمال غير مشروع، وإذا ظل المنتفع يستعمل العين استعمالاً غير مشروع على الرغم من اعتراض المالك (أو لم يقدم التأمينات التي طالبه بها المالك إذا أثبت أن حقوقه في خطر)، يجوز اللجوء إلى القضاء، وللقاضي حينئذٍ:\n\n1. أن ينزع العين من تحت يد المنتفع ويسلمها إلى شخص آخر ليتولى إدارتها.\n2. وله كذلك، تبعاً لخطورة الحال، أن يحكم بانتهاء حق الانتفاع، وذلك دون إخلال بحقوق الغير.",
+    "expected_articles": [
+      988
+    ],
+    "reference_answer": "إذا استمر المنتفع في استعمال العين استعمالا غير مشروع، جاز للمالك أن يطلب إنهاء حق الانتفاع.",
+    "retrieved_article_numbers": [
+      988,
+      989,
+      583
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 988,
+        "text_ar": "( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير",
+        "text_en": "The usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+        "citation": "Egyptian Civil Code, Article 988",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9899702668190002
+      },
+      {
+        "article_number": 989,
+        "text_ar": "( المنتفع ملزم اثناء انتفاعه بكل ما يفرض على العين المنتفع بها من١( . وبكل النفقات التى تقتضيها اعمال الصيانة، التكاليف المعتادة ( اما التكاليف غير المعتادة والاصالحات الجسيمة التى لم تنشا عن٢( ويلتزم المنتفع بان يؤدى لمالك فوائد، خطا المنتفع فانها تكون على المالك فان كان المنتفع هو الذى قام بانفاق كان له استرداد راس. ما انفقه فى ذلك .المال عند انتهاء حق الانتفاع",
+        "text_en": "",
+        "citation": "Egyptian Civil Code, Article 989",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.49006912112236023
+      },
+      {
+        "article_number": 583,
+        "text_ar": "( يجب على المستاجر ان يبذل من العناية في استعمال العين المؤجرة١( .وفي المحافظة عليها ما يبذله الشخص المعتاد ( وهو مسئول عما يصيب العني اثناء انتفاعه بها من تلف او هالك غير٢( .ناشئ عن استعمالها استعمالا ما لوفا",
+        "text_en": "",
+        "citation": "Egyptian Civil Code, Article 583",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.2550671696662903
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q02_en",
+    "question": "What may the owner do if the usufructuary continues to use the property unlawfully?",
+    "answer": "According to **Article 988** of the Egyptian Civil Code:\n\n* The owner may object to any use of the property that is unlawful or unsuitable to its nature.\n* If the owner proves that his rights are endangered, he may demand security.\n* If the usufructuary, despite the owner's objections, continues to use the property unlawfully (or in a manner unsuitable to its nature), or fails to provide the demanded security, the Judge may:\n  1. Take the property from the usufructuary and entrust it to a third party for its management; and/or\n  2. In circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+    "expected_articles": [
+      988
+    ],
+    "reference_answer": "If the usufructuary continues to use the property unlawfully, the owner may request termination of the usufruct.",
+    "retrieved_article_numbers": [
+      988,
+      989,
+      991
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 988,
+        "text_ar": "( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير",
+        "text_en": "The usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+        "citation": "Egyptian Civil Code, Article 988",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9949331879615784
+      },
+      {
+        "article_number": 989,
+        "text_ar": "( المنتفع ملزم اثناء انتفاعه بكل ما يفرض على العين المنتفع بها من١( . وبكل النفقات التى تقتضيها اعمال الصيانة، التكاليف المعتادة ( اما التكاليف غير المعتادة والاصالحات الجسيمة التى لم تنشا عن٢( ويلتزم المنتفع بان يؤدى لمالك فوائد، خطا المنتفع فانها تكون على المالك فان كان المنتفع هو الذى قام بانفاق كان له استرداد راس. ما انفقه فى ذلك .المال عند انتهاء حق الانتفاع",
+        "text_en": "The usufructuary is liable, during the continuance of his enjoyment, for all normal charges in respect of the property subject to the usufruct and all expenses for repairs incidental to its maintenance. The owner is obliged to pay abnormal expenses and the cost of heavy repairs which do not arise from any fault on the part of the usufructuary, but the usufructuary is bound to pay to the owner interest on the amount expended by him in this respect. If the usufructuary has himself advanced the cost, he is entitled to obtain repayment of the capital amount paid by him when the usufruct terminates.",
+        "citation": "Egyptian Civil Code, Article 989",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.5065650939941406
+      },
+      {
+        "article_number": 991,
+        "text_ar": "اذا هلك الشيء او تلف او احتاج الى اصالحات جسيمة مما يجب على او الى اتخاذ اجراء يقيه من خطر لما يكن، المالك ان يتحمل نفقاته فعلى المنتفع ان يبادر باخطار المالك وعليه اخطاره ايضا اذا، منظورا .استمسك اجنبى بحق يدعيه على الشيء نفسه",
+        "text_en": "The usufructuary must give notice to the owner without delay if the property perishes, deteriorates or requires major repairs the cost of which should be borne by the owner, or if it is necessary to take protective measures against an unforeseen danger. The usufructuary must also advise the owner if a third party claims to have a right over the property.",
+        "citation": "Egyptian Civil Code, Article 991",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.463100403547287
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q03_ar",
+    "question": "ما الذي يمكن أن يطلبه الشخص إذا استعمل شخص آخر اسمه بصورة غير مشروعة؟",
+    "answer": "وفقاً للمادة (51) من القانون المدني المصري، يحق للشخص الذي انتحل الغير اسمه دون حق أو نازعه في استعماله بلا مبرر أن يطلب الآتي:\n\n1. وقف هذا الاعتداء.\n2. التعويض عما يكون قد لحقه من ضرر.",
+    "expected_articles": [
+      51
+    ],
+    "reference_answer": "إذا نازع شخص آخر في استعمال الاسم أو استعمله بغير حق، جاز لصاحب الاسم أن يطلب وقف هذا الاعتداء والتعويض عما لحقه من ضرر.",
+    "retrieved_article_numbers": [
+      51,
+      50,
+      164
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 51,
+        "text_ar": "ومن انتحل الغير اسمه،لكل من نازعه الغير فى استعمال اسمه بال مبرر ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، دون حق .من ضرر",
+        "text_en": "A person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby.",
+        "citation": "Egyptian Civil Code, Article 51",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9529474973678589
+      },
+      {
+        "article_number": 50,
+        "text_ar": "لكل من وقع عليه اعتداء غير مشروع في حق من الحقوق المالزمة ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، لشخصيته .من ضرر",
+        "text_en": "A person whose rights inherent in his personality have been unlawfully infringed, shall have the right to demand the cessation of the infringement and compensation for any damage sustained thereby.",
+        "citation": "Egyptian Civil Code, Article 50",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.34493544697761536
+      },
+      {
+        "article_number": 164,
+        "text_ar": "( يكون الشخص مسئوال عن اعماله غير المشروعة متى صدرت منه١ ( .وهو مميز ( ومع ذلك اذا وقع الضرر من شخص غير مميز ولم يكن هناك من٢ ) جاز، او تعذر الحصول على تعويض من المسئول، هو مسئول عنه مراعيا فى ذلك، للقاضى ان يلزم من وقع منه الضرر بتعويض عادل .مركز الخصوم",
+        "text_en": "",
+        "citation": "Egyptian Civil Code, Article 164",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.24160197377204895
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q03_en",
+    "question": "What can a person demand when another person unlawfully uses his name?",
+    "answer": "According to **Article 51** of the Egyptian Civil Code, a person whose name is unlawfully used by another has the right to demand:\n\n1. Cessation of the infringement; and\n2. Compensation for any damage sustained thereby.",
+    "expected_articles": [
+      51
+    ],
+    "reference_answer": "The person whose name is unlawfully used may seek cessation of the infringement and compensation for the resulting harm.",
+    "retrieved_article_numbers": [
+      51,
+      50,
+      154
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 51,
+        "text_ar": "ومن انتحل الغير اسمه،لكل من نازعه الغير فى استعمال اسمه بال مبرر ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، دون حق .من ضرر",
+        "text_en": "A person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby.",
+        "citation": "Egyptian Civil Code, Article 51",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9867315888404846
+      },
+      {
+        "article_number": 50,
+        "text_ar": "لكل من وقع عليه اعتداء غير مشروع في حق من الحقوق المالزمة ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، لشخصيته .من ضرر",
+        "text_en": "A person whose rights inherent in his personality have been unlawfully infringed, shall have the right to demand the cessation of the infringement and compensation for any damage sustained thereby.",
+        "citation": "Egyptian Civil Code, Article 50",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.2784729599952698
+      },
+      {
+        "article_number": 154,
+        "text_ar": "( يجوز للشخص ان يتعاقد باسمه على التزامات يشترطها لمصلحة١ ( اذا كان له فى تنفيذ هذه الالتزامات مصلحة شخصية عادية كانت او، الغير .ادبية ( ويترتب على هذا الاشتراط ان يكسب الغير حقا مباشرا قبل المتعهد٢ ( . ما لم يتفق على خالف ذلك، بتنفيذ الاشتراط يستطيع ان يطالبه بوفائه .ولكون لهذا المتعهد ان يتمسك قبل المنتفع بالدفوع التى تنشا عن العقد ، ( ويجوز كذلك للمشترط ان يطالب بتنفيذ ما اشترط لمصلحة المنتفع٣) .الا اذا تبين من العقد ان المنتفع وحده هو الذى يجوز له ذلك",
+        "text_en": "A person may by a contract in his own name stipulate that an obligation shall be performed for the benefit of a third party, when he has a personal interest, material or moral, in the performance of such an obligation. As a result of such a stipulation and in the absence of an agreement to the contrary, the third party beneficiary acquires a direct right against the person who undertook to perform the obligation, and may call upon him to do so. The person who gave the undertaking may set up against the beneficiary the defenses arising out of the contract. The stipulation may also demand the performance of the obligation in favor of the beneficiary, unless it appears from the contract that performance may only be demanded by the beneficiary.",
+        "citation": "Egyptian Civil Code, Article 154",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.12662793695926666
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q04_ar",
+    "question": "ما حدود استعمال المالك لحقه إذا كان ذلك يضر بملك جاره؟",
+    "answer": "وفقاً للمادة (807) من القانون المدني المصري، تتحدد حدود استعمال المالك لحقه إزاء جاره بالآتي:\n\n1. **عدم الغلو في استعمال الحق:** يجب على المالك ألا يغلو في استعمال حقه إلى حد يضر بملك الجار (الفقرة 1).\n2. **مضار الجوار غير المألوفة:** ليس للجار أن يرجع على جاره في مضار الجوار المألوفة التي لا يمكن تجنبها، ولكن يحق له أن يطلب إزالة هذه المضار إذا تجاوزت الحد المألوف (الفقرة 2).\n3. **معايير التحديد:** يُراعى في تحديد ما إذا كانت المضار قد تجاوزت الحد المألوف:\n   - العرف.\n   - طبيعة العقارات.\n   - موقع كل منها بالنسبة إلى الآخر.\n   - الغرض الذي خُصصت له العقارات.\n4. **أثر التراخيص الرسمية:** لا يحول الترخيص الصادر من الجهات المختصة دون استعمال الجار لحقه في طلب إزالة تلك المضار غير المألوفة.",
+    "expected_articles": [
+      807
+    ],
+    "reference_answer": "يجب على المالك ألا يستعمل حقه استعمالا يضر بملك الجار ضررا غير مألوف، وتطبق الحدود التي يقررها القانون بشأن استعمال الملك.",
+    "retrieved_article_numbers": [
+      807,
+      818,
+      857
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 807,
+        "text_ar": ".( على المالك الا يغلو فى استعمال حقه الى حد يضر بملك الجار١) ( وليس للجار ان يرجع على جاره فى مضار الجوار المالوفة التى لا٢ ) وانما له ان يطلب ازالة هذه المضار اذا تجاوزت الحد، يمكن تجنبها وطبيعة العقارات وموقع كل، على ان يراعى فى ذلك العرف، المالوف ولا يحول. والغرض الذى خصصت له، منها بالنسبة الى الاخر .الترخيص الصادر من الجهات المختصة دون استعمال هذا الحق",
+        "text_en": "The owner must not exercise his rights in an excessive manner detrimental to his neighbors property. The neighbors has no right of action against his neighbor for the unusual unavoidable inconveniences resulting from neighborhood, but he may claim the suppression of such inconveniences if they exceed the usual limits, taking into consideration in this connection, custom, the nature of the properties, their respective situations and the use for which they are intended. A license issued by a competent authority is not a bar to the exercise of such a right of action.",
+        "citation": "Egyptian Civil Code, Article 807",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9910016655921936
+      },
+      {
+        "article_number": 818,
+        "text_ar": "( ليس لجار ان يجبر جاره على تحويط ملكه ولا على الترول عن جزء١) من حائط او من الارض التى عليها الحائط الا فى الحالة المذكورة فى .٨١٦ المادة ( ومع ذلك فليس لمالك الحائط ان يهدمه مختارا دون عذر قوى ان كان٢ ) .هذا يضر الجار الذى يستر ملكه بالحائط",
+        "text_en": "An owner cannot compel his neighbors to walk in his property to assign to him a part of a wall or of the land on which the wall is constructed, except in a case provided for in Article 816. An owner of a wall may not, however, demolish the wall on his own initiative if the demolition injures his neighbor whose property is closed in by it, unless he has good reason for so doing.",
+        "citation": "Egyptian Civil Code, Article 818",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.45610129833221436
+      },
+      {
+        "article_number": 857,
+        "text_ar": "( كل مالك فى سبيل الانتفاع بالجزء الذى يملكه فى الدار حر فى ان١) على الا يحول دون استعمال، يستعمل الاجزاء المشتركة فيما اعدت له .باقى الشركاء لحقوقهم ( ولا يجوز احداث اى تعديل فى الاجزاء المشتركة بغير موافقة جميع٢ ) الا اذا كان التعديل الذى يقوم به احد المالك، المالك حتى تجديد البناء دون ان، من شانه ان يسهل استعمال تلك الجزاء، على نفقته الخاصة .يغير من تخصيصها او يلحق الضرر بالمالك الاخرين",
+        "text_en": "",
+        "citation": "Egyptian Civil Code, Article 857",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.4524151682853699
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q04_en",
+    "question": "What are the limits on an owner's exercise of his rights when it is detrimental to his neighbor's property?",
+    "answer": "Based on the provided legal sources, the limits on an owner's exercise of his rights regarding detrimental effects on a neighbor's property are primarily governed by **Article 807 of the Egyptian Civil Code**:\n\n1. **Excessive Exercise of Rights:** An owner must not exercise his rights in an excessive manner that is detrimental to his neighbor's property.\n2. **Exceeding Usual Limits:** While a neighbor has no right of action for unavoidable inconveniences resulting from neighborhood, he may claim the suppression of such inconveniences if they exceed the usual limits.\n3. **Assessment Criteria:** When determining whether inconveniences exceed usual limits, consideration must be given to:\n   * Custom;\n   * The nature of the properties;\n   * Their respective locations/situations; and\n   * The purpose/use for which they are intended.\n4. **Official Licenses:** A license issued by a competent authority does not bar the neighbor from exercising this right of action.\n\n*(Additionally, under **Article 818**, an owner of a wall may not demolish the wall on his own initiative without a good reason if the demolition injures his neighbor whose property is closed in by it).*",
+    "expected_articles": [
+      807
+    ],
+    "reference_answer": "An owner must exercise his rights within the limits established by law and may not cause his neighbor abnormal or excessive harm through the use of his property.",
+    "retrieved_article_numbers": [
+      807,
+      818,
+      813
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 807,
+        "text_ar": ".( على المالك الا يغلو فى استعمال حقه الى حد يضر بملك الجار١) ( وليس للجار ان يرجع على جاره فى مضار الجوار المالوفة التى لا٢ ) وانما له ان يطلب ازالة هذه المضار اذا تجاوزت الحد، يمكن تجنبها وطبيعة العقارات وموقع كل، على ان يراعى فى ذلك العرف، المالوف ولا يحول. والغرض الذى خصصت له، منها بالنسبة الى الاخر .الترخيص الصادر من الجهات المختصة دون استعمال هذا الحق",
+        "text_en": "The owner must not exercise his rights in an excessive manner detrimental to his neighbors property. The neighbors has no right of action against his neighbor for the unusual unavoidable inconveniences resulting from neighborhood, but he may claim the suppression of such inconveniences if they exceed the usual limits, taking into consideration in this connection, custom, the nature of the properties, their respective situations and the use for which they are intended. A license issued by a competent authority is not a bar to the exercise of such a right of action.",
+        "citation": "Egyptian Civil Code, Article 807",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9903256893157959
+      },
+      {
+        "article_number": 818,
+        "text_ar": "( ليس لجار ان يجبر جاره على تحويط ملكه ولا على الترول عن جزء١) من حائط او من الارض التى عليها الحائط الا فى الحالة المذكورة فى .٨١٦ المادة ( ومع ذلك فليس لمالك الحائط ان يهدمه مختارا دون عذر قوى ان كان٢ ) .هذا يضر الجار الذى يستر ملكه بالحائط",
+        "text_en": "An owner cannot compel his neighbors to walk in his property to assign to him a part of a wall or of the land on which the wall is constructed, except in a case provided for in Article 816. An owner of a wall may not, however, demolish the wall on his own initiative if the demolition injures his neighbor whose property is closed in by it, unless he has good reason for so doing.",
+        "citation": "Egyptian Civil Code, Article 818",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.19479461014270782
+      },
+      {
+        "article_number": 813,
+        "text_ar": "وتكون، لكل مالك ان يجبر جاره على وضع حدود المالكهما المتالصقة ، نفقات التجديد شركة بينهما",
+        "text_en": "Every owner has the right to compel his neighbors to place boundary marks along the boundaries of their adjoining properties. The cost of such delimitation will be shared between them.",
+        "citation": "Egyptian Civil Code, Article 813",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.0688348338007927
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q05_ar",
+    "question": "ماذا يحدث لحق الارتفاق إذا تغير وضع الأشياء بحيث أصبح استعمال الحق غير ممكن؟",
+    "answer": "وفقاً **للمادة 1028** من القانون المدني المصري:\n\n1. **ينتهي حق الارتفاق** إذا تغير وضع الأشياء بحيث تصبح في حالة لا يمكن فيها استعمال هذا الحق (الفقرة 1).\n2. **يعود الحق** إذا عادت الأشياء إلى وضع يمكن معه استعماله، إلا أن يكون قد انتهى بعدم الاستعمال (الفقرة 2).",
+    "expected_articles": [
+      1028
+    ],
+    "reference_answer": "إذا تغير وضع الأشياء بحيث أصبح استعمال حق الارتفاق غير ممكن، ينقضي حق الارتفاق.",
+    "retrieved_article_numbers": [
+      1028,
+      1023,
+      1025
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 1028,
+        "text_ar": "لا حالة فى تصبح بحيث الاشياء وضع تغير اذا الارتفاق حق ( ينتهي١) .يمكن فيها استعمال هذا الحق الا ان، ( ويعدو اذا عادت الاشياء الى وضع يمكن معه استعمال الحق٢ ) .يكون قد انتهي بعدم الاستعمال",
+        "text_en": "",
+        "citation": "Egyptian Civil Code, Article 1028",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9781290888786316
+      },
+      {
+        "article_number": 1023,
+        "text_ar": "( لا يجوز لمالك العاقر المرتفق به ان يعمل شيئا يؤدى الى الانتقاص من١) استعمال حق الاتفاق او جعله اكثر مشقة ولا يجوز له بوجه خاص ان يغير من الوضع القائم او ان يبذل بالموضع المعين اصال الستعمال حق الارتفاق .موضعا اخر ( ومع ذلك اذا كان الموضع الذى عين اصال قد اصبح من شانه ان يزيد٢ ) او اصبح الارتفاق مانعا من احداث تحسينات فى، فى عبء الارتفاق فلمالك هذا العقار ان يطلب نقل الاتفاق الى موضع، العقار المرتفق به او الى عقار اخر يملكه هو او يملكه اجنبى اذا قبل، اخر من العقار كل هذا متى كان استعمال الارتفاق فى وضعه الجديد. الاجنبى ذلك ميسورا لمالك العاقر المرتفق بالقدر الذى كان ميسورا به فى وضعه .السابق",
+        "text_en": "",
+        "citation": "Egyptian Civil Code, Article 1023",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.7117356061935425
+      },
+      {
+        "article_number": 1025,
+        "text_ar": "( اذا جزئ العقار المرتفق به بقى حق الارتفاق واقعا على كل جزء منه١( ( غير انه اذا كان حق الارتفاق لا يستعمل فى الواقع على بعض هذه٢( فلمالك كل جزء منها ان يطلب زوال، الاجزاء ولا يمكن ان يستعمل عليها .هذا الحق عن الجزء الذى يملكه",
+        "text_en": "",
+        "citation": "Egyptian Civil Code, Article 1025",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.5966898798942566
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q05_en",
+    "question": "What happens to a servitude when the state of things changes so that the right can no longer be exercised?",
+    "answer": "Under Article 1028 of the Egyptian Civil Code:\n\n* The servitude ceases to exist if conditions change such that the right can no longer be used. \n* However, the servitude is revived if conditions are reestablished in such a way that the right can again be used, unless the servitude has already been extinguished by non-user.",
+    "expected_articles": [
+      1028
+    ],
+    "reference_answer": "When circumstances change so that the exercise of the servitude becomes impossible, the servitude is extinguished.",
+    "retrieved_article_numbers": [
+      1028,
+      1027,
+      1023
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 1028,
+        "text_ar": "لا حالة فى تصبح بحيث الاشياء وضع تغير اذا الارتفاق حق ( ينتهي١) .يمكن فيها استعمال هذا الحق الا ان، ( ويعدو اذا عادت الاشياء الى وضع يمكن معه استعمال الحق٢ ) .يكون قد انتهي بعدم الاستعمال",
+        "text_en": "The servitude ceases to exist if conditions so change that the right can no longer be used. The servitude is revived if conditions are reestablished in such a way that the right can again be used, unless the right of servitude has been extinguished by non-user.",
+        "citation": "Egyptian Civil Code, Article 1028",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9790665507316589
+      },
+      {
+        "article_number": 1027,
+        "text_ar": "",
+        "text_en": "The rights to a servitude are extinguished by non-user for a period of fifteen years; if the servitude is created for the benefit of a wakf property, this period shall be thirty three years. The manner of the exercise of a right of servitude may, as the servitude itself, be modified by prescription. The user of the servitude by one of the co-owners in common of a dominant tenement interrupts the prescription in favor of the other co-owners; in the same way, the suspension of prescription in favor of one of these co-owners, suspends prescription in favor of the others.",
+        "citation": "Egyptian Civil Code, Article 1027",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.33747461438179016
+      },
+      {
+        "article_number": 1023,
+        "text_ar": "",
+        "text_en": "The owner of the servient tenement has no right to do anything which will tend to diminish the use made of the servitude or to make it more inconvenient. He cannot, in particular, either change the condition in which the land was or change the place originally fixed for the use of the servitude by another. When, however, the place originally fixed has become such as to increase the burden of the servitude or to cause the servitude to hinder the owner of the servient tenement making improvements to the servient tenement, he may demand that the servitude be transferred to another part of the property or to another property belonging to him or to an third party who consents thereto, provided that the owner of the dominant tenement is able to exercise his rights of servitude in these new conditions as easily as he was able to do before the change.",
+        "citation": "Egyptian Civil Code, Article 1023",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.28585484623908997
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q06_ar",
+    "question": "متى يعتبر الالتزام لأجل مرتبطا بأمر مستقبل محقق الوقوع؟",
+    "answer": "وفقاً للمادة 271 من القانون المدني المصري:\n\n1. يكون الالتزام لأجل إذا كان نفاذه أو انقضاؤه مترتباً على أمر مستقبل محقق الوقوع.\n2. يُعتبر الأمر محقق الوقوع متى كان وقوعه محتماً، حتى وإن لم يُعرف الوقت الذي يقع فيه.",
+    "expected_articles": [
+      271
+    ],
+    "reference_answer": "يكون الالتزام لأجل إذا كان نفاذه أو انقضاؤه مترتبا على أمر مستقبل محقق الوقوع.",
+    "retrieved_article_numbers": [
+      271,
+      265,
+      272
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 271,
+        "text_ar": "( يكون الالتزام الجل اذا كان نفاذه او انقضاؤه مترتبا على امر مستقبل١) .محقق الوقوع ولو لم يعرف، ( ويعتبر الامر محقق الوقوع متى كان وقعه محتما٢( .الوقت الذي يقع فيه",
+        "text_en": "An obligation is for a term if its performance or extinction depends on a future certain event. An event is considered to be certain if it must happen of necessity even if the time at which it should happen is unknown.",
+        "citation": "Egyptian Civil Code, Article 271",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9730156064033508
+      },
+      {
+        "article_number": 265,
+        "text_ar": "يكون الالتزام معلقا على شرط اذا كان وجوده او زواله مترتبا على امر .مستقبل غير محقق الوقوع",
+        "text_en": "",
+        "citation": "Egyptian Civil Code, Article 265",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.6939101815223694
+      },
+      {
+        "article_number": 272,
+        "text_ar": "، اذا تبين من الالتزام ان المدين لا يقوم بوفائه الا عند المقدرة او الميسرة مراعيا في ذلك موارد المدين، عين القاضي ميعادا مناسبا لحلول الاجل ومقتضيا منه عناية الرجل الحريص على الوفاء، الحالية والمستقبلة .بالتزامه",
+        "text_en": "",
+        "citation": "Egyptian Civil Code, Article 272",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.034194234758615494
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  },
+  {
+    "id": "q06_en",
+    "question": "When is an obligation for a term dependent on a future event that is certain to occur?",
+    "answer": "According to **Article 271** of the Egyptian Civil Code:\n\nAn obligation is for a term if its performance or extinction depends on a future certain event. \n\nAn event is considered certain to occur if it must happen of necessity, even if the time at which it should happen is unknown.",
+    "expected_articles": [
+      271
+    ],
+    "reference_answer": "An obligation is subject to a term when its performance or termination depends on a future event that is certain to occur.",
+    "retrieved_article_numbers": [
+      271,
+      265,
+      268
+    ],
+    "retrieved_articles": [
+      {
+        "article_number": 271,
+        "text_ar": "( يكون الالتزام الجل اذا كان نفاذه او انقضاؤه مترتبا على امر مستقبل١) .محقق الوقوع ولو لم يعرف، ( ويعتبر الامر محقق الوقوع متى كان وقعه محتما٢( .الوقت الذي يقع فيه",
+        "text_en": "An obligation is for a term if its performance or extinction depends on a future certain event. An event is considered to be certain if it must happen of necessity even if the time at which it should happen is unknown.",
+        "citation": "Egyptian Civil Code, Article 271",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.9939460158348083
+      },
+      {
+        "article_number": 265,
+        "text_ar": "يكون الالتزام معلقا على شرط اذا كان وجوده او زواله مترتبا على امر .مستقبل غير محقق الوقوع",
+        "text_en": "An obligation is conditional when its existence or its extinction depends on a future and uncertain event.",
+        "citation": "Egyptian Civil Code, Article 265",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.7835937142372131
+      },
+      {
+        "article_number": 268,
+        "text_ar": "",
+        "text_en": "When an obligation depends on a suspensive condition, it does not become executory until the condition is realized. Before realization of the condition, such obligation is not subject to compulsory or to voluntary performance. A creditor may, however, take protective measures to safeguard his rights.",
+        "citation": "Egyptian Civil Code, Article 268",
+        "is_repealed": false,
+        "source_status": "normal",
+        "rerank_score": 0.27958935499191284
+      }
+    ],
+    "provider": "GOOGLE_GENAI",
+    "model": "gemini-3.8-flash"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": "q01_ar",
+    "pair_id": "q01",
+    "language": "ar",
+    "question": "ما هي الحالات التي يكون فيها استعمال الحق غير مشروع؟",
+    "expected_articles": [
+      5
+    ],
+    "reference_answer": "يكون استعمال الحق غير مشروع إذا قصد به الإضرار بالغير، أو كانت المصالح التي يرمي إلى تحقيقها قليلة الأهمية بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها، أو كانت المصالح التي يرمي إلى تحقيقها غير مشروعة في ذاتها."
+  },
+  {
+    "id": "q01_en",
+    "pair_id": "q01",
+    "language": "en",
+    "question": "What are the cases in which the exercise of a right is considered unlawful?",
+    "expected_articles": [
+      5
+    ],
+    "reference_answer": "The exercise of a right is unlawful when it is intended solely to cause harm to another, when the interests intended to be achieved are so slight that they are wholly disproportionate to the harm caused to another, or when the interests pursued are unlawful in themselves."
+  },
+  {
+    "id": "q02_ar",
+    "pair_id": "q02",
+    "language": "ar",
+    "question": "ماذا يجوز للمالك أن يفعل إذا استمر المنتفع في استعمال العين استعمالا غير مشروع؟",
+    "expected_articles": [
+      988
+    ],
+    "reference_answer": "إذا استمر المنتفع في استعمال العين استعمالا غير مشروع، جاز للمالك أن يطلب إنهاء حق الانتفاع."
+  },
+  {
+    "id": "q02_en",
+    "pair_id": "q02",
+    "language": "en",
+    "question": "What may the owner do if the usufructuary continues to use the property unlawfully?",
+    "expected_articles": [
+      988
+    ],
+    "reference_answer": "If the usufructuary continues to use the property unlawfully, the owner may request termination of the usufruct."
+  },
+  {
+    "id": "q03_ar",
+    "pair_id": "q03",
+    "language": "ar",
+    "question": "ما الذي يمكن أن يطلبه الشخص إذا استعمل شخص آخر اسمه بصورة غير مشروعة؟",
+    "expected_articles": [
+      51
+    ],
+    "reference_answer": "إذا نازع شخص آخر في استعمال الاسم أو استعمله بغير حق، جاز لصاحب الاسم أن يطلب وقف هذا الاعتداء والتعويض عما لحقه من ضرر."
+  },
+  {
+    "id": "q03_en",
+    "pair_id": "q03",
+    "language": "en",
+    "question": "What can a person demand when another person unlawfully uses his name?",
+    "expected_articles": [
+      51
+    ],
+    "reference_answer": "The person whose name is unlawfully used may seek cessation of the infringement and compensation for the resulting harm."
+  },
+  {
+    "id": "q04_ar",
+    "pair_id": "q04",
+    "language": "ar",
+    "question": "ما حدود استعمال المالك لحقه إذا كان ذلك يضر بملك جاره؟",
+    "expected_articles": [
+      807
+    ],
+    "reference_answer": "يجب على المالك ألا يستعمل حقه استعمالا يضر بملك الجار ضررا غير مألوف، وتطبق الحدود التي يقررها القانون بشأن استعمال الملك."
+  },
+  {
+    "id": "q04_en",
+    "pair_id": "q04",
+    "language": "en",
+    "question": "What are the limits on an owner's exercise of his rights when it is detrimental to his neighbor's property?",
+    "expected_articles": [
+      807
+    ],
+    "reference_answer": "An owner must exercise his rights within the limits established by law and may not cause his neighbor abnormal or excessive harm through the use of his property."
+  },
+  {
+    "id": "q05_ar",
+    "pair_id": "q05",
+    "language": "ar",
+    "question": "ماذا يحدث لحق الارتفاق إذا تغير وضع الأشياء بحيث أصبح استعمال الحق غير ممكن؟",
+    "expected_articles": [
+      1028
+    ],
+    "reference_answer": "إذا تغير وضع الأشياء بحيث أصبح استعمال حق الارتفاق غير ممكن، ينقضي حق الارتفاق."
+  },
+  {
+    "id": "q05_en",
+    "pair_id": "q05",
+    "language": "en",
+    "question": "What happens to a servitude when the state of things changes so that the right can no longer be exercised?",
+    "expected_articles": [
+      1028
+    ],
+    "reference_answer": "When circumstances change so that the exercise of the servitude becomes impossible, the servitude is extinguished."
+  },
+  {
+    "id": "q06_ar",
+    "pair_id": "q06",
+    "language": "ar",
+    "question": "متى يعتبر الالتزام لأجل مرتبطا بأمر مستقبل محقق الوقوع؟",
+    "expected_articles": [
+      271
+    ],
+    "reference_answer": "يكون الالتزام لأجل إذا كان نفاذه أو انقضاؤه مترتبا على أمر مستقبل محقق الوقوع."
+  },
+  {
+    "id": "q06_en",
+    "pair_id": "q06",
+    "language": "en",
+    "question": "When is an obligation for a term dependent on a future event that is certain to occur?",
+    "expected_articles": [
+      271
+    ],
+    "reference_answer": "An obligation is subject to a term when its performance or termination depends on a future event that is certain to occur."
+  },
+  {
+    "id": "q07_ar",
+    "pair_id": "q07",
+    "language": "ar",
+    "question": "ماذا يفعل القاضي عندما يكون المدين ملتزما بالوفاء عند المقدرة أو الميسرة؟",
+    "expected_articles": [
+      272
+    ],
+    "reference_answer": "إذا كان الالتزام معلقا على المقدرة أو الميسرة، جاز للقاضي أن يحدد للمدين أجلا مناسبا للوفاء."
+  },
+  {
+    "id": "q07_en",
+    "pair_id": "q07",
+    "language": "en",
+    "question": "What does the judge do when a debtor is required to perform only when able or when he has the means to do so?",
+    "expected_articles": [
+      272
+    ],
+    "reference_answer": "The judge may grant the debtor a reasonable period for performance when the obligation is payable upon ability or means."
+  },
+  {
+    "id": "q08_ar",
+    "pair_id": "q08",
+    "language": "ar",
+    "question": "ما الحقوق التي يقررها القانون للمقاولين والمهندسين المعماريين عن أعمال تشييد أو إصلاح العقارات؟",
+    "expected_articles": [
+      1148
+    ],
+    "reference_answer": "يقرر القانون للمقاولين والمهندسين المعماريين الذين قاموا بأعمال تشييد أو إصلاح العقارات حقوقا وضمانات خاصة بالنسبة إلى مستحقاتهم وفقا للشروط التي يحددها القانون."
+  },
+  {
+    "id": "q08_en",
+    "pair_id": "q08",
+    "language": "en",
+    "question": "What rights does the law grant to contractors and architects for construction or repair work on buildings?",
+    "expected_articles": [
+      1148
+    ],
+    "reference_answer": "The law grants contractors and architects who perform construction or repair work on buildings specific rights and security for their claims, subject to the conditions established by law."
+  },
+  {
+    "id": "q09_ar",
+    "pair_id": "q09",
+    "language": "ar",
+    "question": "ما حق الشركاء الذين اقتسموا عقارا في الرجوع على بعضهم البعض؟",
+    "expected_articles": [
+      1149
+    ],
+    "reference_answer": "للشركاء الذين اقتسموا عقارا الحقوق التي يقررها القانون فيما بينهم بالنسبة إلى الضمان والرجوع بعد القسمة، وفقا للأحكام المنظمة لذلك."
+  },
+  {
+    "id": "q09_en",
+    "pair_id": "q09",
+    "language": "en",
+    "question": "What rights do co-owners who have partitioned an immovable have against each other?",
+    "expected_articles": [
+      1149
+    ],
+    "reference_answer": "Co-owners who have partitioned an immovable have the rights of recourse and warranty against one another provided by law following the partition."
+  },
+  {
+    "id": "q10_ar",
+    "pair_id": "q10",
+    "language": "ar",
+    "question": "كيف يمكن اكتساب حق الانتفاع؟",
+    "expected_articles": [
+      985
+    ],
+    "reference_answer": "يكسب حق الانتفاع بالتصرف القانوني أو بالشفعة أو بالتقادم وفقا للأحوال التي يقررها القانون."
+  },
+  {
+    "id": "q10_en",
+    "pair_id": "q10",
+    "language": "en",
+    "question": "How may the right of usufruct be acquired?",
+    "expected_articles": [
+      985
+    ],
+    "reference_answer": "The right of usufruct may be acquired by legal disposition or by prescription in accordance with the cases established by law."
+  },
+  {
+    "id": "q11_ar",
+    "pair_id": "q11",
+    "language": "ar",
+    "question": "متى يجوز للقاضي أن ينقص مقدار التعويض أو لا يحكم بتعويض؟",
+    "expected_articles": [
+      216
+    ],
+    "reference_answer": "يجوز للقاضي أن ينقص مقدار التعويض أو ألا يحكم بتعويض إذا كان الدائن بخطئه قد اشترك في إحداث الضرر أو زاد فيه."
+  },
+  {
+    "id": "q11_en",
+    "pair_id": "q11",
+    "language": "en",
+    "question": "When may the judge reduce or refuse to award damages?",
+    "expected_articles": [
+      216
+    ],
+    "reference_answer": "The judge may reduce the amount of damages or refuse to allow damages if the creditor, by his own fault, contributed to causing the loss or increased it."
+  },
+  {
+    "id": "q12_ar",
+    "pair_id": "q12",
+    "language": "ar",
+    "question": "ماذا يجوز لمن له مصلحة أن يفعل إذا كان العقد باطلا؟",
+    "expected_articles": [
+      141
+    ],
+    "reference_answer": "إذا كان العقد باطلا، جاز لكل ذي مصلحة أن يتمسك بالبطلان، وللمحكمة أن تقضي به من تلقاء نفسها. ولا يزول البطلان بالإجازة، وتسقط دعوى البطلان بمضي خمس عشرة سنة من وقت العقد."
+  },
+  {
+    "id": "q12_en",
+    "pair_id": "q12",
+    "language": "en",
+    "question": "What may a person with an interest do when a contract is void?",
+    "expected_articles": [
+      141
+    ],
+    "reference_answer": "When a contract is void, its nullity may be invoked by every person having an interest, and the court may order nullity on its own initiative. Nullity cannot disappear by ratification, and proceedings for nullity are prescribed after fifteen years from the date of the contract."
+  },
+  {
+    "id": "q13_ar",
+    "pair_id": "q13",
+    "language": "ar",
+    "question": "متى يجوز للمتعاقد أن يطلب إبطال العقد بسبب الغلط الجوهري؟",
+    "expected_articles": [
+      120
+    ],
+    "reference_answer": "يجوز للمتعاقد أن يطلب إبطال العقد إذا وقع في غلط جوهري، أو كان المتعاقد الآخر قد وقع مثله في هذا الغلط، أو كان على علم به، أو كان من السهل عليه أن يتبينه."
+  },
+  {
+    "id": "q13_en",
+    "pair_id": "q13",
+    "language": "en",
+    "question": "When may a contracting party demand avoidance of a contract because of an essential mistake?",
+    "expected_articles": [
+      120
+    ],
+    "reference_answer": "A party may demand avoidance of the contract if he committed an essential mistake, if the other party committed the same mistake or had knowledge of it, or could have easily detected it."
+  },
+  {
+    "id": "q14_ar",
+    "pair_id": "q14",
+    "language": "ar",
+    "question": "متى يقوم العرض الحقيقي مقام الوفاء بالنسبة إلى المدين؟",
+    "expected_articles": [
+      339
+    ],
+    "reference_answer": "يقوم العرض الحقيقي بالنسبة إلى المدين مقام الوفاء إذا تلاه إيداع يتم وفقا لأحكام قانون المرافعات، أو تلاه أي إجراء مماثل، وذلك إذا قبله الدائن أو صدر حكم نهائي بصحته."
+  },
+  {
+    "id": "q14_en",
+    "pair_id": "q14",
+    "language": "en",
+    "question": "When is actual tender equivalent to payment for the debtor?",
+    "expected_articles": [
+      339
+    ],
+    "reference_answer": "Actual tender of the thing due is equivalent to payment for the debtor when it is followed by a deposit made according to the Code of Procedure, or by another equivalent measure, provided that the creditor accepts it or a final judgment recognizes its validity."
+  },
+  {
+    "id": "q15_ar",
+    "pair_id": "q15",
+    "language": "ar",
+    "question": "متى يحل الشخص الذي قام بالوفاء محل الدائن؟",
+    "expected_articles": [
+      326
+    ],
+    "reference_answer": "إذا قام بالوفاء شخص غير المدين، حل الموفي محل الدائن الذي استوفى حقه في الحالات التي يقررها القانون، ومنها أن يكون الموفي ملزما بالدين مع المدين أو ملزما بوفائه عنه، أو دائنا وفّى دائنا آخر متقدما عليه بضمان، أو اشترى عقارا ودفع ثمنه وفاء لدائنين خصص العقار لضمان حقوقهم، أو كان هناك نص خاص يقرر له حق الحلول."
+  },
+  {
+    "id": "q15_en",
+    "pair_id": "q15",
+    "language": "en",
+    "question": "When is a third party who makes a payment subrogated to the creditor's rights?",
+    "expected_articles": [
+      326
+    ],
+    "reference_answer": "When payment is made by a third party, that third party is subrogated to the rights of the creditor in the cases provided by law, including when the third party was jointly liable with the debtor or obligated to pay on the debtor's behalf, was a creditor who paid a creditor ranking before him by reason of real security, acquired an immovable and paid its price to secured creditors, or when the law expressly grants the right of subrogation."
+  },
+  {
+    "id": "q16_ar",
+    "pair_id": "q16",
+    "language": "ar",
+    "question": "متى يجوز للقاضي تعديل الشروط التعسفية في عقد الإذعان أو إعفاء الطرف المذعن منها؟",
+    "expected_articles": [
+      149
+    ],
+    "reference_answer": "إذا تم العقد بطريق الإذعان وتضمن شروطا تعسفية، جاز للقاضي أن يعدل هذه الشروط أو أن يعفي الطرف المذعن منها وفقا لما تقضي به العدالة، ويقع باطلا كل اتفاق على خلاف ذلك."
+  },
+  {
+    "id": "q16_en",
+    "pair_id": "q16",
+    "language": "en",
+    "question": "When may a judge modify unfair terms in a contract of adhesion or relieve the adhering party from them?",
+    "expected_articles": [
+      149
+    ],
+    "reference_answer": "When a contract of adhesion contains leonine conditions, the judge may modify those conditions or relieve the adhering party from performing them according to equity. Any agreement to the contrary is void."
+  },
+  {
+    "id": "q17_ar",
+    "pair_id": "q17",
+    "language": "ar",
+    "question": "كيف يفسر العقد إذا كانت عباراته واضحة، وكيف يفسر إذا كان يحتاج إلى تفسير؟",
+    "expected_articles": [
+      150
+    ],
+    "reference_answer": "إذا كانت عبارة العقد واضحة فلا يجوز الانحراف عنها عن طريق تفسيرها، أما إذا كان هناك محل لتفسير العقد فيجب البحث عن النية المشتركة للمتعاقدين دون الوقوف عند المعنى الحرفي للألفاظ، مع الاستهداء بطبيعة التعامل وما ينبغي أن يتوافر من أمانة وثقة وفقا للعرف الجاري في المعاملات."
+  },
+  {
+    "id": "q17_en",
+    "pair_id": "q17",
+    "language": "en",
+    "question": "How is a contract interpreted when its wording is clear, and what is done when interpretation is necessary?",
+    "expected_articles": [
+      150
+    ],
+    "reference_answer": "If the wording of the contract is clear, it must not be departed from by interpretation. If interpretation is necessary, the common intention of the contracting parties is sought without stopping at the literal meaning of the words, taking into account the nature of the transaction and the good faith and confidence required by commercial usage."
+  },
+  {
+    "id": "q18_ar",
+    "pair_id": "q18",
+    "language": "ar",
+    "question": "ماذا يجوز للمتعاقد أن يطلب إذا لم يف الطرف الآخر بالتزامه في عقد ملزم للجانبين؟",
+    "expected_articles": [
+      157
+    ],
+    "reference_answer": "إذا لم يوف أحد المتعاقدين بالتزامه في عقد ملزم للجانبين، جاز للمتعاقد الآخر بعد إعذار المدين أن يطالب بتنفيذ العقد أو بفسخه، مع التعويض في الحالتين إذا كان له مقتض، ويجوز للقاضي أن يمنح المدين أجلا، كما يجوز له رفض الفسخ إذا كان ما لم يوف به المدين قليل الأهمية بالنسبة إلى الالتزام في جملته."
+  },
+  {
+    "id": "q18_en",
+    "pair_id": "q18",
+    "language": "en",
+    "question": "What may a contracting party demand if the other party fails to perform an obligation in a bilateral contract?",
+    "expected_articles": [
+      157
+    ],
+    "reference_answer": "After putting the debtor in default, the other contracting party may demand performance or dissolution of the contract, with damages where appropriate. The judge may grant the debtor a period for performance and may refuse dissolution if the unperformed part is of little importance in relation to the obligation as a whole."
+  },
+  {
+    "id": "q19_ar",
+    "pair_id": "q19",
+    "language": "ar",
+    "question": "ما القاعدة العامة للمسؤولية عن الخطأ الذي يسبب ضررا للغير؟",
+    "expected_articles": [
+      163
+    ],
+    "reference_answer": "كل خطأ سبب ضررا للغير يلزم من ارتكبه بالتعويض."
+  },
+  {
+    "id": "q19_en",
+    "pair_id": "q19",
+    "language": "en",
+    "question": "What is the general rule when a fault causes injury to another person?",
+    "expected_articles": [
+      163
+    ],
+    "reference_answer": "Every fault that causes injury to another imposes an obligation to make reparation on the person who committed it."
+  },
+  {
+    "id": "q20_ar",
+    "pair_id": "q20",
+    "language": "ar",
+    "question": "متى يكون الشخص مسؤولا عن أعماله غير المشروعة، ومتى يجوز للقاضي إلزام غير المميز بتعويض عادل؟",
+    "expected_articles": [
+      164
+    ],
+    "reference_answer": "يكون الشخص مسؤولا عن أعماله غير المشروعة متى صدرت منه وهو مميز. وإذا وقع الضرر من شخص غير مميز ولم يكن هناك من هو مسؤول عنه أو تعذر الحصول على تعويض من المسؤول، جاز للقاضي أن يلزم من وقع منه الضرر بتعويض عادل مراعيا في ذلك مركز الخصوم."
+  },
+  {
+    "id": "q20_en",
+    "pair_id": "q20",
+    "language": "en",
+    "question": "When is a person responsible for his unlawful acts, and when may a judge order a person without discretion to pay equitable damages?",
+    "expected_articles": [
+      164
+    ],
+    "reference_answer": "A person is responsible for his unlawful acts when he possesses discretion. If an injury is caused by a person without discretion and no responsible person exists or the victim cannot obtain reparation from that person, the judge may order the person who caused the injury to pay equitable damages, taking into account the position of the parties."
+  },
+  {
+    "id": "q21_ar",
+    "pair_id": "q21",
+    "language": "ar",
+    "question": "متى يعفى الشخص من التعويض بسبب سبب أجنبي لا يد له فيه؟",
+    "expected_articles": [
+      165
+    ],
+    "reference_answer": "إذا أثبت الشخص أن الضرر قد نشأ عن سبب أجنبي لا يد له فيه، كحادث مفاجئ أو قوة قاهرة أو خطأ من المضرور أو خطأ من الغير، كان غير ملزم بتعويض هذا الضرر ما لم يوجد نص أو اتفاق على غير ذلك."
+  },
+  {
+    "id": "q21_en",
+    "pair_id": "q21",
+    "language": "en",
+    "question": "When is a person relieved from liability for damage because of an external cause beyond his control?",
+    "expected_articles": [
+      165
+    ],
+    "reference_answer": "If a person proves that the damage arose from an external cause beyond his control, such as an unforeseen accident, force majeure, the victim's fault, or the fault of a third party, he is not liable to compensate for the damage unless a provision or agreement provides otherwise."
+  },
+  {
+    "id": "q22_ar",
+    "pair_id": "q22",
+    "language": "ar",
+    "question": "متى يكون المتبوع مسؤولا عن الضرر الذي يحدثه تابعه؟",
+    "expected_articles": [
+      174
+    ],
+    "reference_answer": "يكون المتبوع مسؤولا عن الضرر الذي يحدثه تابعه بعمله غير المشروع متى كان واقعا منه في حال تأدية وظيفته أو بسببها، وتقوم رابطة التبعية متى كانت للمتبوع سلطة فعلية في رقابة تابعه وتوجيهه."
+  },
+  {
+    "id": "q22_en",
+    "pair_id": "q22",
+    "language": "en",
+    "question": "When is a master liable for damage caused by his servant?",
+    "expected_articles": [
+      174
+    ],
+    "reference_answer": "A master is liable for damage caused by the unlawful act of his servant when the act was committed in the course of or as a result of the servant's employment. The relationship exists when the master has actual powers of supervision and control over the servant."
+  },
+  {
+    "id": "q23_ar",
+    "pair_id": "q23",
+    "language": "ar",
+    "question": "من المسؤول عن الضرر الذي يحدثه الحيوان حتى لو لم يكن الشخص مالكا له؟",
+    "expected_articles": [
+      176
+    ],
+    "reference_answer": "يكون الشخص القائم على حراسة الحيوان، ولو لم يكن مالكا له، مسؤولا عن الضرر الذي يحدثه الحيوان، ولو ضل الحيوان أو هرب، ما لم يثبت أن الحادث كان بسبب أجنبي لا يد له فيه."
+  },
+  {
+    "id": "q23_en",
+    "pair_id": "q23",
+    "language": "en",
+    "question": "Who is liable for harm caused by an animal even if that person is not its owner?",
+    "expected_articles": [
+      176
+    ],
+    "reference_answer": "A person in charge of an animal, even if not its owner, is liable for harm caused by the animal, even if it strays or escapes, unless he proves that the accident was due to a cause beyond his control."
+  },
+  {
+    "id": "q24_ar",
+    "pair_id": "q24",
+    "language": "ar",
+    "question": "من المسؤول عن الضرر الناتج عن انهدام البناء، وما الذي يجوز لمن يهدده البناء أن يطلبه؟",
+    "expected_articles": [
+      177
+    ],
+    "reference_answer": "يكون حارس البناء مسؤولا عما يحدثه انهدام البناء من ضرر، ولو لم يكن مالكا له، ما لم يثبت أن الحادث لا يرجع سببه إلى إهمال في الصيانة أو قدم في البناء أو عيب فيه. ويجوز لمن كان مهددا بضرر من البناء أن يطالب المالك باتخاذ التدابير الضرورية لدرء الخطر، وإذا لم يفعل جاز الحصول على إذن من المحكمة لاتخاذها على حسابه."
+  },
+  {
+    "id": "q24_en",
+    "pair_id": "q24",
+    "language": "en",
+    "question": "Who is liable for damage caused by the collapse of a building, and what may a person threatened by the building do?",
+    "expected_articles": [
+      177
+    ],
+    "reference_answer": "The person in charge of a building is liable for damage caused by its collapse, even if he is not the owner, unless he proves that the collapse was not due to defective maintenance, age of the building, or a defect in it. A person threatened by harm from the building may demand that the owner take necessary measures to avert the danger and, if the owner fails to do so, may obtain court authorization to take the measures at the owner's expense."
+  },
+  {
+    "id": "q25_ar",
+    "pair_id": "q25",
+    "language": "ar",
+    "question": "ما الحقوق الأساسية التي يملكها مالك الشيء؟",
+    "expected_articles": [
+      802
+    ],
+    "reference_answer": "لمالك الشيء وحده، في حدود القانون، حق استعماله واستغلاله والتصرف فيه."
+  },
+  {
+    "id": "q25_en",
+    "pair_id": "q25",
+    "language": "en",
+    "question": "What are the basic rights of the owner of a thing?",
+    "expected_articles": [
+      802
+    ],
+    "reference_answer": "The owner of a thing has alone, within the limits of the law, the right to use, enjoy and dispose of it."
+  }
+]

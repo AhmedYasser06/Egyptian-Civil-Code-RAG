@@ -1,0 +1,622 @@
+{
+  "q16_ar": {
+    "id": "q16_ar",
+    "question": "متى يجوز للقاضي تعديل الشروط التعسفية في عقد الإذعان أو إعفاء الطرف المذعن منها؟",
+    "answer": "يجوز للقاضي تعديل الشروط التعسفية في عقد الإذعان أو إعفاء الطرف المذعن منها عندما يكون العقد قد تم بطريق الإذعان وكان يتضمن شروطاً تعسفية، وذلك وفقاً لما تقضي به العدالة.\n\n**المادة القانونية:** المادة 149 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 149",
+      "Egyptian Civil Code, Article 147",
+      "Egyptian Civil Code, Article 129",
+      "Egyptian Civil Code, Article 100",
+      "Egyptian Civil Code, Article 151"
+    ],
+    "retrieved_articles": [
+      149,
+      147,
+      129,
+      100,
+      151
+    ],
+    "expected_articles": [
+      149
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00034575,
+    "tokens": 1125,
+    "latency_s": 56.44,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7085942572676623,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q16_en": {
+    "id": "q16_en",
+    "question": "When may a judge modify unfair terms in a contract of adhesion or relieve the adhering party from them?",
+    "answer": "وفقاً للمادة 149 من القانون المدني المصري، يجوز للقاضي تعديل الشروط التعسفية في عقد الإذعان أو إعفاء الطرف المذعن من الالتزام بها، وذلك وفقاً لما تقضي به العدالة. كما نصت المادة على أن كل اتفاق على خلاف ذلك يكون باطلاً.",
+    "sources": [
+      "Egyptian Civil Code, Article 149",
+      "Egyptian Civil Code, Article 147",
+      "Egyptian Civil Code, Article 129",
+      "Egyptian Civil Code, Article 229",
+      "Egyptian Civil Code, Article 276"
+    ],
+    "retrieved_articles": [
+      149,
+      147,
+      129,
+      229,
+      276
+    ],
+    "expected_articles": [
+      149
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00042228,
+    "tokens": 1392,
+    "latency_s": 30.9,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6735129619492003,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q17_ar": {
+    "id": "q17_ar",
+    "question": "كيف يفسر العقد إذا كانت عباراته واضحة، وكيف يفسر إذا كان يحتاج إلى تفسير؟",
+    "answer": "وفقاً للمادة 150 من القانون المدني المصري:\n\n1. **إذا كانت عبارة العقد واضحة:** فلا يجوز الانحراف عنها من طريق التفسير للتعرف على إرادة المتعاقدين.\n2. **إذا كان هناك محل لتفسير العقد:** يجب البحث عن النية المشتركة للمتعاقدين، مع تجاوز المعنى الحرفي للفظ، والاستهداء في ذلك بطبيعة التعامل، وبما ينبغي أن يتوافر من أمانة وثقة بين المتعاقدين وفقاً للعرف الجاري في المعاملات.",
+    "sources": [
+      "Egyptian Civil Code, Article 150",
+      "Egyptian Civil Code, Article 151",
+      "Egyptian Civil Code, Article 158",
+      "Egyptian Civil Code, Article 557",
+      "Egyptian Civil Code, Article 89"
+    ],
+    "retrieved_articles": [
+      150,
+      151,
+      158,
+      557,
+      89
+    ],
+    "expected_articles": [
+      150
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00032127999999999996,
+    "tokens": 992,
+    "latency_s": 24.69,
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.567768339990292,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q17_en": {
+    "id": "q17_en",
+    "question": "How is a contract interpreted when its wording is clear, and what is done when interpretation is necessary?",
+    "answer": "وفقاً للمادة 150 من القانون المدني المصري:\n\n1. **عندما تكون عبارة العقد واضحة:** لا يجوز الانحراف عنها من طريق التفسير للتعرف على إرادة المتعاقدين.\n2. **عندما يكون هناك محل لتفسير العقد:** يجب البحث عن النية المشتركة للمتعاقدين، مع تجاوز المعنى الحرفي للفظ، بالاستهداء بطبيعة التعامل وبما ينبغي أن يتوافر من أمانة وثقة بين المتعاقدين وفقاً للعرف الجاري في المعاملات.",
+    "sources": [
+      "Egyptian Civil Code, Article 150",
+      "Egyptian Civil Code, Article 657",
+      "Egyptian Civil Code, Article 148",
+      "Egyptian Civil Code, Article 89",
+      "Egyptian Civil Code, Article 151"
+    ],
+    "retrieved_articles": [
+      150,
+      657,
+      148,
+      89,
+      151
+    ],
+    "expected_articles": [
+      150
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00037784,
+    "tokens": 1186,
+    "latency_s": 20.24,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6348868773458375,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q18_ar": {
+    "id": "q18_ar",
+    "question": "ماذا يجوز للمتعاقد أن يطلب إذا لم يف الطرف الآخر بالتزامه في عقد ملزم للجانبين؟",
+    "answer": "وفقاً للمادة 157 من القانون المدني المصري، إذا لم يوفِ أحد المتعاقدين بالتزامه في العقود الملزمة للجانبين، يجوز للمتعاقد الآخر، بعد إعذار المدين، أن يطلب:\n\n1. **تنفيذ العقد**.\n2. **فسخ العقد**.\n3. **التعويض** (في حالتي التنفيذ أو الفسخ، إذا كان له مقتضٍ).\n\nكما تنص المادة 157 على أن للقاضي سلطة منح المدين أجلاً إذا اقتضت الظروف ذلك، أو رفض طلب الفسخ إذا كان الجزء الذي لم ينفذه المدين قليل الأهمية بالنسبة للالتزام في جملته.",
+    "sources": [
+      "Egyptian Civil Code, Article 157",
+      "Egyptian Civil Code, Article 161",
+      "Egyptian Civil Code, Article 129",
+      "Egyptian Civil Code, Article 746",
+      "Egyptian Civil Code, Article 154"
+    ],
+    "retrieved_articles": [
+      157,
+      161,
+      129,
+      746,
+      154
+    ],
+    "expected_articles": [
+      157
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00047877,
+    "tokens": 1503,
+    "latency_s": 38.6,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6912345086050316,
+    "context_precision": 0.7499999999625,
+    "context_recall": 1.0
+  },
+  "q18_en": {
+    "id": "q18_en",
+    "question": "What may a contracting party demand if the other party fails to perform an obligation in a bilateral contract?",
+    "answer": "في حال عدم تنفيذ أحد المتعاقدين لالتزامه في العقود الملزمة للجانبين، يجوز للمتعاقد الآخر، بعد إعذار المدين، أن يطالب بتنفيذ العقد أو بفسخه، مع التعويض في الحالتين إن كان له مقتضٍ. كما يجوز للقاضي أن يمنح المدين أجلاً إذا اقتضت الظروف ذلك، أو أن يرفض الفسخ إذا كان الجزء الذي لم ينفذه المدين قليل الأهمية بالنسبة إلى الالتزام في جملته.\n\n**المادة المرجعية:** المادة 157 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 157",
+      "Egyptian Civil Code, Article 161",
+      "Egyptian Civil Code, Article 120",
+      "Egyptian Civil Code, Article 153",
+      "Egyptian Civil Code, Article 746"
+    ],
+    "retrieved_articles": [
+      157,
+      161,
+      120,
+      153,
+      746
+    ],
+    "expected_articles": [
+      157
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00036632999999999994,
+    "tokens": 1137,
+    "latency_s": 24.06,
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.7515038964178351,
+    "context_precision": 0.699999999965,
+    "context_recall": 1.0
+  },
+  "q19_ar": {
+    "id": "q19_ar",
+    "question": "ما القاعدة العامة للمسؤولية عن الخطأ الذي يسبب ضررا للغير؟",
+    "answer": "القاعدة العامة للمسؤولية عن الخطأ الذي يسبب ضرراً للغير هي أنه **كل خطأ سبب ضرراً للغير يلزم من ارتكبه بالتعويض**.\n\n**المادة القانونية:**\nالمادة 163 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 163",
+      "Egyptian Civil Code, Article 167",
+      "Egyptian Civil Code, Article 168",
+      "Egyptian Civil Code, Article 768",
+      "Egyptian Civil Code, Article 165"
+    ],
+    "retrieved_articles": [
+      163,
+      167,
+      168,
+      768,
+      165
+    ],
+    "expected_articles": [
+      163
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00031113,
+    "tokens": 1017,
+    "latency_s": 23.13,
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.7312876145492578,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q19_en": {
+    "id": "q19_en",
+    "question": "What is the general rule when a fault causes injury to another person?",
+    "answer": "القاعدة العامة هي أن كل خطأ يسبب ضرراً للغير، يُلزم مرتكبه بالتعويض.\n\n**المادة 163 من القانون المدني المصري**",
+    "sources": [
+      "Egyptian Civil Code, Article 163",
+      "Egyptian Civil Code, Article 168",
+      "Egyptian Civil Code, Article 166",
+      "Egyptian Civil Code, Article 167",
+      "Egyptian Civil Code, Article 165"
+    ],
+    "retrieved_articles": [
+      163,
+      168,
+      166,
+      167,
+      165
+    ],
+    "expected_articles": [
+      163
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.0002576,
+    "tokens": 850,
+    "latency_s": 23.71,
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.6103733613026338,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q20_ar": {
+    "id": "q20_ar",
+    "question": "متى يكون الشخص مسؤولا عن أعماله غير المشروعة، ومتى يجوز للقاضي إلزام غير المميز بتعويض عادل؟",
+    "answer": "بناءً على المصادر القانونية المقدمة، يُجيب عن السؤال كالتالي:\n\n**1. متى يكون الشخص مسؤولاً عن أعماله غير المشروعة؟**\nيكون الشخص مسؤولاً عن أعماله غير المشروعة متى صدرت منه وهو **مميز** (أي في حوزته التمييز).\n*   **المصدر:** المادة 164 من القانون المدني المصري.\n\n**2. متى يجوز للقاضي إلزام غير المميز بتعويض عادل؟**\nيجوز للقاضي أن يلزم الشخص غير المميز (الذي وقع منه الضرر) بتعويض عادل في الحالات التالية:\n*   إذا لم يكن هناك شخص آخر مسؤول عنه.\n*   أو إذا تعذر الحصول على تعويض من الشخص المسؤول عنه.\n\nويُراعي القاضي في تحديد التعويض العادل **مركز الخصوم**.\n*   **المصدر:** المادة 164 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 164",
+      "Egyptian Civil Code, Article 173",
+      "Egyptian Civil Code, Article 172",
+      "Egyptian Civil Code, Article 171",
+      "Egyptian Civil Code, Article 192"
+    ],
+    "retrieved_articles": [
+      164,
+      173,
+      172,
+      171,
+      192
+    ],
+    "expected_articles": [
+      164
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00063672,
+    "tokens": 1998,
+    "latency_s": 34.24,
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.7531725748285907,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q20_en": {
+    "id": "q20_en",
+    "question": "When is a person responsible for his unlawful acts, and when may a judge order a person without discretion to pay equitable damages?",
+    "answer": "بناءً على المصادر القانونية المقدمة، يُحدد نطاق المسؤولية والتعويض العادل وفقاً للمادة **164** من القانون المدني المصري على النحو التالي:\n\n1. **مسؤولية الشخص عن أفعاله غير المشروعة:**\n   يكون الشخص مسؤولاً عن أفعاله غير المشروعة متى صدرت منه وهو **مميز** (أي يمتلك القدرة على التمييز).\n\n2. **إلزام الشخص غير المميز بتعويض عادل:**\n   يجوز للقاضي أن يلزم الشخص الذي وقع منه الضرر (وكان غير مميز) بدفع تعويض عادل في الحالات التالية:\n   *   إذا لم يكن هناك شخص مسؤول عنه.\n   *   أو إذا تعذر على المتضرر الحصول على التعويض من الشخص المسؤول عنه.\n   \n   وفي هذه الحالة، يجب على القاضي مراعاة مركز الخصوم عند تحديد مقدار التعويض العادل.\n\n**المصدر:** المادة 164 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 164",
+      "Egyptian Civil Code, Article 173",
+      "Egyptian Civil Code, Article 168",
+      "Egyptian Civil Code, Article 171",
+      "Egyptian Civil Code, Article 192"
+    ],
+    "retrieved_articles": [
+      164,
+      173,
+      168,
+      171,
+      192
+    ],
+    "expected_articles": [
+      164
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.0004459599999999999,
+    "tokens": 1334,
+    "latency_s": 27.45,
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.6299317815187125,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q21_ar": {
+    "id": "q21_ar",
+    "question": "متى يعفى الشخص من التعويض بسبب سبب أجنبي لا يد له فيه؟",
+    "answer": "يعفى الشخص من التزامه بتعويض الضرر إذا أثبت أن الضرر قد نشأ عن سبب أجنبي لا يد له فيه، مثل حادث مفاجئ أو قوة قاهرة أو خطأ من المضرور أو خطأ من الغير، وذلك ما لم يوجد نص قانوني أو اتفاق على خلاف ذلك.\n\n**المادة القانونية ذات الصلة:**\nالمادة 165 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 165",
+      "Egyptian Civil Code, Article 373",
+      "Egyptian Civil Code, Article 180",
+      "Egyptian Civil Code, Article 504",
+      "Egyptian Civil Code, Article 172"
+    ],
+    "retrieved_articles": [
+      165,
+      373,
+      180,
+      504,
+      172
+    ],
+    "expected_articles": [
+      165
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.0003236,
+    "tokens": 1030,
+    "latency_s": 19.4,
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.7003754846911036,
+    "context_precision": 0.99999999995,
+    "context_recall": 1.0
+  },
+  "q21_en": {
+    "id": "q21_en",
+    "question": "When is a person relieved from liability for damage because of an external cause beyond his control?",
+    "answer": "يُخلَّص الشخص من المسؤولية عن التعويض إذا أثبت أن الضرر نشأ عن سبب أجنبي لا يد له فيه، مثل الحادث المفاجئ، أو القوة القاهرة، أو خطأ المضرور، أو خطأ الغير، وذلك ما لم يوجد نص قانوني أو اتفاق على خلاف ذلك.\n\n**المادة القانونية ذات الصلة:**\nالمادة 165 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 165",
+      "Egyptian Civil Code, Article 176",
+      "Egyptian Civil Code, Article 178",
+      "Egyptian Civil Code, Article 173",
+      "Egyptian Civil Code, Article 217"
+    ],
+    "retrieved_articles": [
+      165,
+      176,
+      178,
+      173,
+      217
+    ],
+    "expected_articles": [
+      165
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00046715,
+    "tokens": 1525,
+    "latency_s": 30.86,
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.658744533660857,
+    "context_precision": 0.9999999999666667,
+    "context_recall": 1.0
+  },
+  "q22_ar": {
+    "id": "q22_ar",
+    "question": "متى يكون المتبوع مسؤولا عن الضرر الذي يحدثه تابعه؟",
+    "answer": "يكون المتبوع مسؤولاً عن الضرر الذي يحدثه تابعه بعمل غير مشروع، متى كان هذا العمل واقعاً منه في حال تأدية وظيفته أو بسبب هذه الوظيفة.\n\nوتقوم رابطة التبعية بين المتبوع وتابعه حتى لو لم يكن المتبوع حراً في اختيار تابعه، شريطة أن تكون له سلطة فعلية في رقابته وتوجيهه.\n\n**المصدر:** المادة 174 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 174",
+      "Egyptian Civil Code, Article 173",
+      "Egyptian Civil Code, Article 711",
+      "Egyptian Civil Code, Article 167",
+      "Egyptian Civil Code, Article 164"
+    ],
+    "retrieved_articles": [
+      174,
+      173,
+      711,
+      167,
+      164
+    ],
+    "expected_articles": [
+      174
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.0003904599999999999,
+    "tokens": 1244,
+    "latency_s": 25.23,
+    "faithfulness": 0.8333333333333334,
+    "answer_relevancy": 0.6294184429451917,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q22_en": {
+    "id": "q22_en",
+    "question": "When is a master liable for damage caused by his servant?",
+    "answer": "يكون المتبوع مسؤولاً عن الضرر الذي يحدثه تابعه بعمله غير المشروع، متى كان هذا العمل واقعاً منه في حال تأدية وظيفته أو بسبب هذه الوظيفة.\n\nوتقوم رابطة التبعية التي تستوجب هذه المسؤولية حتى لو لم يكن المتبوع حراً في اختيار تابعه، شريطة أن تكون له سلطة فعلية في رقابة تابعه وتوجيهه.\n\n**المصدر:** المادة 174 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 174",
+      "Egyptian Civil Code, Article 665",
+      "Egyptian Civil Code, Article 178",
+      "Egyptian Civil Code, Article 173",
+      "Egyptian Civil Code, Article 692"
+    ],
+    "retrieved_articles": [
+      174,
+      665,
+      178,
+      173,
+      692
+    ],
+    "expected_articles": [
+      174
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00045195,
+    "tokens": 1455,
+    "latency_s": 39.9,
+    "faithfulness": 0.8571428571428571,
+    "answer_relevancy": 0.6661059041433722,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q23_ar": {
+    "id": "q23_ar",
+    "question": "من المسؤول عن الضرر الذي يحدثه الحيوان حتى لو لم يكن الشخص مالكا له؟",
+    "answer": "وفقاً للمادة 176 من القانون المدني المصري، يكون **حارس الحيوان** مسؤولاً عن أي ضرر يحدثه الحيوان، حتى لو لم يكن الحارس مالكاً للحيوان.\n\nوتستمر هذه المسؤولية حتى في حال ضياع الحيوان أو تسربه، ما لم يثبت الحارس أن الحادث كان بسبب أجنبي لا يد له فيه.",
+    "sources": [
+      "Egyptian Civil Code, Article 176",
+      "Egyptian Civil Code, Article 177",
+      "Egyptian Civil Code, Article 164",
+      "Egyptian Civil Code, Article 984",
+      "Egyptian Civil Code, Article 871"
+    ],
+    "retrieved_articles": [
+      176,
+      177,
+      164,
+      984,
+      871
+    ],
+    "expected_articles": [
+      176
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00040157,
+    "tokens": 1303,
+    "latency_s": 37.3,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.656490220909899,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q23_en": {
+    "id": "q23_en",
+    "question": "Who is liable for harm caused by an animal even if that person is not its owner?",
+    "answer": "يكون **حارس الحيوان** مسؤولاً عن أي ضرر يحدثه الحيوان، حتى لو لم يكن مالكاً له.\n\n**المادة القانونية:** المادة 176 من القانون المدني المصري.",
+    "sources": [
+      "Egyptian Civil Code, Article 176",
+      "Egyptian Civil Code, Article 177",
+      "Egyptian Civil Code, Article 164",
+      "Egyptian Civil Code, Article 178",
+      "Egyptian Civil Code, Article 871"
+    ],
+    "retrieved_articles": [
+      176,
+      177,
+      164,
+      178,
+      871
+    ],
+    "expected_articles": [
+      176
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00038497999999999994,
+    "tokens": 1282,
+    "latency_s": 40.32,
+    "faithfulness": 0.6666666666666666,
+    "answer_relevancy": 0.8352563691811344,
+    "context_precision": 0.7499999999625,
+    "context_recall": 1.0
+  },
+  "q24_ar": {
+    "id": "q24_ar",
+    "question": "من المسؤول عن الضرر الناتج عن انهدام البناء، وما الذي يجوز لمن يهدده البناء أن يطلبه؟",
+    "answer": "بناءً على المصادر القانونية المقدمة، فإن الإجابة على سؤالك هي كالتالي:\n\n**1. المسؤول عن الضرر الناتج عن انهدام البناء:**\nيكون **حارس البناء** مسؤولاً عن الضرر الناتج عن انهدام البناء، حتى لو لم يكن مالكاً له. ويستمر هذا المسؤولية ما لم يثبت الحارس أن الحادث لم يكن سببه إهمال في الصيانة، أو قدم في البناء، أو عيب فيه (سواء كان الانهدام كلياً أو جزئياً).\n*(المادة 177 من القانون المدني المصري)*\n\n**2. ما يجوز لمن يهدده البناء أن يطلبه:**\nيجوز للشخص الذي يهدده ضرر من البناء أن يطلب من **المالك** اتخاذ التدابير الضرورية لدرء الخطر. وإذا امتنع المالك عن اتخاذ هذه التدابير، يجوز للمهدد بالضرر الحصول على **إذن من المحكمة** لاتخاذ هذه التدابير بنفسه على حساب المالك.\n*(المادة 177 من القانون المدني المصري)*",
+    "sources": [
+      "Egyptian Civil Code, Article 177",
+      "Egyptian Civil Code, Article 651",
+      "Egyptian Civil Code, Article 860",
+      "Egyptian Civil Code, Article 1010",
+      "Egyptian Civil Code, Article 962"
+    ],
+    "retrieved_articles": [
+      177,
+      651,
+      860,
+      1010,
+      962
+    ],
+    "expected_articles": [
+      177
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.0005375499999999999,
+    "tokens": 1625,
+    "latency_s": 26.33,
+    "faithfulness": 0.8181818181818182,
+    "answer_relevancy": 0.7461448577335551,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q24_en": {
+    "id": "q24_en",
+    "question": "Who is liable for damage caused by the collapse of a building, and what may a person threatened by the building do?",
+    "answer": "بناءً على **المادة 177** من القانون المدني المصري:\n\n1. **المسؤول عن الضرر:**\n   يكون **حارس البناء** مسؤولاً عن الأضرار الناتجة عن انهيار البناء، حتى لو لم يكن مالكاً له. ويستمر هذا الالتزام حتى في حالة كان الانهيار جزئياً، ما لم يثبت الحارس أن الحادث لم ينشأ عن إهمال في الصيانة، أو قدم في البناء، أو عيب فيه.\n\n2. **حق الشخص المهدد بالضرر:**\n   يجوز للشخص الذي يهدده ضرر من البناء أن يطالب **المالك** باتخاذ التدابير الضرورية لدرء الخطر. وإذا امتنع المالك عن اتخاذ هذه التدابير، جاز للمهدد الحصول على إذن من المحكمة لاتخاذ هذه التدابير بنفسه على حساب المالك.",
+    "sources": [
+      "Egyptian Civil Code, Article 177",
+      "Egyptian Civil Code, Article 173",
+      "Egyptian Civil Code, Article 860",
+      "Egyptian Civil Code, Article 868",
+      "Egyptian Civil Code, Article 768"
+    ],
+    "retrieved_articles": [
+      177,
+      173,
+      860,
+      868,
+      768
+    ],
+    "expected_articles": [
+      177
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00049682,
+    "tokens": 1528,
+    "latency_s": 27.77,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.760788891353427,
+    "context_precision": 0.9999999999,
+    "context_recall": 1.0
+  },
+  "q25_ar": {
+    "id": "q25_ar",
+    "question": "ما الحقوق الأساسية التي يملكها مالك الشيء؟",
+    "answer": "بناءً على النصوص القانونية الواردة في المصادر المرفقة، فإن الحقوق الأساسية التي يملكها مالك الشيء هي:\n\n1. **حق الاستعمال والاستغلال والتصرف:**\n   يحق لمالك الشيء وحده، في حدود القانون، أن يستعمل الشيء ويستغله ويتصرف فيه.\n   *(المادة 802 من القانون المدني المصري)*\n\n2. **الملكية على العناصر الجوهرية والامتداد الرأسي للأرض:**\n   يملك مالك الشيء كل ما يُعد من عناصره الجوهرية بحيث لا يمكن فصله عنه دون أن يهلك أو يتلف أو يتغير. كما تشمل ملكية الأرض ما فوقها وما تحتها إلى الحد المفيد في التمتع بها علواً أو عمقاً، ويجوز بمقتضى القانون أو الاتفاق أن تكون ملكية سطح الأرض منفصلة عن ملكية ما فوقها أو ما تحتها.\n   *(المادة 803 من القانون المدني المصري)*\n\n3. **حق الانتفاع بالثمار والمنتجات والملحقات:**\n   يحق لمالك الشيء في كل ثماره ومنتجاته وملحقاته، ما لم يوجد نص أو اتفاق يخالف ذلك.\n   *(المادة 804 من القانون المدني المصري)*",
+    "sources": [
+      "Egyptian Civil Code, Article 803",
+      "Egyptian Civil Code, Article 804",
+      "Egyptian Civil Code, Article 802",
+      "Egyptian Civil Code, Article 988",
+      "Egyptian Civil Code, Article 976"
+    ],
+    "retrieved_articles": [
+      803,
+      804,
+      802,
+      988,
+      976
+    ],
+    "expected_articles": [
+      802
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00044278,
+    "tokens": 1262,
+    "latency_s": 35.02,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8763537045202954,
+    "context_precision": 0.3333333333,
+    "context_recall": 1.0
+  },
+  "q25_en": {
+    "id": "q25_en",
+    "question": "What are the basic rights of the owner of a thing?",
+    "answer": "بناءً على النصوص القانونية المصرية الواردة في المصادر المرفقة، فإن الحقوق الأساسية لمالك الشيء هي:\n\n1. **حق الاستعمال والاستغلال والتصرف:** يحق للمالك وحده، في حدود القانون، أن يستعمل الشيء ويستغله ويتصرف فيه (المادة 802).\n2. **الملكية الشاملة للعناصر الجوهرية:** يملك مالك الشيء كل ما يُعد من عناصره الجوهرية بحيث لا يمكن فصله عنه دون أن يهلك أو يتلف أو يتغير (المادة 803).\n3. **حق الثمار والمنتجات والملحقات:** يترتب على الملكية، ما لم يوجد نص أو اتفاق يخالف ذلك، الحق في كل ثمار الشيء ومنتجاته وملحقاته (المادة 804).",
+    "sources": [
+      "Egyptian Civil Code, Article 803",
+      "Egyptian Civil Code, Article 802",
+      "Egyptian Civil Code, Article 804",
+      "Egyptian Civil Code, Article 976",
+      "Egyptian Civil Code, Article 806"
+    ],
+    "retrieved_articles": [
+      803,
+      802,
+      804,
+      976,
+      806
+    ],
+    "expected_articles": [
+      802
+    ],
+    "article_hit": true,
+    "trace_id": null,
+    "cost_usd": 0.00036416,
+    "tokens": 1084,
+    "latency_s": 29.26,
+    "faithfulness": 0.8888888888888888,
+    "answer_relevancy": 0.8408410769131155,
+    "context_precision": 0.49999999995,
+    "context_recall": 1.0
+  }
+}

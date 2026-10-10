@@ -1,0 +1,730 @@
+[
+  {
+    "id": "q01_ar",
+    "user_input": "ما هي الحالات التي يكون فيها استعمال الحق غير مشروع؟",
+    "response": "يكون استعمال الحق غير مشروع في الأحوال الآتية:\nأ) إذا لم يقصد به سوى الإضرار بالغير.\nب) إذا كانت المصالح التي يرمي إلى تحقيقها قليلة الأهمية، بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها.\nج) إذا كانت المصالح التي يرمي إلى تحقيقها غير مشروعة.\n\n(المادة 5)",
+    "reference": "يكون استعمال الحق غير مشروع إذا قصد به الإضرار بالغير، أو كانت المصالح التي يرمي إلى تحقيقها قليلة الأهمية بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها، أو كانت المصالح التي يرمي إلى تحقيقها غير مشروعة في ذاتها.",
+    "retrieved_contexts": [
+      "Article 5\nArabic:\nيكون استعمال الحق غير مشروع في الاحوال الاتية : )ا) اذا لم يقصد به سوى الاضرار بالغير. (ب) اذا كانت المصالح التي يرمي الى تحقيقها قليلة الاهمية ،بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها. (ج) اذا كان المصالح التي يرمي الى تحقيقها غير مشروعة.\n\nEnglish:\nThe exercise of a right is considered unlawful in the following cases: ;a) if the sole aim thereof is to harm another person b) if the benefit it is desired to realize is out of proportion to the harm caused thereby to another ;person c) if the benefit it is desired to realize is unlawful.",
+      "Article 988\nArabic:\n( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير\n\nEnglish:\nThe usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+      "Article 51\nArabic:\nومن انتحل الغير اسمه،لكل من نازعه الغير فى استعمال اسمه بال مبرر ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، دون حق .من ضرر\n\nEnglish:\nA person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby.",
+      "Article 1028\nArabic:\nلا حالة فى تصبح بحيث الاشياء وضع تغير اذا الارتفاق حق ( ينتهي١) .يمكن فيها استعمال هذا الحق الا ان، ( ويعدو اذا عادت الاشياء الى وضع يمكن معه استعمال الحق٢ ) .يكون قد انتهي بعدم الاستعمال\n\nEnglish:\nThe servitude ceases to exist if conditions so change that the right can no longer be used. The servitude is revived if conditions are reestablished in such a way that the right can again be used, unless the right of servitude has been extinguished by non-user.",
+      "Article 807\nArabic:\n.( على المالك الا يغلو فى استعمال حقه الى حد يضر بملك الجار١) ( وليس للجار ان يرجع على جاره فى مضار الجوار المالوفة التى لا٢ ) وانما له ان يطلب ازالة هذه المضار اذا تجاوزت الحد، يمكن تجنبها وطبيعة العقارات وموقع كل، على ان يراعى فى ذلك العرف، المالوف ولا يحول. والغرض الذى خصصت له، منها بالنسبة الى الاخر .الترخيص الصادر من الجهات المختصة دون استعمال هذا الحق\n\nEnglish:\nThe owner must not exercise his rights in an excessive manner detrimental to his neighbors property. The neighbors has no right of action against his neighbor for the unusual unavoidable inconveniences resulting from neighborhood, but he may claim the suppression of such inconveniences if they exceed the usual limits, taking into consideration in this connection, custom, the nature of the properties, their respective situations and the use for which they are intended. A license issued by a competent authority is not a bar to the exercise of such a right of action."
+    ],
+    "reference_contexts": [
+      "Article 5\nArabic:\nيكون استعمال الحق غير مشروع في الاحوال الاتية : )ا) اذا لم يقصد به سوى الاضرار بالغير. (ب) اذا كانت المصالح التي يرمي الى تحقيقها قليلة الاهمية ،بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها. (ج) اذا كان المصالح التي يرمي الى تحقيقها غير مشروعة.\n\nEnglish:\nThe exercise of a right is considered unlawful in the following cases: ;a) if the sole aim thereof is to harm another person b) if the benefit it is desired to realize is out of proportion to the harm caused thereby to another ;person c) if the benefit it is desired to realize is unlawful."
+    ],
+    "expected_articles": [
+      5
+    ],
+    "retrieved_article_numbers": [
+      5,
+      988,
+      51,
+      1028,
+      807
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q01_en",
+    "user_input": "What are the cases in which the exercise of a right is considered unlawful?",
+    "response": "The exercise of a right is considered unlawful in the following cases:\na) If the sole aim thereof is to harm another person.\nb) If the benefit it is desired to realize is out of proportion to the harm caused thereby to another person.\nc) If the benefit it is desired to realize is unlawful.\n\n(Article 5)",
+    "reference": "The exercise of a right is unlawful when it is intended solely to cause harm to another, when the interests intended to be achieved are so slight that they are wholly disproportionate to the harm caused to another, or when the interests pursued are unlawful in themselves.",
+    "retrieved_contexts": [
+      "Article 5\nArabic:\nيكون استعمال الحق غير مشروع في الاحوال الاتية : )ا) اذا لم يقصد به سوى الاضرار بالغير. (ب) اذا كانت المصالح التي يرمي الى تحقيقها قليلة الاهمية ،بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها. (ج) اذا كان المصالح التي يرمي الى تحقيقها غير مشروعة.\n\nEnglish:\nThe exercise of a right is considered unlawful in the following cases: ;a) if the sole aim thereof is to harm another person b) if the benefit it is desired to realize is out of proportion to the harm caused thereby to another ;person c) if the benefit it is desired to realize is unlawful.",
+      "Article 51\nArabic:\nومن انتحل الغير اسمه،لكل من نازعه الغير فى استعمال اسمه بال مبرر ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، دون حق .من ضرر\n\nEnglish:\nA person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby.",
+      "Article 988\nArabic:\n( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير\n\nEnglish:\nThe usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+      "Article 21\nArabic:\n( يسري علي الالتزامات غير التعاقدية قانون البلد الذي وقع فيه الفعل١( .المنشئ لاللتزام لا تسري،( علي انه فيما يتعلق بالالتزامات الناشئة عن الفعل الضار٢( احكام الفقرة السابقة علي الوقائع التي تحدث في الخارج وتكون مشروعة .في مصر وان كانت تعد غير مشروعة في البلد الذي وقعت فيه\n\nEnglish:\nNon-contractual obligations are governed by the law of the State in whose territory the act that gave rise to the obligation took place. When, however, the obligation arises from a tort, the provisions of the preceding paragraph shall not apply to an act which occurred abroad and which, although considered unlawful in accordance with the law of the country in which the act occurred, is considered lawful in Egypt.",
+      "Article 470\nArabic:\n-:لا تسري احكام المادة السابقة في الاحوال الاتية )ا ) اذا كان الحق المتنازع فيه داخال ضمن مجموعة اموال بيعت جزافا .بثمن واحد ) ب ) اذا كان الحق المتنازع فيه شائعا بين ورثة او مالك وباع احدهم .نصيبه لالخر ) ج) اذا نزل المدين للدائن عن حق متنازع فيه وفاء للدين المستحق في .ذمته .) د ) اذا كان الحق المتنازع فيه يثقل عقارا وبيع الحق لحائز العقار\n\nEnglish:\nThe provisions of the preceding Article do not apply in the following cases: a) when the litigious right forms part of a group of properties sold in bulk for a single price; b) when the litigious right is indivisible amongst several heirs or co-owners and one sells his share to another; c) when a debtor has assigned to his creditor the litigious right in payment of his debt; d) when the litigious right is a right burdening an immovable and such right is sold to a third party in possession of the immovable."
+    ],
+    "reference_contexts": [
+      "Article 5\nArabic:\nيكون استعمال الحق غير مشروع في الاحوال الاتية : )ا) اذا لم يقصد به سوى الاضرار بالغير. (ب) اذا كانت المصالح التي يرمي الى تحقيقها قليلة الاهمية ،بحيث لا تتناسب البتة مع ما يصيب الغير من ضرر بسببها. (ج) اذا كان المصالح التي يرمي الى تحقيقها غير مشروعة.\n\nEnglish:\nThe exercise of a right is considered unlawful in the following cases: ;a) if the sole aim thereof is to harm another person b) if the benefit it is desired to realize is out of proportion to the harm caused thereby to another ;person c) if the benefit it is desired to realize is unlawful."
+    ],
+    "expected_articles": [
+      5
+    ],
+    "retrieved_article_numbers": [
+      5,
+      51,
+      988,
+      21,
+      470
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q02_ar",
+    "user_input": "ماذا يجوز للمالك أن يفعل إذا استمر المنتفع في استعمال العين استعمالا غير مشروع؟",
+    "response": "إذا استمر المنتفع في استعمال العين استعمالاً غير مشروع أو غير متفق مع طبيعتها، على الرغم من اعتراض المالك وعدم تقديم تأمينات (إذا طُلبت)، يجوز للقاضي أن ينزع العين من تحت يد المنتفع ويسلمها لآخر يتولى إدارتها. كما يجوز للقاضي، تبعاً لخطورة الحال، أن يحكم بانتهاء حق الانتفاع. (المادة 988)",
+    "reference": "إذا استمر المنتفع في استعمال العين استعمالا غير مشروع، جاز للمالك أن يطلب إنهاء حق الانتفاع.",
+    "retrieved_contexts": [
+      "Article 988\nArabic:\n( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير\n\nEnglish:\nThe usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+      "Article 989\nArabic:\n( المنتفع ملزم اثناء انتفاعه بكل ما يفرض على العين المنتفع بها من١( . وبكل النفقات التى تقتضيها اعمال الصيانة، التكاليف المعتادة ( اما التكاليف غير المعتادة والاصالحات الجسيمة التى لم تنشا عن٢( ويلتزم المنتفع بان يؤدى لمالك فوائد، خطا المنتفع فانها تكون على المالك فان كان المنتفع هو الذى قام بانفاق كان له استرداد راس. ما انفقه فى ذلك .المال عند انتهاء حق الانتفاع\n\nEnglish:\nThe usufructuary is liable, during the continuance of his enjoyment, for all normal charges in respect of the property subject to the usufruct and all expenses for repairs incidental to its maintenance. The owner is obliged to pay abnormal expenses and the cost of heavy repairs which do not arise from any fault on the part of the usufructuary, but the usufructuary is bound to pay to the owner interest on the amount expended by him in this respect. If the usufructuary has himself advanced the cost, he is entitled to obtain repayment of the capital amount paid by him when the usufruct terminates.",
+      "Article 583\nArabic:\n( يجب على المستاجر ان يبذل من العناية في استعمال العين المؤجرة١( .وفي المحافظة عليها ما يبذله الشخص المعتاد ( وهو مسئول عما يصيب العني اثناء انتفاعه بها من تلف او هالك غير٢( .ناشئ عن استعمالها استعمالا ما لوفا\n\nEnglish:\nThe lessee shall use and preserve the leased property with the care of a reasonable person. The lessee is responsible for any deterioration of or loss to the leased property during his enjoyment thereof which are not the result of normal use."
+    ],
+    "reference_contexts": [
+      "Article 988\nArabic:\n( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير\n\nEnglish:\nThe usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties."
+    ],
+    "expected_articles": [
+      988
+    ],
+    "retrieved_article_numbers": [
+      988,
+      989,
+      583
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q02_en",
+    "user_input": "What may the owner do if the usufructuary continues to use the property unlawfully?",
+    "response": "The owner may object to any use of the property that is unlawful or unsuitable to its nature. If the owner proves that his rights are endangered, he may demand security.\n\n(Article 988)",
+    "reference": "If the usufructuary continues to use the property unlawfully, the owner may request termination of the usufruct.",
+    "retrieved_contexts": [
+      "Article 988\nArabic:\n( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير\n\nEnglish:\nThe usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties.",
+      "Article 989\nArabic:\n( المنتفع ملزم اثناء انتفاعه بكل ما يفرض على العين المنتفع بها من١( . وبكل النفقات التى تقتضيها اعمال الصيانة، التكاليف المعتادة ( اما التكاليف غير المعتادة والاصالحات الجسيمة التى لم تنشا عن٢( ويلتزم المنتفع بان يؤدى لمالك فوائد، خطا المنتفع فانها تكون على المالك فان كان المنتفع هو الذى قام بانفاق كان له استرداد راس. ما انفقه فى ذلك .المال عند انتهاء حق الانتفاع\n\nEnglish:\nThe usufructuary is liable, during the continuance of his enjoyment, for all normal charges in respect of the property subject to the usufruct and all expenses for repairs incidental to its maintenance. The owner is obliged to pay abnormal expenses and the cost of heavy repairs which do not arise from any fault on the part of the usufructuary, but the usufructuary is bound to pay to the owner interest on the amount expended by him in this respect. If the usufructuary has himself advanced the cost, he is entitled to obtain repayment of the capital amount paid by him when the usufruct terminates.",
+      "Article 991\nArabic:\nاذا هلك الشيء او تلف او احتاج الى اصالحات جسيمة مما يجب على او الى اتخاذ اجراء يقيه من خطر لما يكن، المالك ان يتحمل نفقاته فعلى المنتفع ان يبادر باخطار المالك وعليه اخطاره ايضا اذا، منظورا .استمسك اجنبى بحق يدعيه على الشيء نفسه\n\nEnglish:\nThe usufructuary must give notice to the owner without delay if the property perishes, deteriorates or requires major repairs the cost of which should be borne by the owner, or if it is necessary to take protective measures against an unforeseen danger. The usufructuary must also advise the owner if a third party claims to have a right over the property."
+    ],
+    "reference_contexts": [
+      "Article 988\nArabic:\n( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير\n\nEnglish:\nThe usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties."
+    ],
+    "expected_articles": [
+      988
+    ],
+    "retrieved_article_numbers": [
+      988,
+      989,
+      991
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q03_ar",
+    "user_input": "ما الذي يمكن أن يطلبه الشخص إذا استعمل شخص آخر اسمه بصورة غير مشروعة؟",
+    "response": "يمكن للشخص أن يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه من ضرر. (المادة 51)",
+    "reference": "إذا نازع شخص آخر في استعمال الاسم أو استعمله بغير حق، جاز لصاحب الاسم أن يطلب وقف هذا الاعتداء والتعويض عما لحقه من ضرر.",
+    "retrieved_contexts": [
+      "Article 51\nArabic:\nومن انتحل الغير اسمه،لكل من نازعه الغير فى استعمال اسمه بال مبرر ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، دون حق .من ضرر\n\nEnglish:\nA person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby.",
+      "Article 50\nArabic:\nلكل من وقع عليه اعتداء غير مشروع في حق من الحقوق المالزمة ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، لشخصيته .من ضرر\n\nEnglish:\nA person whose rights inherent in his personality have been unlawfully infringed, shall have the right to demand the cessation of the infringement and compensation for any damage sustained thereby.",
+      "Article 164\nArabic:\n( يكون الشخص مسئوال عن اعماله غير المشروعة متى صدرت منه١ ( .وهو مميز ( ومع ذلك اذا وقع الضرر من شخص غير مميز ولم يكن هناك من٢ ) جاز، او تعذر الحصول على تعويض من المسئول، هو مسئول عنه مراعيا فى ذلك، للقاضى ان يلزم من وقع منه الضرر بتعويض عادل .مركز الخصوم\n\nEnglish:\nEvery person in possession of discretion is responsible for his unlawful acts. When an injury is caused by a person not in possession of discretion, the judge may, if no one is responsible for him, or if the victim of the injury cannot obtain reparation from the person responsible, condemn the person causing the injury to pay equitable damages, taking into account the position of the parties."
+    ],
+    "reference_contexts": [
+      "Article 51\nArabic:\nومن انتحل الغير اسمه،لكل من نازعه الغير فى استعمال اسمه بال مبرر ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، دون حق .من ضرر\n\nEnglish:\nA person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby."
+    ],
+    "expected_articles": [
+      51
+    ],
+    "retrieved_article_numbers": [
+      51,
+      50,
+      164
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q03_en",
+    "user_input": "What can a person demand when another person unlawfully uses his name?",
+    "response": "A person whose name is unlawfully used by another has the right to demand cessation of the infringement and compensation for any damage sustained thereby (Article 51).",
+    "reference": "The person whose name is unlawfully used may seek cessation of the infringement and compensation for the resulting harm.",
+    "retrieved_contexts": [
+      "Article 51\nArabic:\nومن انتحل الغير اسمه،لكل من نازعه الغير فى استعمال اسمه بال مبرر ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، دون حق .من ضرر\n\nEnglish:\nA person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby.",
+      "Article 50\nArabic:\nلكل من وقع عليه اعتداء غير مشروع في حق من الحقوق المالزمة ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، لشخصيته .من ضرر\n\nEnglish:\nA person whose rights inherent in his personality have been unlawfully infringed, shall have the right to demand the cessation of the infringement and compensation for any damage sustained thereby.",
+      "Article 154\nArabic:\n( يجوز للشخص ان يتعاقد باسمه على التزامات يشترطها لمصلحة١ ( اذا كان له فى تنفيذ هذه الالتزامات مصلحة شخصية عادية كانت او، الغير .ادبية ( ويترتب على هذا الاشتراط ان يكسب الغير حقا مباشرا قبل المتعهد٢ ( . ما لم يتفق على خالف ذلك، بتنفيذ الاشتراط يستطيع ان يطالبه بوفائه .ولكون لهذا المتعهد ان يتمسك قبل المنتفع بالدفوع التى تنشا عن العقد ، ( ويجوز كذلك للمشترط ان يطالب بتنفيذ ما اشترط لمصلحة المنتفع٣) .الا اذا تبين من العقد ان المنتفع وحده هو الذى يجوز له ذلك\n\nEnglish:\nA person may by a contract in his own name stipulate that an obligation shall be performed for the benefit of a third party, when he has a personal interest, material or moral, in the performance of such an obligation. As a result of such a stipulation and in the absence of an agreement to the contrary, the third party beneficiary acquires a direct right against the person who undertook to perform the obligation, and may call upon him to do so. The person who gave the undertaking may set up against the beneficiary the defenses arising out of the contract. The stipulation may also demand the performance of the obligation in favor of the beneficiary, unless it appears from the contract that performance may only be demanded by the beneficiary."
+    ],
+    "reference_contexts": [
+      "Article 51\nArabic:\nومن انتحل الغير اسمه،لكل من نازعه الغير فى استعمال اسمه بال مبرر ان يطلب وقف هذا الاعتداء مع التعويض عما يكون قد لحقه، دون حق .من ضرر\n\nEnglish:\nA person whose right to the use of his name is unlawfully disputed by another, or a person whose name is unlawfully used by another shall have the right to demand cessation of the infringement and compensation for any damage sustained thereby."
+    ],
+    "expected_articles": [
+      51
+    ],
+    "retrieved_article_numbers": [
+      51,
+      50,
+      154
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q04_ar",
+    "user_input": "ما حدود استعمال المالك لحقه إذا كان ذلك يضر بملك جاره؟",
+    "response": "على المالك ألا يغلو في استعمال حقه إلى حد يضر بملك الجار.\n\n(المادة 807)",
+    "reference": "يجب على المالك ألا يستعمل حقه استعمالا يضر بملك الجار ضررا غير مألوف، وتطبق الحدود التي يقررها القانون بشأن استعمال الملك.",
+    "retrieved_contexts": [
+      "Article 807\nArabic:\n.( على المالك الا يغلو فى استعمال حقه الى حد يضر بملك الجار١) ( وليس للجار ان يرجع على جاره فى مضار الجوار المالوفة التى لا٢ ) وانما له ان يطلب ازالة هذه المضار اذا تجاوزت الحد، يمكن تجنبها وطبيعة العقارات وموقع كل، على ان يراعى فى ذلك العرف، المالوف ولا يحول. والغرض الذى خصصت له، منها بالنسبة الى الاخر .الترخيص الصادر من الجهات المختصة دون استعمال هذا الحق\n\nEnglish:\nThe owner must not exercise his rights in an excessive manner detrimental to his neighbors property. The neighbors has no right of action against his neighbor for the unusual unavoidable inconveniences resulting from neighborhood, but he may claim the suppression of such inconveniences if they exceed the usual limits, taking into consideration in this connection, custom, the nature of the properties, their respective situations and the use for which they are intended. A license issued by a competent authority is not a bar to the exercise of such a right of action.",
+      "Article 818\nArabic:\n( ليس لجار ان يجبر جاره على تحويط ملكه ولا على الترول عن جزء١) من حائط او من الارض التى عليها الحائط الا فى الحالة المذكورة فى .٨١٦ المادة ( ومع ذلك فليس لمالك الحائط ان يهدمه مختارا دون عذر قوى ان كان٢ ) .هذا يضر الجار الذى يستر ملكه بالحائط\n\nEnglish:\nAn owner cannot compel his neighbors to walk in his property to assign to him a part of a wall or of the land on which the wall is constructed, except in a case provided for in Article 816. An owner of a wall may not, however, demolish the wall on his own initiative if the demolition injures his neighbor whose property is closed in by it, unless he has good reason for so doing.",
+      "Article 857\nArabic:\n( كل مالك فى سبيل الانتفاع بالجزء الذى يملكه فى الدار حر فى ان١) على الا يحول دون استعمال، يستعمل الاجزاء المشتركة فيما اعدت له .باقى الشركاء لحقوقهم ( ولا يجوز احداث اى تعديل فى الاجزاء المشتركة بغير موافقة جميع٢ ) الا اذا كان التعديل الذى يقوم به احد المالك، المالك حتى تجديد البناء دون ان، من شانه ان يسهل استعمال تلك الجزاء، على نفقته الخاصة .يغير من تخصيصها او يلحق الضرر بالمالك الاخرين\n\nEnglish:\nEvery owner may, with a view to enjoying his part of the building, utilize the parts held in common, in accordance with the use for which they are intended, provided he does not prevent the other owners exercising their rights. No modification can be made to the parts held in common, even in the event of reconstruction, without the consent of all the owners, unless such modification, made by one of the owners, at his own cost, is of such a nature to facilitate the use of the parts held in common, does not change the use to which they were intended and is not prejudicial to the other owners."
+    ],
+    "reference_contexts": [
+      "Article 807\nArabic:\n.( على المالك الا يغلو فى استعمال حقه الى حد يضر بملك الجار١) ( وليس للجار ان يرجع على جاره فى مضار الجوار المالوفة التى لا٢ ) وانما له ان يطلب ازالة هذه المضار اذا تجاوزت الحد، يمكن تجنبها وطبيعة العقارات وموقع كل، على ان يراعى فى ذلك العرف، المالوف ولا يحول. والغرض الذى خصصت له، منها بالنسبة الى الاخر .الترخيص الصادر من الجهات المختصة دون استعمال هذا الحق\n\nEnglish:\nThe owner must not exercise his rights in an excessive manner detrimental to his neighbors property. The neighbors has no right of action against his neighbor for the unusual unavoidable inconveniences resulting from neighborhood, but he may claim the suppression of such inconveniences if they exceed the usual limits, taking into consideration in this connection, custom, the nature of the properties, their respective situations and the use for which they are intended. A license issued by a competent authority is not a bar to the exercise of such a right of action."
+    ],
+    "expected_articles": [
+      807
+    ],
+    "retrieved_article_numbers": [
+      807,
+      818,
+      857
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q04_en",
+    "user_input": "What are the limits on an owner's exercise of his rights when it is detrimental to his neighbor's property?",
+    "response": "An owner must not exercise his rights in an excessive manner detrimental to his neighbor's property (Article 807).\n\nSpecifically, an owner of a wall may not demolish it on his own initiative if it injures his neighbor whose property is closed in by it, unless he has good reason for so doing (Article 818).\n\nA neighbor may claim the suppression of inconveniences if they exceed the usual limits, taking into consideration custom, the nature of the properties, their respective situations, and the use for which they are intended. A license issued by a competent authority is not a bar to the exercise of such a right of action (Article 807).",
+    "reference": "An owner must exercise his rights within the limits established by law and may not cause his neighbor abnormal or excessive harm through the use of his property.",
+    "retrieved_contexts": [
+      "Article 807\nArabic:\n.( على المالك الا يغلو فى استعمال حقه الى حد يضر بملك الجار١) ( وليس للجار ان يرجع على جاره فى مضار الجوار المالوفة التى لا٢ ) وانما له ان يطلب ازالة هذه المضار اذا تجاوزت الحد، يمكن تجنبها وطبيعة العقارات وموقع كل، على ان يراعى فى ذلك العرف، المالوف ولا يحول. والغرض الذى خصصت له، منها بالنسبة الى الاخر .الترخيص الصادر من الجهات المختصة دون استعمال هذا الحق\n\nEnglish:\nThe owner must not exercise his rights in an excessive manner detrimental to his neighbors property. The neighbors has no right of action against his neighbor for the unusual unavoidable inconveniences resulting from neighborhood, but he may claim the suppression of such inconveniences if they exceed the usual limits, taking into consideration in this connection, custom, the nature of the properties, their respective situations and the use for which they are intended. A license issued by a competent authority is not a bar to the exercise of such a right of action.",
+      "Article 818\nArabic:\n( ليس لجار ان يجبر جاره على تحويط ملكه ولا على الترول عن جزء١) من حائط او من الارض التى عليها الحائط الا فى الحالة المذكورة فى .٨١٦ المادة ( ومع ذلك فليس لمالك الحائط ان يهدمه مختارا دون عذر قوى ان كان٢ ) .هذا يضر الجار الذى يستر ملكه بالحائط\n\nEnglish:\nAn owner cannot compel his neighbors to walk in his property to assign to him a part of a wall or of the land on which the wall is constructed, except in a case provided for in Article 816. An owner of a wall may not, however, demolish the wall on his own initiative if the demolition injures his neighbor whose property is closed in by it, unless he has good reason for so doing.",
+      "Article 813\nArabic:\nوتكون، لكل مالك ان يجبر جاره على وضع حدود المالكهما المتالصقة ، نفقات التجديد شركة بينهما\n\nEnglish:\nEvery owner has the right to compel his neighbors to place boundary marks along the boundaries of their adjoining properties. The cost of such delimitation will be shared between them."
+    ],
+    "reference_contexts": [
+      "Article 807\nArabic:\n.( على المالك الا يغلو فى استعمال حقه الى حد يضر بملك الجار١) ( وليس للجار ان يرجع على جاره فى مضار الجوار المالوفة التى لا٢ ) وانما له ان يطلب ازالة هذه المضار اذا تجاوزت الحد، يمكن تجنبها وطبيعة العقارات وموقع كل، على ان يراعى فى ذلك العرف، المالوف ولا يحول. والغرض الذى خصصت له، منها بالنسبة الى الاخر .الترخيص الصادر من الجهات المختصة دون استعمال هذا الحق\n\nEnglish:\nThe owner must not exercise his rights in an excessive manner detrimental to his neighbors property. The neighbors has no right of action against his neighbor for the unusual unavoidable inconveniences resulting from neighborhood, but he may claim the suppression of such inconveniences if they exceed the usual limits, taking into consideration in this connection, custom, the nature of the properties, their respective situations and the use for which they are intended. A license issued by a competent authority is not a bar to the exercise of such a right of action."
+    ],
+    "expected_articles": [
+      807
+    ],
+    "retrieved_article_numbers": [
+      807,
+      818,
+      813
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q05_ar",
+    "user_input": "ماذا يحدث لحق الارتفاق إذا تغير وضع الأشياء بحيث أصبح استعمال الحق غير ممكن؟",
+    "response": "ينتهي حق الارتفاق إذا تغير وضع الأشياء.\n\n(المادة 1028)",
+    "reference": "إذا تغير وضع الأشياء بحيث أصبح استعمال حق الارتفاق غير ممكن، ينقضي حق الارتفاق.",
+    "retrieved_contexts": [
+      "Article 1028\nArabic:\nلا حالة فى تصبح بحيث الاشياء وضع تغير اذا الارتفاق حق ( ينتهي١) .يمكن فيها استعمال هذا الحق الا ان، ( ويعدو اذا عادت الاشياء الى وضع يمكن معه استعمال الحق٢ ) .يكون قد انتهي بعدم الاستعمال\n\nEnglish:\nThe servitude ceases to exist if conditions so change that the right can no longer be used. The servitude is revived if conditions are reestablished in such a way that the right can again be used, unless the right of servitude has been extinguished by non-user.",
+      "Article 1023\nArabic:\n( لا يجوز لمالك العاقر المرتفق به ان يعمل شيئا يؤدى الى الانتقاص من١) استعمال حق الاتفاق او جعله اكثر مشقة ولا يجوز له بوجه خاص ان يغير من الوضع القائم او ان يبذل بالموضع المعين اصال الستعمال حق الارتفاق .موضعا اخر ( ومع ذلك اذا كان الموضع الذى عين اصال قد اصبح من شانه ان يزيد٢ ) او اصبح الارتفاق مانعا من احداث تحسينات فى، فى عبء الارتفاق فلمالك هذا العقار ان يطلب نقل الاتفاق الى موضع، العقار المرتفق به او الى عقار اخر يملكه هو او يملكه اجنبى اذا قبل، اخر من العقار كل هذا متى كان استعمال الارتفاق فى وضعه الجديد. الاجنبى ذلك ميسورا لمالك العاقر المرتفق بالقدر الذى كان ميسورا به فى وضعه .السابق\n\nEnglish:\nThe owner of the servient tenement has no right to do anything which will tend to diminish the use made of the servitude or to make it more inconvenient. He cannot, in particular, either change the condition in which the land was or change the place originally fixed for the use of the servitude by another. When, however, the place originally fixed has become such as to increase the burden of the servitude or to cause the servitude to hinder the owner of the servient tenement making improvements to the servient tenement, he may demand that the servitude be transferred to another part of the property or to another property belonging to him or to an third party who consents thereto, provided that the owner of the dominant tenement is able to exercise his rights of servitude in these new conditions as easily as he was able to do before the change.",
+      "Article 1025\nArabic:\n( اذا جزئ العقار المرتفق به بقى حق الارتفاق واقعا على كل جزء منه١( ( غير انه اذا كان حق الارتفاق لا يستعمل فى الواقع على بعض هذه٢( فلمالك كل جزء منها ان يطلب زوال، الاجزاء ولا يمكن ان يستعمل عليها .هذا الحق عن الجزء الذى يملكه\n\nEnglish:\nIf the servitude tenement is divided, the servitude continues to subsist in respect of each part thereof. If, however, the servitude is not actually used and cannot be used on certain of these divided parts, the owner of each of them may demand that it ceases as regards the part belonging to him."
+    ],
+    "reference_contexts": [
+      "Article 1028\nArabic:\nلا حالة فى تصبح بحيث الاشياء وضع تغير اذا الارتفاق حق ( ينتهي١) .يمكن فيها استعمال هذا الحق الا ان، ( ويعدو اذا عادت الاشياء الى وضع يمكن معه استعمال الحق٢ ) .يكون قد انتهي بعدم الاستعمال\n\nEnglish:\nThe servitude ceases to exist if conditions so change that the right can no longer be used. The servitude is revived if conditions are reestablished in such a way that the right can again be used, unless the right of servitude has been extinguished by non-user."
+    ],
+    "expected_articles": [
+      1028
+    ],
+    "retrieved_article_numbers": [
+      1028,
+      1023,
+      1025
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q05_en",
+    "user_input": "What happens to a servitude when the state of things changes so that the right can no longer be exercised?",
+    "response": "The servitude ceases to exist if conditions so change that the right can no longer be used (Article 1028).",
+    "reference": "When circumstances change so that the exercise of the servitude becomes impossible, the servitude is extinguished.",
+    "retrieved_contexts": [
+      "Article 1028\nArabic:\nلا حالة فى تصبح بحيث الاشياء وضع تغير اذا الارتفاق حق ( ينتهي١) .يمكن فيها استعمال هذا الحق الا ان، ( ويعدو اذا عادت الاشياء الى وضع يمكن معه استعمال الحق٢ ) .يكون قد انتهي بعدم الاستعمال\n\nEnglish:\nThe servitude ceases to exist if conditions so change that the right can no longer be used. The servitude is revived if conditions are reestablished in such a way that the right can again be used, unless the right of servitude has been extinguished by non-user.",
+      "Article 1027\nArabic:\nفان كان، ( تنتهي حقوق الارتفاق بعدم استعمالها مدة خمس عشرة سنة١) وكما. الارتفاق مقررا لمصلحة عين موقوفة كانت المدة ثالثا وثالثين سنة يسقط التقادم حق الارتفاق يجوز كذلك بالطريقة ذاتها ان يعدل من الكيفية .التى يستعمل بها ( واذا ملك العقار المرتفق عدة شركاء على الشيوع فانتفاع احدهم٢ ) كما ان وقف التقادم لمصلحة احد، بالارتفاق يقطع التقادم لمصلحة الباقين .هؤالء الشركاء يجعله موقوفا لمصلحة سائرهم\n\nEnglish:\nThe rights to a servitude are extinguished by non-user for a period of fifteen years; if the servitude is created for the benefit of a wakf property, this period shall be thirty three years. The manner of the exercise of a right of servitude may, as the servitude itself, be modified by prescription. The user of the servitude by one of the co-owners in common of a dominant tenement interrupts the prescription in favor of the other co-owners; in the same way, the suspension of prescription in favor of one of these co-owners, suspends prescription in favor of the others.",
+      "Article 1023\nArabic:\n( لا يجوز لمالك العاقر المرتفق به ان يعمل شيئا يؤدى الى الانتقاص من١) استعمال حق الاتفاق او جعله اكثر مشقة ولا يجوز له بوجه خاص ان يغير من الوضع القائم او ان يبذل بالموضع المعين اصال الستعمال حق الارتفاق .موضعا اخر ( ومع ذلك اذا كان الموضع الذى عين اصال قد اصبح من شانه ان يزيد٢ ) او اصبح الارتفاق مانعا من احداث تحسينات فى، فى عبء الارتفاق فلمالك هذا العقار ان يطلب نقل الاتفاق الى موضع، العقار المرتفق به او الى عقار اخر يملكه هو او يملكه اجنبى اذا قبل، اخر من العقار كل هذا متى كان استعمال الارتفاق فى وضعه الجديد. الاجنبى ذلك ميسورا لمالك العاقر المرتفق بالقدر الذى كان ميسورا به فى وضعه .السابق\n\nEnglish:\nThe owner of the servient tenement has no right to do anything which will tend to diminish the use made of the servitude or to make it more inconvenient. He cannot, in particular, either change the condition in which the land was or change the place originally fixed for the use of the servitude by another. When, however, the place originally fixed has become such as to increase the burden of the servitude or to cause the servitude to hinder the owner of the servient tenement making improvements to the servient tenement, he may demand that the servitude be transferred to another part of the property or to another property belonging to him or to an third party who consents thereto, provided that the owner of the dominant tenement is able to exercise his rights of servitude in these new conditions as easily as he was able to do before the change."
+    ],
+    "reference_contexts": [
+      "Article 1028\nArabic:\nلا حالة فى تصبح بحيث الاشياء وضع تغير اذا الارتفاق حق ( ينتهي١) .يمكن فيها استعمال هذا الحق الا ان، ( ويعدو اذا عادت الاشياء الى وضع يمكن معه استعمال الحق٢ ) .يكون قد انتهي بعدم الاستعمال\n\nEnglish:\nThe servitude ceases to exist if conditions so change that the right can no longer be used. The servitude is revived if conditions are reestablished in such a way that the right can again be used, unless the right of servitude has been extinguished by non-user."
+    ],
+    "expected_articles": [
+      1028
+    ],
+    "retrieved_article_numbers": [
+      1028,
+      1027,
+      1023
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q06_ar",
+    "user_input": "متى يعتبر الالتزام لأجل مرتبطا بأمر مستقبل محقق الوقوع؟",
+    "response": "يعتبر الأمر محقق الوقوع متى كان وقوعه محتماً، ولو لم يعرف الوقت الذي يقع فيه (المادة 271).",
+    "reference": "يكون الالتزام لأجل إذا كان نفاذه أو انقضاؤه مترتبا على أمر مستقبل محقق الوقوع.",
+    "retrieved_contexts": [
+      "Article 271\nArabic:\n( يكون الالتزام الجل اذا كان نفاذه او انقضاؤه مترتبا على امر مستقبل١) .محقق الوقوع ولو لم يعرف، ( ويعتبر الامر محقق الوقوع متى كان وقعه محتما٢( .الوقت الذي يقع فيه\n\nEnglish:\nAn obligation is for a term if its performance or extinction depends on a future certain event. An event is considered to be certain if it must happen of necessity even if the time at which it should happen is unknown.",
+      "Article 265\nArabic:\nيكون الالتزام معلقا على شرط اذا كان وجوده او زواله مترتبا على امر .مستقبل غير محقق الوقوع\n\nEnglish:\nAn obligation is conditional when its existence or its extinction depends on a future and uncertain event.",
+      "Article 272\nArabic:\n، اذا تبين من الالتزام ان المدين لا يقوم بوفائه الا عند المقدرة او الميسرة مراعيا في ذلك موارد المدين، عين القاضي ميعادا مناسبا لحلول الاجل ومقتضيا منه عناية الرجل الحريص على الوفاء، الحالية والمستقبلة .بالتزامه\n\nEnglish:\nWhen it results from the obligation that the debtor shall only perform the obligation when he is able to do so or when he has the means to do so, the judge will fix a reasonable time for the term, taking into account the actual and future resources of the debtor and allowing for the diligence of a man anxious to perform his obligations."
+    ],
+    "reference_contexts": [
+      "Article 271\nArabic:\n( يكون الالتزام الجل اذا كان نفاذه او انقضاؤه مترتبا على امر مستقبل١) .محقق الوقوع ولو لم يعرف، ( ويعتبر الامر محقق الوقوع متى كان وقعه محتما٢( .الوقت الذي يقع فيه\n\nEnglish:\nAn obligation is for a term if its performance or extinction depends on a future certain event. An event is considered to be certain if it must happen of necessity even if the time at which it should happen is unknown."
+    ],
+    "expected_articles": [
+      271
+    ],
+    "retrieved_article_numbers": [
+      271,
+      265,
+      272
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q06_en",
+    "user_input": "When is an obligation for a term dependent on a future event that is certain to occur?",
+    "response": "An obligation is for a term if its performance or extinction depends on a future certain event. An event is considered to be certain if it must happen of necessity, even if the time at which it should happen is unknown. (Article 271)",
+    "reference": "An obligation is subject to a term when its performance or termination depends on a future event that is certain to occur.",
+    "retrieved_contexts": [
+      "Article 271\nArabic:\n( يكون الالتزام الجل اذا كان نفاذه او انقضاؤه مترتبا على امر مستقبل١) .محقق الوقوع ولو لم يعرف، ( ويعتبر الامر محقق الوقوع متى كان وقعه محتما٢( .الوقت الذي يقع فيه\n\nEnglish:\nAn obligation is for a term if its performance or extinction depends on a future certain event. An event is considered to be certain if it must happen of necessity even if the time at which it should happen is unknown.",
+      "Article 265\nArabic:\nيكون الالتزام معلقا على شرط اذا كان وجوده او زواله مترتبا على امر .مستقبل غير محقق الوقوع\n\nEnglish:\nAn obligation is conditional when its existence or its extinction depends on a future and uncertain event.",
+      "Article 268\nArabic:\nفلا يكون نافذا الا اذا تحقق، اذا كان الالتزام معلقا على شرط واقف فلا يكون الالتزام قابال للتنفيذ القهري ولا، اما قبل تحقق الشرط. الشرط على انه يجوز للدائن ان يتخذ من الاجراءات ما يحافظ، للتنفيذ الاختياري .به على حقه\n\nEnglish:\nWhen an obligation depends on a suspensive condition, it does not become executory until the condition is realized. Before realization of the condition, such obligation is not subject to compulsory or to voluntary performance. A creditor may, however, take protective measures to safeguard his rights."
+    ],
+    "reference_contexts": [
+      "Article 271\nArabic:\n( يكون الالتزام الجل اذا كان نفاذه او انقضاؤه مترتبا على امر مستقبل١) .محقق الوقوع ولو لم يعرف، ( ويعتبر الامر محقق الوقوع متى كان وقعه محتما٢( .الوقت الذي يقع فيه\n\nEnglish:\nAn obligation is for a term if its performance or extinction depends on a future certain event. An event is considered to be certain if it must happen of necessity even if the time at which it should happen is unknown."
+    ],
+    "expected_articles": [
+      271
+    ],
+    "retrieved_article_numbers": [
+      271,
+      265,
+      268
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q07_ar",
+    "user_input": "ماذا يفعل القاضي عندما يكون المدين ملتزما بالوفاء عند المقدرة أو الميسرة؟",
+    "response": "عندما يتبين من الالتزام أن المدين لا يقوم بوفائه إلا عند المقدرة أو الميسرة، يعين القاضي ميعادًا مناسبًا لحلول الأجل، مراعيًا في ذلك موارد المدين الحالية والمستقبلة، ومقتضيًا منه عناية الرجل الحريص على الوفاء بالتزامه. (المادة 272)",
+    "reference": "إذا كان الالتزام معلقا على المقدرة أو الميسرة، جاز للقاضي أن يحدد للمدين أجلا مناسبا للوفاء.",
+    "retrieved_contexts": [
+      "Article 272\nArabic:\n، اذا تبين من الالتزام ان المدين لا يقوم بوفائه الا عند المقدرة او الميسرة مراعيا في ذلك موارد المدين، عين القاضي ميعادا مناسبا لحلول الاجل ومقتضيا منه عناية الرجل الحريص على الوفاء، الحالية والمستقبلة .بالتزامه\n\nEnglish:\nWhen it results from the obligation that the debtor shall only perform the obligation when he is able to do so or when he has the means to do so, the judge will fix a reasonable time for the term, taking into account the actual and future resources of the debtor and allowing for the diligence of a man anxious to perform his obligations.",
+      "Article 221\nArabic:\nفالقاضى، ( اذا لم يكن التعويض مقدرا فى العقد او بنص فى القانون١ ( ويشمل التعويض ما لحق الدائن من خسارة وما فاته من، هو الذى يقدره بشرط ان يكون هذا نتيجة طبيعية لعدم الوفاء بالالتزام او للتاخر، كسب ويعتبر الضرر نتيجة طبيعية اذا لم يكن فى استطاعة الدائن، فى الوفاء به .ان يتوقاه ببذل جهد معقول فلا يلتزم المد̈ين الذي لم، ( ومع ذلك اذا كان الالتزام مصدره العقد٢) يرتكب غشا او خطا جسيما الا بتعويض الضرر الذي كان يمكن توقعه .عادة وقت التعاقد\n\nEnglish:\nThe judge will fix the amount of damages, if it has not been fixed in the contract or by law. The amount of damages includes losses suffered by the creditor and profits of which he has been deprived, provided that they are the normal result of the failure to perform the obligation or of delay in such performance. These losses shall be considered to be a normal result, if the creditor is not able to avoid them by making a reasonable effort. When, however, the obligation arises from a contract, a debtor who has not been guilty of fraud or gross negligence will not be held liable for damages greater than those which could have normally been foreseen at the time of entering into the contract.",
+      "Article 346\nArabic:\n، ( يجب ان يتم الوفاء فورا بمجرد ترتب الالتزام نهائيا في ذمة المدين١) . ما لم يوجد اتفاق او نص يقضي بغير ذلك اذا لم يمنعه نص في، ( على انه يجوز للقاضي في حالات استثنائية٢) اذا، ان ينظر المدين الى اجل معقول او اجال ينفذ فيها التزامه، القانون .استدعت حالته ذلك ولم يلحق الدائن من هذا التاجيل ضرر جسيم\n\nEnglish:\nIn the absence of an agreement or of a provision of the law to the contrary, payment must be made as soon as the obligation has been definitely created as a liability of the debtor. The judge may in exceptional cases and in the absence of a provision of the law to the contrary, grant to the debtor, when his position so requires, one or more reasonable delays for the performance of his obligation, provided that no serious prejudice is thereby caused to the creditor."
+    ],
+    "reference_contexts": [
+      "Article 272\nArabic:\n، اذا تبين من الالتزام ان المدين لا يقوم بوفائه الا عند المقدرة او الميسرة مراعيا في ذلك موارد المدين، عين القاضي ميعادا مناسبا لحلول الاجل ومقتضيا منه عناية الرجل الحريص على الوفاء، الحالية والمستقبلة .بالتزامه\n\nEnglish:\nWhen it results from the obligation that the debtor shall only perform the obligation when he is able to do so or when he has the means to do so, the judge will fix a reasonable time for the term, taking into account the actual and future resources of the debtor and allowing for the diligence of a man anxious to perform his obligations."
+    ],
+    "expected_articles": [
+      272
+    ],
+    "retrieved_article_numbers": [
+      272,
+      221,
+      346
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q07_en",
+    "user_input": "What does the judge do when a debtor is required to perform only when able or when he has the means to do so?",
+    "response": "When a debtor is required to perform an obligation only when able or when he has the means to do so, the judge will fix a reasonable time for the term, taking into account the debtor's actual and future resources and allowing for the diligence of a man anxious to perform his obligations. (Article 272)",
+    "reference": "The judge may grant the debtor a reasonable period for performance when the obligation is payable upon ability or means.",
+    "retrieved_contexts": [
+      "Article 272\nArabic:\n، اذا تبين من الالتزام ان المدين لا يقوم بوفائه الا عند المقدرة او الميسرة مراعيا في ذلك موارد المدين، عين القاضي ميعادا مناسبا لحلول الاجل ومقتضيا منه عناية الرجل الحريص على الوفاء، الحالية والمستقبلة .بالتزامه\n\nEnglish:\nWhen it results from the obligation that the debtor shall only perform the obligation when he is able to do so or when he has the means to do so, the judge will fix a reasonable time for the term, taking into account the actual and future resources of the debtor and allowing for the diligence of a man anxious to perform his obligations.",
+      "Article 213\nArabic:\n( اذا كان تنفيذ الالتزام عينا غير ممكن او غير مالئم الا اذا قام به١ ( جاز للدائن ان يحصل على حكم بالزام المدين بهذا التنفيذ، المدين نفسه .وبدفع غرامة تهديدية ان امتنع عن ذلك ( واذا راى القاضى ان مقدار الغرامة ليس كافيا الكراه المدين الممتنع٢ ( .عن التنفيذ جاز له ان يزيد فى الغرامة كلما راى داعيا للزيادة\n\nEnglish:\nWhen the specific performance of an obligation is impossible or not practicable, unless performed by the debtor himself, the creditor may obtain a judgment ordering the debtor to perform the obligation, and to pay a penalty if he abstains from performing his obligation. If the judge finds that the amount of the penalty is insufficient to make the debtor perform his obligation, he may increase the penalty each time that he considers that is desirable to do so.",
+      "Article 214\nArabic:\nاذا تم التنفيذ العينى او اصر المدين على رفض التنفيذ حدد القاضى مقدار التعويض الذى يلزم به المدين مراعيا فى ذلك الضرر الذى اصاب الدائن .والعنت الذى بدا من المدين\n\nEnglish:\nAfter specific performance has been carried out or when a debtor has persisted in his refusal to perform the obligation, the judge shall fix the amount of damages that the debtor shall pay, taking into account the prejudice suffered by the creditor and the unjustifiable attitude of the debtor."
+    ],
+    "reference_contexts": [
+      "Article 272\nArabic:\n، اذا تبين من الالتزام ان المدين لا يقوم بوفائه الا عند المقدرة او الميسرة مراعيا في ذلك موارد المدين، عين القاضي ميعادا مناسبا لحلول الاجل ومقتضيا منه عناية الرجل الحريص على الوفاء، الحالية والمستقبلة .بالتزامه\n\nEnglish:\nWhen it results from the obligation that the debtor shall only perform the obligation when he is able to do so or when he has the means to do so, the judge will fix a reasonable time for the term, taking into account the actual and future resources of the debtor and allowing for the diligence of a man anxious to perform his obligations."
+    ],
+    "expected_articles": [
+      272
+    ],
+    "retrieved_article_numbers": [
+      272,
+      213,
+      214
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q08_ar",
+    "user_input": "ما الحقوق التي يقررها القانون للمقاولين والمهندسين المعماريين عن أعمال تشييد أو إصلاح العقارات؟",
+    "response": "يقرر القانون للمقاولين والمهندسين المعماريين الحقوق التالية:\n1.  امتياز على الأبنية أو المنشآت الأخرى التي عهد إليهم بتشييدها أو إعادة تشييدها أو ترميمها أو صيانتها، وذلك بقدر ما يكون زائداً في قيمة العقار بسبب هذه الأعمال وقت بيعه، وتكون مرتبته من وقت القيد (المادة 1148).\n2.  يستحق المهندس المعماري أجراً مستقلاً عن وضع التصميم وعمل المقايسة وآخر عن إدارة الأعمال. وإذا لم يحدد العقد هذه الأجور، وجب تقديرها وفقاً للعرف الجاري. وإذا لم يتم العمل بمقتضى التصميم، وجب تقدير الأجر بحسب الزمن الذي استغرقه وضع التصميم مع مراعاة طبيعة هذا العمل (المادة 660).",
+    "reference": "يقرر القانون للمقاولين والمهندسين المعماريين الذين قاموا بأعمال تشييد أو إصلاح العقارات حقوقا وضمانات خاصة بالنسبة إلى مستحقاتهم وفقا للشروط التي يحددها القانون.",
+    "retrieved_contexts": [
+      "Article 1148\nArabic:\n( المبالغ المستحقة للمقاولين والمهندسين المعماريين الذين عهد اليهم فى١) تشييد ابنية او منشات اخرى او فى اعادة تشييدها او فى ترميمها او فى ولكن بقدر ما يكون زائدا، يكون لها امتياز على هذه المنشات، صيانتها .بسبب هذه الاعمال فى قيمة العقار وقت بيعه . وتكون مرتبته من وقت القيد، ( ويجب ان يقيد هذا الامتياز٢ )\n\nEnglish:\nSums due to contractors and architects who have been entrusted with the erection, reconstruction, repair or maintenance of buildings or other works, have a privilege over such works but only in respect of the increase in value resulting from such works as at the time of alienation of the immovable. Such a privilege must be inscribed: its rank is fixed by the date of its inscription.",
+      "Article 651\nArabic:\n( يضمن المهندس المعماري والمقاول متضامنين ما يحدث خالل عشر١) سنوات من دم كلى او جزئي فيما شيدوه من مبان او اقاموه من منشات او، ثابتة اخرى وذلك ولو كان التهدم ناشئا عن عيب فى الارض ذاتها ما لم يكن المتعاقدان فى هذه، كان ر العمل قد اجاز اقامة المنشات المعيبة .الحالة قد ارادا ان تبقى هذه المنشات مدة اقل من عشر سنوات ( ويشمل الضمان المنصوص عليه فى الفقرة السابقة ما يوجد فى٢ ) .المباني والمنشات من عيوب يترتب عليها تهديد متانة البناء وسالمته ( وتبدا مدة السنوات العشر من وقت تسلم العمل ولا تسرى هذه المادة٣ ) .على ما قد يكون للمقاول من حق الرجوع على المقاولين من الباطن\n\nEnglish:\nThe architect and contractor are jointly and severally responsible for a period of ten years for the total or partial demolition of constructions or other permanent works erected by them, even if such destruction is due to a defect in the ground itself, and even if the master authorized the erection of the defective construction, unless, in this case, the constructions were intended by the parties to last for less than ten years. The warranty imposed by the preceding paragraph extends to defects in constructions and erections which endanger the solidity and security of the works. The period of ten years runs from the date of delivery of the works. This article does not apply to the rights of action which a contractor may have against his subcontractor.",
+      "Article 660\nArabic:\n( يستحق المهندس المعماري اجرا مستقال عن وضع التصميم وعمل١ ) .المقايسة واخر عن ادارة الاعمال .( فان لم يحدد العقد هذه الاجور وجب تقديرها وفقا للعرف الجاري٢ ) ، ( غير انه اذا لم يتم العمل بمقتضى التصميم الذى وضعه المهندس٣ ) وجب تقدير الاجر بحسب الزمن الذى استغرقه وضع التصميم مع مراعاة .طبيعة هذا العمل المقاولة من الباطن\n\nEnglish:\nAn architect is entitled to a separate fee for the preparation of the plans and specifications and another for the supervision of the work. If the fees are not specified in the contract they shall be fixed according to prevailing custom. If, however, the work is not completed in conformity with the plans prepared by the architect, the fee shall be assessed on the basis of the time taken in their preparation, taking into consideration the nature of the work. Sub-contracts"
+    ],
+    "reference_contexts": [
+      "Article 1148\nArabic:\n( المبالغ المستحقة للمقاولين والمهندسين المعماريين الذين عهد اليهم فى١) تشييد ابنية او منشات اخرى او فى اعادة تشييدها او فى ترميمها او فى ولكن بقدر ما يكون زائدا، يكون لها امتياز على هذه المنشات، صيانتها .بسبب هذه الاعمال فى قيمة العقار وقت بيعه . وتكون مرتبته من وقت القيد، ( ويجب ان يقيد هذا الامتياز٢ )\n\nEnglish:\nSums due to contractors and architects who have been entrusted with the erection, reconstruction, repair or maintenance of buildings or other works, have a privilege over such works but only in respect of the increase in value resulting from such works as at the time of alienation of the immovable. Such a privilege must be inscribed: its rank is fixed by the date of its inscription."
+    ],
+    "expected_articles": [
+      1148
+    ],
+    "retrieved_article_numbers": [
+      1148,
+      651,
+      660
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q08_en",
+    "user_input": "What rights does the law grant to contractors and architects for construction or repair work on buildings?",
+    "response": "The law grants contractors and architects a privilege over buildings or other works for sums due to them for erection, reconstruction, repair, or maintenance. This privilege applies only to the increase in value resulting from their work at the time of alienation of the immovable, must be inscribed, and its rank is fixed by the date of inscription. (Article 1148)",
+    "reference": "The law grants contractors and architects who perform construction or repair work on buildings specific rights and security for their claims, subject to the conditions established by law.",
+    "retrieved_contexts": [
+      "Article 1148\nArabic:\n( المبالغ المستحقة للمقاولين والمهندسين المعماريين الذين عهد اليهم فى١) تشييد ابنية او منشات اخرى او فى اعادة تشييدها او فى ترميمها او فى ولكن بقدر ما يكون زائدا، يكون لها امتياز على هذه المنشات، صيانتها .بسبب هذه الاعمال فى قيمة العقار وقت بيعه . وتكون مرتبته من وقت القيد، ( ويجب ان يقيد هذا الامتياز٢ )\n\nEnglish:\nSums due to contractors and architects who have been entrusted with the erection, reconstruction, repair or maintenance of buildings or other works, have a privilege over such works but only in respect of the increase in value resulting from such works as at the time of alienation of the immovable. Such a privilege must be inscribed: its rank is fixed by the date of its inscription.",
+      "Article 651\nArabic:\n( يضمن المهندس المعماري والمقاول متضامنين ما يحدث خالل عشر١) سنوات من دم كلى او جزئي فيما شيدوه من مبان او اقاموه من منشات او، ثابتة اخرى وذلك ولو كان التهدم ناشئا عن عيب فى الارض ذاتها ما لم يكن المتعاقدان فى هذه، كان ر العمل قد اجاز اقامة المنشات المعيبة .الحالة قد ارادا ان تبقى هذه المنشات مدة اقل من عشر سنوات ( ويشمل الضمان المنصوص عليه فى الفقرة السابقة ما يوجد فى٢ ) .المباني والمنشات من عيوب يترتب عليها تهديد متانة البناء وسالمته ( وتبدا مدة السنوات العشر من وقت تسلم العمل ولا تسرى هذه المادة٣ ) .على ما قد يكون للمقاول من حق الرجوع على المقاولين من الباطن\n\nEnglish:\nThe architect and contractor are jointly and severally responsible for a period of ten years for the total or partial demolition of constructions or other permanent works erected by them, even if such destruction is due to a defect in the ground itself, and even if the master authorized the erection of the defective construction, unless, in this case, the constructions were intended by the parties to last for less than ten years. The warranty imposed by the preceding paragraph extends to defects in constructions and erections which endanger the solidity and security of the works. The period of ten years runs from the date of delivery of the works. This article does not apply to the rights of action which a contractor may have against his subcontractor.",
+      "Article 653\nArabic:\nيكون باطال كل شرط يقصد به اعفاء المهندس المعماري والمعمارى .والمقاول من الضمان او الحد منه\n\nEnglish:\nAny clause tending to exclude or restrict the warranty of the architect and the contractor is void."
+    ],
+    "reference_contexts": [
+      "Article 1148\nArabic:\n( المبالغ المستحقة للمقاولين والمهندسين المعماريين الذين عهد اليهم فى١) تشييد ابنية او منشات اخرى او فى اعادة تشييدها او فى ترميمها او فى ولكن بقدر ما يكون زائدا، يكون لها امتياز على هذه المنشات، صيانتها .بسبب هذه الاعمال فى قيمة العقار وقت بيعه . وتكون مرتبته من وقت القيد، ( ويجب ان يقيد هذا الامتياز٢ )\n\nEnglish:\nSums due to contractors and architects who have been entrusted with the erection, reconstruction, repair or maintenance of buildings or other works, have a privilege over such works but only in respect of the increase in value resulting from such works as at the time of alienation of the immovable. Such a privilege must be inscribed: its rank is fixed by the date of its inscription."
+    ],
+    "expected_articles": [
+      1148
+    ],
+    "retrieved_article_numbers": [
+      1148,
+      651,
+      653
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q09_ar",
+    "user_input": "ما حق الشركاء الذين اقتسموا عقارا في الرجوع على بعضهم البعض؟",
+    "response": "للشركاء الذين اقتسموا عقاراً حق في الرجوع على بعضهم البعض، بما في ذلك حق المطالبة بمعدل، ويكون لهم حق امتياز على العقار تاميناً لذلك (المادة 1149).\n\nكما يضمن المتقاسمون بعضهم لبعض ما قد يقع من تعوض أو استحقاق لسبب سابق على القسمة، ويكون كل منهم بنسبة حصته أن يعوض مستحق الضمان. وإذا كان أحد المتقاسمين معسراً، وزع القدر الذي يلزمه على مستحق الضمان وجميع المتقاسمين غير المعسرين. ولا محل للضمان إذا كان هناك اتفاق صريح يقضي بالإعفاء منه، أو إذا كان الاستحقاق راجعاً إلى خطأ المتقاسم نفسه (المادة 844).",
+    "reference": "للشركاء الذين اقتسموا عقارا الحقوق التي يقررها القانون فيما بينهم بالنسبة إلى الضمان والرجوع بعد القسمة، وفقا للأحكام المنظمة لذلك.",
+    "retrieved_contexts": [
+      "Article 1149\nArabic:\nحق امتياز عليه تامينا لما تخوله القسمة من، للشركاء الذين اقتسموا عقارا حق في رجوع كل منهم على الاخرين بما فى ذلك حق المطالبة بمعدل وتكون مرتبته من وقت القيد، ويجب ان يقيد هذا الامتياز. القسمة\n\nEnglish:\nCo-owners who have partitioned an immovable have a privilege over this immovable in respect of their respective remedies against each other resulting from the partition, including the right to claim payment of any difference reverting to them in the partition. This privilege must be inscribed: its rank is fixed by the date of its inscription",
+      "Article 829\nArabic:\nان يقرروا، ( للشركاء الذين يملكون على الاقل ثالثة ارباع المال الشائع١) فى سبيل تحسين الانتفاع بهذا المال من التغييرات الاساسية والتعديل فى، على ان يعلنوا، الغرض الذى اعد له ما يخرج عن حدود الادارة المعتادة ولمن خالف من هؤالء حق الرجوع الى. قرارا م الى باقي الشركاء .المحكمة خالل شهرين من وقت الاعالن ان، ( وللمحكمة عند الرجوع اليها اذا وافقت على قرار تلك الاغلبية٢ ) ولها بوجه خاص ان تامر. تقرر مع هذا ما تراه مناسبا من التدابير باعطاء المخالف من الشركاء كفالة تضمن الوفاء بما قد يستحق من .التعويضات\n\nEnglish:\nCo-owners who possess at least three quarters of the property held in common may decide, with a view to obtaining greater enjoyment of the property, to make essential modifications or changes, in the use for which the property was intended, which exceed the normal scope of management, provided that these decisions are notified to the other co-owners. Dissenting co-owners have a right of action in the Courts within two months from the date of notification. The Court before which such an action is brought may, if it approves the decision taken by the majority, also order measures of expediency. The Court may in particular, order that security be given to the dissenting co-owners so as to guarantee any compensation that may become due to him.",
+      "Article 844\nArabic:\n( يضمن المتقاسمون بعضهم لبعض ما قد يقع من تعوض او استحقاق١) ويكون كل منهم بنسبة حصته ان يعوض، لسبب سابق على القسمة على ان تكون العبرة فى تقدير الشيء بقيمته وقت، مستحق الضمان وزع القدر الذى يلزمه على، فاذا كان احد المتقاسمين معسرا. القسمة .مستحق الضمان وجميع المتقاسمين غير المعسرين ( غير انه لا مح للضمان اذا كان هناك اتفاق صريح يقضى بالاعفاء٢ ) ويمتنع الضمان ايضا اذا كان، منه فى الحالة الخاصة التى نشا عنها .الاستحقاق راجعا الى خطا المتقاسم نفسه\n\nEnglish:\nThe co-partitioners warrant each other against other interference or eviction due to a cause that existed previous to the partition. Each one of them is liable, in proportion to his share, to indemnify a copartitioner entitled to such indemnity, on the basis of the value of the property at the moment of partition. If one of the co- partitioners happens to be insolvent, the share falling on him will be borne by the co-partitioner entitled to the indemnity all the solvent co-partitioners. No such warranty, however, exists when there is an express agreement waiving the warranty in the particular case which would have given rise to the warranty. The warranty also ceases to be binding if the eviction is due to a fault of the co-partitioner himself."
+    ],
+    "reference_contexts": [
+      "Article 1149\nArabic:\nحق امتياز عليه تامينا لما تخوله القسمة من، للشركاء الذين اقتسموا عقارا حق في رجوع كل منهم على الاخرين بما فى ذلك حق المطالبة بمعدل وتكون مرتبته من وقت القيد، ويجب ان يقيد هذا الامتياز. القسمة\n\nEnglish:\nCo-owners who have partitioned an immovable have a privilege over this immovable in respect of their respective remedies against each other resulting from the partition, including the right to claim payment of any difference reverting to them in the partition. This privilege must be inscribed: its rank is fixed by the date of its inscription"
+    ],
+    "expected_articles": [
+      1149
+    ],
+    "retrieved_article_numbers": [
+      1149,
+      829,
+      844
+    ],
+    "generation_provider": null,
+    "generation_model": null
+  },
+  {
+    "id": "q09_en",
+    "user_input": "What rights do co-owners who have partitioned an immovable have against each other?",
+    "response": "Co-owners who have partitioned an immovable have a **privilege** over the immovable regarding their respective remedies against each other resulting from the partition. This includes the right to claim payment of any difference reverting to them in the partition. This privilege must be inscribed, and its rank is fixed by the date of its inscription.\n\n**Citation:** Article 1149",
+    "reference": "Co-owners who have partitioned an immovable have the rights of recourse and warranty against one another provided by law following the partition.",
+    "retrieved_contexts": [
+      "Article 1149\nArabic:\nحق امتياز عليه تامينا لما تخوله القسمة من، للشركاء الذين اقتسموا عقارا حق في رجوع كل منهم على الاخرين بما فى ذلك حق المطالبة بمعدل وتكون مرتبته من وقت القيد، ويجب ان يقيد هذا الامتياز. القسمة\n\nEnglish:\nCo-owners who have partitioned an immovable have a privilege over this immovable in respect of their respective remedies against each other resulting from the partition, including the right to claim payment of any difference reverting to them in the partition. This privilege must be inscribed: its rank is fixed by the date of its inscription",
+      "Article 1146\nArabic:\nحق امتياز عليه تامينا لحق كل منهم، ( للشركاء الذين اقتسموا منقوال١) وفى استيفاء ما تقرر لهم فيها من، فى الرجوع على الاخرين بسبب القسمة .معدل ( وتكون المتياز المتقاسم نفس المرتبة التى المتياز البائع فاذا تزاحم٢ ) .الحقان قدم الاسبق فى التاريخ حقوق الامتياز الخاصة الواقعة على عقار-٢\n\nEnglish:\nCo-owners who have partitioned a movable have a privilege over this movable in respect of their respective remedies against each other resulting from partition, and for repayment of any difference reverting to them in the partition. The privilege of a co-partitioner has the same rank as a vendor's privilege. Should the movable in question be subject to both rights, the first in date will have priority. 2- Special Privileges over Immovables",
+      "Article 833\nArabic:\n( للشريك فى المنقول الشائع او فى المجموع من المال ان يسترد قبل١) ، القسمة الحصة الشائعة التى باعها شريك غيره الجنبي بطريق الممارسة ، وذلك خالل ثالثين يوما من تاريخ علمه بالبيع او من تاريخ اعالنه به ويتم الاسترداد باعالن يوجه الى كل من البائع والمشترى ويحل المسترد .محل المشترى فى جميع حقوقه والتزاماته اذا هو عوضه عن كل ما انفقه .( واذا تعدد المستردون فلكل منهم ان يسترد بنسبة حصته٢ ) انقضاء الشيوع بالقسمة\n\nEnglish:\nA co-owner of a movable or of a property consisting of movables and immovables may, before partition, repurchase any undivided share which has been sold by another co-owner to a third person. Such repurchase must be made within a delay of thirty days from the day on which he had knowledge of the sale or from the day on which the sale was notified to him. The right of repurchase is exercised by means of a summons notified to both the vendor and the purchaser. The co-owner who has repurchased the share sold will be subrogated into all the rights and obligations of the purchaser if he compensates him for all that he has spent. If several co-owners exercise their right to repurchase, each of them shall have the right to repurchase a part proportional to his share. The Cessation of Joint Ownership by Partition"
+    ],
+    "reference_contexts": [
+      "Article 1149\nArabic:\nحق امتياز عليه تامينا لما تخوله القسمة من، للشركاء الذين اقتسموا عقارا حق في رجوع كل منهم على الاخرين بما فى ذلك حق المطالبة بمعدل وتكون مرتبته من وقت القيد، ويجب ان يقيد هذا الامتياز. القسمة\n\nEnglish:\nCo-owners who have partitioned an immovable have a privilege over this immovable in respect of their respective remedies against each other resulting from the partition, including the right to claim payment of any difference reverting to them in the partition. This privilege must be inscribed: its rank is fixed by the date of its inscription"
+    ],
+    "expected_articles": [
+      1149
+    ],
+    "retrieved_article_numbers": [
+      1149,
+      1146,
+      833
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q10_ar",
+    "user_input": "كيف يمكن اكتساب حق الانتفاع؟",
+    "response": "يُكتسب حق الانتفاع بعمل قانوني أو بالتقادم، وذلك وفقاً للمادة 985 من القانون المدني المصري.",
+    "reference": "يكسب حق الانتفاع بالتصرف القانوني أو بالشفعة أو بالتقادم وفقا للأحوال التي يقررها القانون.",
+    "retrieved_contexts": [
+      "Article 985\nArabic:\n.( حق الانتفاع بكسب بعمل قانونى او بالتقادم١) ( ويجوز ان يوصى بحق الانتفاع الشخاص متعاقبين اذا كانوا٢ ) . كما يجوز للحمل المستكن، موجودين على قيد الحياة وقت الوصية\n\nEnglish:\nThe right of usufruct may be acquired by a legal disposition, by preemption or prescription. Usufruct may be bequeathed by will to successive persons if they are alive at the moment of the bequest; it may also be bequeathed to a child .",
+      "Article 1016\nArabic:\n.( حق الارتفاق يكسب بعمل قانوني او بالميراث١) .( ولا يكسب بالتقادم الا الارتفاقات الظاهرة بما فيها حق المرور٢ )\n\nEnglish:\nThe right to a servitude is acquired by a legal disposition or by inheritance. Only apparent servitudes, including rights of way, can be acquired by prescription.",
+      "Article 993\nArabic:\nفان لم يعين له اجل عد، ( ينتهي حق الانتفاع بانقضاء الاجل المعين١) وهو ينتهي على اى حال بموت المنتفع حتى قبل، مقررا لحياة المنتفع .انقضاء الاجل المعين ( واذا كانت الارض المنتفع بها مشغولة عند انقضاء الاجل او موت٢ ) تركت الارض للمنتفع او لورثته الى حين ادراك، المنتفع بزرع قائم . على ان يدفعوا اجرة الارض عن هذه الفترة من الزمن، الزرع\n\nEnglish:\nThe usufruct terminates at the end of the time for which it was fixed. If no time is fixed, it is deemed to have been created for the lifetime of the usufructuary. It ceases in any case upon the death of the usufructuary even before the end of the fixed time. When there are standing crops on the land which is subject to the usufruct, at the end of the time fixed for the usufruct or upon the death of the usufructuary, such land shall be left in possession of the usufructuary or of his heirs until the crops are ripe for harvesting, but the usufructuary or his heir shall pay rent for that period."
+    ],
+    "reference_contexts": [
+      "Article 985\nArabic:\n.( حق الانتفاع بكسب بعمل قانونى او بالتقادم١) ( ويجوز ان يوصى بحق الانتفاع الشخاص متعاقبين اذا كانوا٢ ) . كما يجوز للحمل المستكن، موجودين على قيد الحياة وقت الوصية\n\nEnglish:\nThe right of usufruct may be acquired by a legal disposition, by preemption or prescription. Usufruct may be bequeathed by will to successive persons if they are alive at the moment of the bequest; it may also be bequeathed to a child ."
+    ],
+    "expected_articles": [
+      985
+    ],
+    "retrieved_article_numbers": [
+      985,
+      1016,
+      993
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q10_en",
+    "user_input": "How may the right of usufruct be acquired?",
+    "response": "The right of usufruct may be acquired by a legal disposition, by preemption, or by prescription.\n\n**Citation:** Article 985",
+    "reference": "The right of usufruct may be acquired by legal disposition or by prescription in accordance with the cases established by law.",
+    "retrieved_contexts": [
+      "Article 985\nArabic:\n.( حق الانتفاع بكسب بعمل قانونى او بالتقادم١) ( ويجوز ان يوصى بحق الانتفاع الشخاص متعاقبين اذا كانوا٢ ) . كما يجوز للحمل المستكن، موجودين على قيد الحياة وقت الوصية\n\nEnglish:\nThe right of usufruct may be acquired by a legal disposition, by preemption or prescription. Usufruct may be bequeathed by will to successive persons if they are alive at the moment of the bequest; it may also be bequeathed to a child .",
+      "Article 994\nArabic:\nالا انه ينتقل من هذا الشيء الى ما، ( ينتهي حق الانتفاع بهالك الشيء١) .قد يقوم مقامه من عوض فلا يجبر على اعادة، ( واذا لم يكن الهالك راجعا الى خطا المالك٢ ) الشيء الصله ولكنه اذا اعاده رجع للمنتفع حق الانتفاع اذا لم يكن الهالك . الفقرة الثانية٩٨٩ وفى هذه الحالة تطبق المادة، بسببه\n\nEnglish:\nUsufruct is extinguished by the loss of the property, but the usufruct is transmitted to any property obtained in lieu of the property destroyed. If the loss is not due to the fault of the owner, he is not bound to restore the property to its original condition, but if he restores the property, the usufruct is re-created in favor of the usufructuary if the loss was not imputable to him; in such a case paragraph 2 of Article 989 applies.",
+      "Article 988\nArabic:\n( على المنتفع ان يستعمل الشيء بحالته التى تسلمه بها ويحسب ما اعد١) .له وان يديره ادارة حسنه ( للمالك ان يعترض على اى استعمال غير مشروع او غير متفق مع٢ ) فاذا اثبت ان حقوقه فى خطر جاز له ان يطالب بتقديم، طبيعة الشيء فان لم يقدمها المنتفع او ظل على الرغم من اعتراض المالك، تامينات فللقاضي. يستعمل العين استعمالا غير مشروع او غير متفق مع طبيعتها بل له، ان يترع هذه العين من تحت يده وان يسلمها الى اخر يتولى ادارتها .تبعا لخطورة الحال ان يحكم بانتهاء حق الانتفاع دون اخالل بحقوق الغير\n\nEnglish:\nThe usufructuary must use the property in the state in which he has received if and according to the object for which it was intended; he must observe the rules of good management. The owner may object to any use of the property that is unlawful or unsuitable to the nature of the property. If the owner proves that his right s are endangered, he may demand security and if the usufructuary does not provide such security or if, in spite of the objections of the owner, he continues to use the property unlawfully or in a manner unsuitable to its nature, the Judge may take the property from him and entrust it to a third party for its management; the Judge may also, in circumstances of a serious nature, declare the usufruct extinguished, without prejudice to the rights of third parties."
+    ],
+    "reference_contexts": [
+      "Article 985\nArabic:\n.( حق الانتفاع بكسب بعمل قانونى او بالتقادم١) ( ويجوز ان يوصى بحق الانتفاع الشخاص متعاقبين اذا كانوا٢ ) . كما يجوز للحمل المستكن، موجودين على قيد الحياة وقت الوصية\n\nEnglish:\nThe right of usufruct may be acquired by a legal disposition, by preemption or prescription. Usufruct may be bequeathed by will to successive persons if they are alive at the moment of the bequest; it may also be bequeathed to a child ."
+    ],
+    "expected_articles": [
+      985
+    ],
+    "retrieved_article_numbers": [
+      985,
+      994,
+      988
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q11_ar",
+    "user_input": "متى يجوز للقاضي أن ينقص مقدار التعويض أو لا يحكم بتعويض؟",
+    "response": "يجوز للقاضي أن ينقص مقدار التعويض أو لا يحكم بتعويض في الحالات التالية:\n\n1. **إذا كان الدائن بخطئه قد اشترك في إحداث الضرر أو زاد فيه** (المادة 216).\n2. **إذا أثبت المدين أن التقدير المتفق عليه كان مبالغاً فيه إلى درجة كبيرة**، أو أن الالتزام الأصلي قد نُفذ في جزء منه (المادة 224).",
+    "reference": "يجوز للقاضي أن ينقص مقدار التعويض أو ألا يحكم بتعويض إذا كان الدائن بخطئه قد اشترك في إحداث الضرر أو زاد فيه.",
+    "retrieved_contexts": [
+      "Article 216\nArabic:\nيجوز للقاضى ان ينقص مقدار التعويض او الا يحكم بتعويض ما اذا كان .الدائن بخطئه قد اشترك فى احداث الضرر او زاد فيه\n\nEnglish:\nThe judge may reduce the amount of damages or may even refuse to allow damages if the creditor, by his own fault, has contributed to the cause of, or increased, the loss.",
+      "Article 224\nArabic:\n( لا يكون التعويض الاتفاقى مستحقا اذا اثبت المدين ان الدائن لم يلحقه١( .اي ضرر ( ويجوز للقاضي ان يخفض هذا التعويض اذا اثبت المدين ان التقدير٢( او ان الالتزام الاصلي قد نفذ في جزء،كان مبالغا فيه الى درجة كبيرة .منه .( ويقع باطال كل اتفاق يخالف الفقرتين السابقتين٣(\n\nEnglish:\nDamages fixed by agreement are not due, if the debtor establishes that the creditor has not suffered any loss. The judge may reduce the amount of these damages, if the debtor establishes that the amount fixed was grossly exaggerated or that the principal obligation has been partially performed. Any agreement contrary to the provisions of the two preceding paragraphs is void.",
+      "Article 221\nArabic:\nفالقاضى، ( اذا لم يكن التعويض مقدرا فى العقد او بنص فى القانون١ ( ويشمل التعويض ما لحق الدائن من خسارة وما فاته من، هو الذى يقدره بشرط ان يكون هذا نتيجة طبيعية لعدم الوفاء بالالتزام او للتاخر، كسب ويعتبر الضرر نتيجة طبيعية اذا لم يكن فى استطاعة الدائن، فى الوفاء به .ان يتوقاه ببذل جهد معقول فلا يلتزم المد̈ين الذي لم، ( ومع ذلك اذا كان الالتزام مصدره العقد٢) يرتكب غشا او خطا جسيما الا بتعويض الضرر الذي كان يمكن توقعه .عادة وقت التعاقد\n\nEnglish:\nThe judge will fix the amount of damages, if it has not been fixed in the contract or by law. The amount of damages includes losses suffered by the creditor and profits of which he has been deprived, provided that they are the normal result of the failure to perform the obligation or of delay in such performance. These losses shall be considered to be a normal result, if the creditor is not able to avoid them by making a reasonable effort. When, however, the obligation arises from a contract, a debtor who has not been guilty of fraud or gross negligence will not be held liable for damages greater than those which could have normally been foreseen at the time of entering into the contract."
+    ],
+    "reference_contexts": [
+      "Article 216\nArabic:\nيجوز للقاضى ان ينقص مقدار التعويض او الا يحكم بتعويض ما اذا كان .الدائن بخطئه قد اشترك فى احداث الضرر او زاد فيه\n\nEnglish:\nThe judge may reduce the amount of damages or may even refuse to allow damages if the creditor, by his own fault, has contributed to the cause of, or increased, the loss."
+    ],
+    "expected_articles": [
+      216
+    ],
+    "retrieved_article_numbers": [
+      216,
+      224,
+      221
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q11_en",
+    "user_input": "When may the judge reduce or refuse to award damages?",
+    "response": "The judge may reduce or refuse to award damages in the following circumstances:\n\n1.  **Contributory Fault:** If the creditor, by their own fault, contributed to the cause of the loss or increased it (Article 216).\n2.  **Agreed Damages:** If the debtor establishes that the creditor suffered no loss, or that the agreed amount was grossly exaggerated, or that the principal obligation was partially performed (Article 224).\n3.  **Bad Faith Litigation:** If the creditor, in bad faith, unjustifiably prolonged the litigation, the judge may reduce or refuse to allow interest for the period of unjustified prolongation (Article 229).",
+    "reference": "The judge may reduce the amount of damages or refuse to allow damages if the creditor, by his own fault, contributed to causing the loss or increased it.",
+    "retrieved_contexts": [
+      "Article 216\nArabic:\nيجوز للقاضى ان ينقص مقدار التعويض او الا يحكم بتعويض ما اذا كان .الدائن بخطئه قد اشترك فى احداث الضرر او زاد فيه\n\nEnglish:\nThe judge may reduce the amount of damages or may even refuse to allow damages if the creditor, by his own fault, has contributed to the cause of, or increased, the loss.",
+      "Article 224\nArabic:\n( لا يكون التعويض الاتفاقى مستحقا اذا اثبت المدين ان الدائن لم يلحقه١( .اي ضرر ( ويجوز للقاضي ان يخفض هذا التعويض اذا اثبت المدين ان التقدير٢( او ان الالتزام الاصلي قد نفذ في جزء،كان مبالغا فيه الى درجة كبيرة .منه .( ويقع باطال كل اتفاق يخالف الفقرتين السابقتين٣(\n\nEnglish:\nDamages fixed by agreement are not due, if the debtor establishes that the creditor has not suffered any loss. The judge may reduce the amount of these damages, if the debtor establishes that the amount fixed was grossly exaggerated or that the principal obligation has been partially performed. Any agreement contrary to the provisions of the two preceding paragraphs is void.",
+      "Article 229\nArabic:\nفي اطالة امد التراع فللقاضي،اذا تسبب الدائن بسوء نيته وهو يطالب بحقه ان يخفض الفوائد قانونية كانت او اتفاقية او لا يقضى بها اطالق عن المدة .التي فيها التراع بال مبرر\n\nEnglish:\nIf a creditor, whilst claiming his rights, has in bad faith prolonged the duration of the litigation, the judge may reduce the legal or contractual interest or may refuse to allow interest for the whole of the period during which the litigation has been unjustifiably prolonged."
+    ],
+    "reference_contexts": [
+      "Article 216\nArabic:\nيجوز للقاضى ان ينقص مقدار التعويض او الا يحكم بتعويض ما اذا كان .الدائن بخطئه قد اشترك فى احداث الضرر او زاد فيه\n\nEnglish:\nThe judge may reduce the amount of damages or may even refuse to allow damages if the creditor, by his own fault, has contributed to the cause of, or increased, the loss."
+    ],
+    "expected_articles": [
+      216
+    ],
+    "retrieved_article_numbers": [
+      216,
+      224,
+      229
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q12_ar",
+    "user_input": "ماذا يجوز لمن له مصلحة أن يفعل إذا كان العقد باطلا؟",
+    "response": "إذا كان العقد باطلاً، يجوز لمن له مصلحة أن يطلب **إبطال العقد**.\n\n(ملاحظة: النص المقدم لا يحدد صراحةً \"لمن له مصلحة\" بل يركز على آثار الإبطال في المادة 142، لكن المادة 129 تشير صراحةً إلى حق \"المتعاقد المغبون\" في طلب الإبطال بناءً على طلبه، مما يؤكد أن صاحب المصلحة هو من يرفع الدعوى).\n\n**المواد ذات الصلة:**\n*   **المادة 142**: تنص على أن المتعاقدين يعادان إلى الحالة التي كانا عليها قبل العقد عند الإبطال، أو يُحكم بتعويض معادل إذا تعذر ذلك.\n*   **المادة 129**: تمنح القاضي سلطة إبطال العقد بناءً على طلب المتعاقد المغبون.",
+    "reference": "إذا كان العقد باطلا، جاز لكل ذي مصلحة أن يتمسك بالبطلان، وللمحكمة أن تقضي به من تلقاء نفسها. ولا يزول البطلان بالإجازة، وتسقط دعوى البطلان بمضي خمس عشرة سنة من وقت العقد.",
+    "retrieved_contexts": [
+      "Article 142\nArabic:\n( فى حالتى ابطال العقد وبطالنه يعاد المتعاقدان الى الحالة التى كانا١ ( . فاذا كان هذا مستحيال جاز الحكم بتعويض معادل.عليها قبل العقد ان يرد. اذا ابطل العقد لنقص اهليته. ( ومع ذلك لا يلزم ناقص الاهلية٢) .غير ما عاد عليه من منفعة بسب تنفيذ العقد\n\nEnglish:\nWhen a contract is void or annulled, the parties are reinstated in their position prior to the contract. If such reinstatement is impossible, damages equivalent to the loss may be awarded. When, however, a contract concluded by a person without legal capacity is annulled by reason of his lack of capacity, he shall only be liable to refund such profits as he derived from the performance of the contract.",
+      "Article 120\nArabic:\nان كان، اذا وقع المتعاقد فى غلط جوهرى جاز له ان يطلب ابطال العقد او كان، او كان على علم به، المتعاقد الاخر قد وقع مثله فى هذا الغلط .من السهل عليه ان يتبينه\n\nEnglish:\nA party to a contract may demand the avoidance of the contract if he committed an essential mistake, if the other party committed the same mistake or had knowledge thereof, or could have easily detected the mistake.",
+      "Article 129\nArabic:\n( اذا كانت التزامات احد المتعاقدين لا تتعادل البتة مع ما حصل عليه١ ( وتبين، هذا المتعاقد من فائدة بموجب العقد او مع التزامات المتعاقد الاخر ان المتعاقد المغبون لم يبرم العقد الا الن المتعاقد الاخر قد استغل فيه طيشا جاز للقاضى بناء على طلب المتعاقد المغبون ان، بينة او هوى جامحا .يبطل العقد او ان ينقص التزامات هذا المتعاقد والا كانت، ( ويجب ان ترفع الدعوى بذلك خالل سنة من تاريخ العقد٢ ( .غير مقبولة ( ويجوز فى عقود المعاوضة ان يتوقى الطرف الاخر دعوى الابطال٣ ( . اذا عرض ما يراه القاضى كافيا لرفع الغبن،\n\nEnglish:\nIf the obligations of one of the contracting parties are out of all proportion to the advantages that he obtains from the contract or to the obligations of the other contracting party, and it is established that the party who has suffered the prejudice entered into the contract only as a result of the other party exploiting his obvious levity of character or his unbridled passion, the judge may, at the request of the party so prejudiced, annul the contract or reduce the obligations of such party. Proceedings instituted on such grounds shall be barred unless commenced within one year from the date of the contract. In a contract entered into for valuable consideration, the other party may avoid annulment proceedings by making such an offer as the judge may consider adequate compensation to cover the lesion."
+    ],
+    "reference_contexts": [
+      "Article 141\nArabic:\n، ( اذا كان العقد باطال جاز لكل ذى مصلحة ان يتمسك بالبطالن١ ( . ولا يزول البطالن بالاجازة، وللمحكمة ان تقضى به من تلقاء نفسها . ( وتسقط دعوى البطالن بمضى خمس عشرة سنه من وقت العقد٢ (\n\nEnglish:\nWhen a contract is void, its nullity may be invoked by every person having an interest in the contract and such nullity may also be ordered by the court on its own initiative. Nullity cannot disappear by ratification of the contract. Nullity proceedings are prescribed after fifteen years from the date of the conclusion of the contract."
+    ],
+    "expected_articles": [
+      141
+    ],
+    "retrieved_article_numbers": [
+      142,
+      120,
+      129
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q12_en",
+    "user_input": "What may a person with an interest do when a contract is void?",
+    "response": "When a contract is void, a person having an interest in the contract may invoke its nullity. Additionally, the court may order such nullity on its own initiative. This nullity cannot be cured by ratification of the contract.\n\n**Citation:** Article 141",
+    "reference": "When a contract is void, its nullity may be invoked by every person having an interest, and the court may order nullity on its own initiative. Nullity cannot disappear by ratification, and proceedings for nullity are prescribed after fifteen years from the date of the contract.",
+    "retrieved_contexts": [
+      "Article 141\nArabic:\n، ( اذا كان العقد باطال جاز لكل ذى مصلحة ان يتمسك بالبطالن١ ( . ولا يزول البطالن بالاجازة، وللمحكمة ان تقضى به من تلقاء نفسها . ( وتسقط دعوى البطالن بمضى خمس عشرة سنه من وقت العقد٢ (\n\nEnglish:\nWhen a contract is void, its nullity may be invoked by every person having an interest in the contract and such nullity may also be ordered by the court on its own initiative. Nullity cannot disappear by ratification of the contract. Nullity proceedings are prescribed after fifteen years from the date of the conclusion of the contract.",
+      "Article 142\nArabic:\n( فى حالتى ابطال العقد وبطالنه يعاد المتعاقدان الى الحالة التى كانا١ ( . فاذا كان هذا مستحيال جاز الحكم بتعويض معادل.عليها قبل العقد ان يرد. اذا ابطل العقد لنقص اهليته. ( ومع ذلك لا يلزم ناقص الاهلية٢) .غير ما عاد عليه من منفعة بسب تنفيذ العقد\n\nEnglish:\nWhen a contract is void or annulled, the parties are reinstated in their position prior to the contract. If such reinstatement is impossible, damages equivalent to the loss may be awarded. When, however, a contract concluded by a person without legal capacity is annulled by reason of his lack of capacity, he shall only be liable to refund such profits as he derived from the performance of the contract.",
+      "Article 136\nArabic:\nكان، او كان سببه مخالفا للنظام العام او الاداب، اذا لم يكن لاللتزام سبب .العقد باطال\n\nEnglish:\nA contract is void when an obligation is assumed without consideration or for a consideration contrary to public policy or morality."
+    ],
+    "reference_contexts": [
+      "Article 141\nArabic:\n، ( اذا كان العقد باطال جاز لكل ذى مصلحة ان يتمسك بالبطالن١ ( . ولا يزول البطالن بالاجازة، وللمحكمة ان تقضى به من تلقاء نفسها . ( وتسقط دعوى البطالن بمضى خمس عشرة سنه من وقت العقد٢ (\n\nEnglish:\nWhen a contract is void, its nullity may be invoked by every person having an interest in the contract and such nullity may also be ordered by the court on its own initiative. Nullity cannot disappear by ratification of the contract. Nullity proceedings are prescribed after fifteen years from the date of the conclusion of the contract."
+    ],
+    "expected_articles": [
+      141
+    ],
+    "retrieved_article_numbers": [
+      141,
+      142,
+      136
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q13_ar",
+    "user_input": "متى يجوز للمتعاقد أن يطلب إبطال العقد بسبب الغلط الجوهري؟",
+    "response": "يجوز للمتعاقد أن يطلب إبطال العقد بسبب الغلط الجوهري إذا كان الغلط جوهرياً، أي بلغ حداً من الجسامة بحيث يمتنع معه المتعاقد عن إبرام العقد لو لم يقع في هذا الغلط، أو إذا وقع في صفة جوهرية في اعتبار المتعاقدين أو في ذات المتعاقد أو صفة من صفاته وكانت هي السبب الرئيس في التعاقد.\n\n**المواد ذات الصلة:**\n*   **المادة 120**: تجيز للمتعاقد طلب الإبطال إذا وقع في غلط جوهري.\n*   **المادة 121**: تحدد تعريف الغلط الجوهري وشروط اعتباره كذلك.",
+    "reference": "يجوز للمتعاقد أن يطلب إبطال العقد إذا وقع في غلط جوهري، أو كان المتعاقد الآخر قد وقع مثله في هذا الغلط، أو كان على علم به، أو كان من السهل عليه أن يتبينه.",
+    "retrieved_contexts": [
+      "Article 120\nArabic:\nان كان، اذا وقع المتعاقد فى غلط جوهرى جاز له ان يطلب ابطال العقد او كان، او كان على علم به، المتعاقد الاخر قد وقع مثله فى هذا الغلط .من السهل عليه ان يتبينه\n\nEnglish:\nA party to a contract may demand the avoidance of the contract if he committed an essential mistake, if the other party committed the same mistake or had knowledge thereof, or could have easily detected the mistake.",
+      "Article 121\nArabic:\n( يكون الغلط جوهريا اذا بلغ حدا من الجسامة بحيث يمتنع معه١ ( .المتعاقد عن ابرام العقد لو لم يقع فى هذا الغلط -: ( ويعتبر الغلط جوهريا على الاخص٢ ( او يجب. اذا وقع فى صفة للشئ تكون جوهرية فى اعتبار المتعاقدين- ا اعتبارها كذلك لما يالبس العقد من ظروف ولما ينبغى فى التعامل من .حسن نية وكانت تلك الذات، اذا وقع فى ذات المتعاقد او فى صفة من صفاته- ب .او هذه الصفة السبب الرئيس فى التعاقد\n\nEnglish:\nA mistake is an essential mistake when its gravity is of such a degree that, if it had not been committed, the party who was mistaken, would not have concluded the contract. The mistake is deemed to be essential more particularly: a) when it has a bearing on the quality of the thing, which the parties have considered essential or which must be deemed essential, taking into consideration the circumstances surrounding the contract and the good faith that should prevail in business relationships. b) when it has a bearing on the identity or on one of the qualities of the person with whom the contract is entered into, if this identity or this quality was the principal factor in the conclusion of the contract.",
+      "Article 128\nArabic:\nفليس للمتعاقد المكره ان يطلب، اذا صدر الاكراه من غير المتعاقدين ما لم يثبت ان المتعاقد الاخر كان يعلم او كان من المفروض، ابطال العقد .حتما ان يعلم ذا الاكراه\n\nEnglish:\nWhen the duress is practiced by a person other than one of the contracting parties, the victim cannot demand the avoidance of the contract, unless it is established that the other contracting party had, or should necessarily have had, knowledge thereof."
+    ],
+    "reference_contexts": [
+      "Article 120\nArabic:\nان كان، اذا وقع المتعاقد فى غلط جوهرى جاز له ان يطلب ابطال العقد او كان، او كان على علم به، المتعاقد الاخر قد وقع مثله فى هذا الغلط .من السهل عليه ان يتبينه\n\nEnglish:\nA party to a contract may demand the avoidance of the contract if he committed an essential mistake, if the other party committed the same mistake or had knowledge thereof, or could have easily detected the mistake."
+    ],
+    "expected_articles": [
+      120
+    ],
+    "retrieved_article_numbers": [
+      120,
+      121,
+      128
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q13_en",
+    "user_input": "When may a contracting party demand avoidance of a contract because of an essential mistake?",
+    "response": "A contracting party may demand the avoidance of a contract if they committed an essential mistake, provided that the other party:\n1. Committed the same mistake;\n2. Had knowledge of the mistake; or\n3. Could have easily detected the mistake.\n\nThis right must be invoked within three years from the date the mistake is discovered, and in no case after fifteen years from the conclusion of the contract.\n\n**Citations:** Article 120, Article 140",
+    "reference": "A party may demand avoidance of the contract if he committed an essential mistake, if the other party committed the same mistake or had knowledge of it, or could have easily detected it.",
+    "retrieved_contexts": [
+      "Article 120\nArabic:\nان كان، اذا وقع المتعاقد فى غلط جوهرى جاز له ان يطلب ابطال العقد او كان، او كان على علم به، المتعاقد الاخر قد وقع مثله فى هذا الغلط .من السهل عليه ان يتبينه\n\nEnglish:\nA party to a contract may demand the avoidance of the contract if he committed an essential mistake, if the other party committed the same mistake or had knowledge thereof, or could have easily detected the mistake.",
+      "Article 126\nArabic:\nمن فليس للمتعاقد المدلس عليه ان، اذا صدر التدليس من غير المتعاقدين ما لم يكبت ان المتعاقد الاخر كان يعلم او كان من، يطلب ابطال العقد .المفروض حتما ان يعلم لهذا التدليس\n\nEnglish:\nA party who is the victim of fraudulent misrepresentation by a third party can only demand the avoidance of the contract, if it is established that the other contracting party was aware of, or should necessarily have been aware of the fraudulent misrepresentation.",
+      "Article 140\nArabic:\n( يسقط الحق فى ابطال العقد اذا لم يتمسك به صاحبه خالل ثالث١ ( .سنوات من اليوم الذى يزول. ( ويبدا سريان هذه المدة فى حالة نقص الاهلية٢ ( ، من اليوم الذى ينكشف فيه، وفى حالة الغلط او التدليس، فيه هذا السبب وفى كل حال لا يجوز التمسك بحق، وفى حالة الاكراه من يوم انقطاعه الابطال لغلط او تدليس او اكراه اذا انقضت خمس عشرة سنة من وقت .تمام العقد\n\nEnglish:\nThe right to procure the avoidance of a contract is prescribed, if not invoked within three years. This period runs, in case of legal incapacity, from the date of the cessation of such incapacity; in the case of mistake or fraudulent misrepresentation, from the date the mistake or misrepresentation is discovered; in the case of duress, from the date it has ceased. In no case can avoidance be claimed as a result of mistake, fraudulent representation or duress, when fifteen years have elapsed from the date of the conclusion of the contract."
+    ],
+    "reference_contexts": [
+      "Article 120\nArabic:\nان كان، اذا وقع المتعاقد فى غلط جوهرى جاز له ان يطلب ابطال العقد او كان، او كان على علم به، المتعاقد الاخر قد وقع مثله فى هذا الغلط .من السهل عليه ان يتبينه\n\nEnglish:\nA party to a contract may demand the avoidance of the contract if he committed an essential mistake, if the other party committed the same mistake or had knowledge thereof, or could have easily detected the mistake."
+    ],
+    "expected_articles": [
+      120
+    ],
+    "retrieved_article_numbers": [
+      120,
+      126,
+      140
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q14_ar",
+    "user_input": "متى يقوم العرض الحقيقي مقام الوفاء بالنسبة إلى المدين؟",
+    "response": "يقوم العرض الحقيقي مقام الوفاء بالنسبة إلى المدين إذا تالاه إيداع يتم وفقاً لأحكام قانون المرافعات، أو أي إجراء مماثل، وذلك بشرط أن يقبله الدائن أو يصدر حكم نهائي بصحته.\n\n(المادة 339)",
+    "reference": "يقوم العرض الحقيقي بالنسبة إلى المدين مقام الوفاء إذا تلاه إيداع يتم وفقا لأحكام قانون المرافعات، أو تلاه أي إجراء مماثل، وذلك إذا قبله الدائن أو صدر حكم نهائي بصحته.",
+    "retrieved_contexts": [
+      "Article 339\nArabic:\nاذا تاله ايداع يتم، يقوم العرض الحقيقي بالنسبة الى المدين مقام الوفاء وذلك اذا قبله، او تاله اي اجراء مماثل، وفقا الحكام قانون المرافعات .الدائن او صدر حكم نهائي بصحته\n\nEnglish:\nThe actual tender of the thing due is equivalent to payment, in so far as the debtor is concerned, when it is followed by a deposit made in the manner prescribed in the Code of Procedure, or by any other equivalent measure, provided that it is accepted by the creditor or recognized as valid by a final judgment.",
+      "Article 347\nArabic:\n( اذا كان محل الالتزام شيئا معينا بالذات وجب تسليمه في المكان الذي١( ما لم يوجد اتفاق او نص يقضي، كان موجودا فيه وقت نشوء الالتزام .بغير ذلك ( اما في الالتزامات الاخرى فيكون الوفاء في المكان الذي يوجد فيه٢) موطن المدين وقت الوفاء او في المكان الذي يوجد فيه مركز اعمال المدين .اذا كان الالتزام متعلقا بهذه الاعمال\n\nEnglish:\nIn the absence of an agreement or of a provision of the law to the contrary, when the subject matter of the obligation is a definite and ascertained thing, it should be delivered at the place it was situated at the time the obligation was created. In the case of other obligations, payment is due at the debtor's domicile at the time of payment or at his place of business if the obligation is connected with such business.",
+      "Article 334\nArabic:\nاذا رفض الدائن دون مبرر قبول الوفاء المعروض عليه عرضا صحيحا او اعلن انه لن يقبل، او رفض القيام بالاعمال التي لا يتم الوفاء بدونها، اعتبر انه قد تم اعذاره من الوقت الذي يسجل المدين عليه هذا، الوفاء .الرفض باعالن رسمي\n\nEnglish:\nWhen a creditor refuses, without good reason, to accept payment that is regularly offered to him, or to do such things without which payment cannot be made, or declares that he will not accept payment, he will be deemed to have been duly summoned to accept payment from the time that such refusal is recorded by a summons notified to him by legal process."
+    ],
+    "reference_contexts": [
+      "Article 339\nArabic:\nاذا تاله ايداع يتم، يقوم العرض الحقيقي بالنسبة الى المدين مقام الوفاء وذلك اذا قبله، او تاله اي اجراء مماثل، وفقا الحكام قانون المرافعات .الدائن او صدر حكم نهائي بصحته\n\nEnglish:\nThe actual tender of the thing due is equivalent to payment, in so far as the debtor is concerned, when it is followed by a deposit made in the manner prescribed in the Code of Procedure, or by any other equivalent measure, provided that it is accepted by the creditor or recognized as valid by a final judgment."
+    ],
+    "expected_articles": [
+      339
+    ],
+    "retrieved_article_numbers": [
+      339,
+      347,
+      334
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q14_en",
+    "user_input": "When is actual tender equivalent to payment for the debtor?",
+    "response": "According to Article 339, actual tender is equivalent to payment for the debtor when it is followed by a deposit made in the manner prescribed in the Code of Procedure, or by any other equivalent measure, provided that it is accepted by the creditor or recognized as valid by a final judgment.",
+    "reference": "Actual tender of the thing due is equivalent to payment for the debtor when it is followed by a deposit made according to the Code of Procedure, or by another equivalent measure, provided that the creditor accepts it or a final judgment recognizes its validity.",
+    "retrieved_contexts": [
+      "Article 339\nArabic:\nاذا تاله ايداع يتم، يقوم العرض الحقيقي بالنسبة الى المدين مقام الوفاء وذلك اذا قبله، او تاله اي اجراء مماثل، وفقا الحكام قانون المرافعات .الدائن او صدر حكم نهائي بصحته\n\nEnglish:\nThe actual tender of the thing due is equivalent to payment, in so far as the debtor is concerned, when it is followed by a deposit made in the manner prescribed in the Code of Procedure, or by any other equivalent measure, provided that it is accepted by the creditor or recognized as valid by a final judgment.",
+      "Article 340\nArabic:\nجاز، ( اذا عرض المدين الدين واتبع العرض بايداع او باجراء مماثل١( او مادام لم يصدر حكم، له ان يرجع في هذا العرض مادام الدائن لم يقبله .ائي بصحته واذا رجع فلا تبرا ذمة شركائه في الدين والذمة الضامنين او بعد ان حكم، ( فاذا رجع المدين في المعرض بعد ان قبله الدائن٢( لم يكن لهذا الدائن ان يتمسك بعد، وقبل الدائن منه هذا الرجوع، بصحته ذلك بما يكفل حقه من تامينات وتبرا ذمة الشركاء في الدين وذمة .الضامنين\n\nEnglish:\nA debtor who has made a tender of the debt followed by a deposit, or by an equivalent measure, may retract his tender as long as it has not been accepted by the creditor, or as long as it has not been recognized as valid by a final judgment, in which case the co-debtor and sureties will not be freed. If a debtor retracts his tender after its acceptance by the creditor or after it has been declared valid by a judgment, and his withdrawal is accepted by the creditor, the creditor shall no longer have the right, to avail himself of the securities guaranteeing his right, and the co-debtors and the sureties shall in such case be released.",
+      "Article 314\nArabic:\n( اذا وقع تحت يد المحال عليه حجز قبل ان تصبح الحوالة نافذة في حق١( . كانت الحوالة بالنسبة الى الحاجز بمثابة حجز اخر، الغير اذا وقع حجز اخر بعد ان اصبحت الحوالة نافذة في، ( وفي هذه الحالة٢( فان الدين يقسم بين الحاجز المتقدم والمحال له والحاجز، حق الغير على ان يؤخذ من حصة الحاجز المتاخر ما يستكمل، المتاخر قسمة غرماء .به المحال له قيمة الحوالة\n\nEnglish:\nWhen an attachment is served upon the debtor of the debt assigned, before the assignment has become effective as against third parties, the assignment is equivalent to an attachment vis-a-vis the distrainer. In this case, if another attachment is made after the assignment becomes effective as against third parties, the debt will be divided pro rata between the first distrainer, the assignee and the second distrainer, but the amount necessary to make up the amount of the sum assigned will be deducted from the share of the second distrainer and paid to the assignee."
+    ],
+    "reference_contexts": [
+      "Article 339\nArabic:\nاذا تاله ايداع يتم، يقوم العرض الحقيقي بالنسبة الى المدين مقام الوفاء وذلك اذا قبله، او تاله اي اجراء مماثل، وفقا الحكام قانون المرافعات .الدائن او صدر حكم نهائي بصحته\n\nEnglish:\nThe actual tender of the thing due is equivalent to payment, in so far as the debtor is concerned, when it is followed by a deposit made in the manner prescribed in the Code of Procedure, or by any other equivalent measure, provided that it is accepted by the creditor or recognized as valid by a final judgment."
+    ],
+    "expected_articles": [
+      339
+    ],
+    "retrieved_article_numbers": [
+      339,
+      340,
+      314
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q15_ar",
+    "user_input": "متى يحل الشخص الذي قام بالوفاء محل الدائن؟",
+    "response": "يحل الشخص الذي قام بالوفاء محل الدائن في الحالات التالية:\n\n1. إذا كان الموفي ملزماً بالدين مع المدين، أو ملزماً بوفائه عنه.\n2. إذا كان الموفي دائناً، وكان دائناً آخر مقدماً عليه بما له من تأمين، ولو لم يكن للموفي أي تأمين عيني.\n3. إذا كان الموفي قد اشترى عقاراً ودفع ثمنه وفاءً لدائنين خصص العقار لضمان حقوقهم.\n4. إذا كان هناك نص خاص يقرر للموفي حق الحلول.\n\n**المادة 326**",
+    "reference": "إذا قام بالوفاء شخص غير المدين، حل الموفي محل الدائن الذي استوفى حقه في الحالات التي يقررها القانون، ومنها أن يكون الموفي ملزما بالدين مع المدين أو ملزما بوفائه عنه، أو دائنا وفّى دائنا آخر متقدما عليه بضمان، أو اشترى عقارا ودفع ثمنه وفاء لدائنين خصص العقار لضمان حقوقهم، أو كان هناك نص خاص يقرر له حق الحلول.",
+    "retrieved_contexts": [
+      "Article 326\nArabic:\nحل الموفي محل الدائن الذي استوفي، اذا قام بالوفاء شخص غير المدين :حقه في الاحوال الاتية .( ا ) اذا كان الموفي ملزما بالدين مع المدين او ملزما بوفائه عنه ( ب ) اذا كان الموفي دائنا وفي دائنا اخر مقدما عليه بما له من تامين . ولو لم يكن للموفي اي تامين. عيني (ج) اذا كان الموفي قد اشتري عقارا ودفع ثمنه وفاء لدائنين خصص .العقار لضمان حقوقهم .)د ) اذا كان هناك نص خاص يقرر للموفي حق الحلول\n\nEnglish:\nWhen payment is made by a third party, such third party is subrogated in the rights of the creditor who is paid off in the following cases: a) when such third party was liable for the debt jointly with the debtor or was under an obligation to pay the debt on his behalf; b) when such third party, being himself a creditor, even an unsecured creditor, had paid another creditor ranking before him by reason of a real security; c) when, having acquired an immovable, he has paid the price to creditors having a real security upon the immovable in question; d) when the law expressly gives him the right of subrogation.",
+      "Article 330\nArabic:\nفلا يضار الدائن، ( اذا وفي الغير الدائن جزءا من حقه وحل محل فيه١) ما، ويكون في استيفاء ما بقي له من حق مقدما على من وفاه، بهذا الوفاء .لم يوجد اتفاق يقضي بغير ذلك ( فاذا حل شخص اخر محل الدائن فيما بقي له من حق رجع من حل٢) اخيرا هو ومن تقدمه في الحلول كل بقدر ما هو مستحق له وتقاسما قسمة .الغرماء\n\nEnglish:\nIn the absence of an agreement to the contrary, when a third party pays part of a debt to a creditor and is subrogated into the rights of the creditor as regards such part, the creditor shall not be prejudiced by such partial payment and may exercise his rights for that which remains due, in preference to the third party. When a further third party is subrogated in the rights of the creditor, as regards that which remains due to this creditor, this further third party so subrogated, together with the third party subrogated before him, will have a right to claim what is due to each of them pro rata.",
+      "Article 327\nArabic:\nللدائن الذي استوفي حقه من غير المدين ان يتفق مع هذا الغير على ان ولا يصح ان يتاخر هذا الاتفاق عن، ولو لم يقبل المدين ذلك، يحل محله .وقت الوفاء\n\nEnglish:\nA creditor who receives what is due to him from a third party may, by agreement with the third party, subrogate such third party into his rights even if the debtor does not agree to the subrogation. The agreement must not be concluded after the time of payment."
+    ],
+    "reference_contexts": [
+      "Article 326\nArabic:\nحل الموفي محل الدائن الذي استوفي، اذا قام بالوفاء شخص غير المدين :حقه في الاحوال الاتية .( ا ) اذا كان الموفي ملزما بالدين مع المدين او ملزما بوفائه عنه ( ب ) اذا كان الموفي دائنا وفي دائنا اخر مقدما عليه بما له من تامين . ولو لم يكن للموفي اي تامين. عيني (ج) اذا كان الموفي قد اشتري عقارا ودفع ثمنه وفاء لدائنين خصص .العقار لضمان حقوقهم .)د ) اذا كان هناك نص خاص يقرر للموفي حق الحلول\n\nEnglish:\nWhen payment is made by a third party, such third party is subrogated in the rights of the creditor who is paid off in the following cases: a) when such third party was liable for the debt jointly with the debtor or was under an obligation to pay the debt on his behalf; b) when such third party, being himself a creditor, even an unsecured creditor, had paid another creditor ranking before him by reason of a real security; c) when, having acquired an immovable, he has paid the price to creditors having a real security upon the immovable in question; d) when the law expressly gives him the right of subrogation."
+    ],
+    "expected_articles": [
+      326
+    ],
+    "retrieved_article_numbers": [
+      326,
+      330,
+      327
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  },
+  {
+    "id": "q15_en",
+    "user_input": "When is a third party who makes a payment subrogated to the creditor's rights?",
+    "response": "A third party who makes a payment is subrogated to the creditor's rights in the following cases:\n\n1.  When the third party was liable for the debt jointly with the debtor or was under an obligation to pay the debt on the debtor's behalf.\n2.  When the third party, being a creditor (even an unsecured one), paid another creditor who ranked before them due to a real security.\n3.  When the third party, having acquired an immovable, paid the price to creditors holding a real security on that immovable.\n4.  When the law expressly grants the third party the right of subrogation.\n\nAdditionally, a creditor may agree to subrogate a third party into their rights upon receiving payment, provided the agreement is not concluded after the time of payment.\n\n**Citations:** Articles 326, 327",
+    "reference": "When payment is made by a third party, that third party is subrogated to the rights of the creditor in the cases provided by law, including when the third party was jointly liable with the debtor or obligated to pay on the debtor's behalf, was a creditor who paid a creditor ranking before him by reason of real security, acquired an immovable and paid its price to secured creditors, or when the law expressly grants the right of subrogation.",
+    "retrieved_contexts": [
+      "Article 326\nArabic:\nحل الموفي محل الدائن الذي استوفي، اذا قام بالوفاء شخص غير المدين :حقه في الاحوال الاتية .( ا ) اذا كان الموفي ملزما بالدين مع المدين او ملزما بوفائه عنه ( ب ) اذا كان الموفي دائنا وفي دائنا اخر مقدما عليه بما له من تامين . ولو لم يكن للموفي اي تامين. عيني (ج) اذا كان الموفي قد اشتري عقارا ودفع ثمنه وفاء لدائنين خصص .العقار لضمان حقوقهم .)د ) اذا كان هناك نص خاص يقرر للموفي حق الحلول\n\nEnglish:\nWhen payment is made by a third party, such third party is subrogated in the rights of the creditor who is paid off in the following cases: a) when such third party was liable for the debt jointly with the debtor or was under an obligation to pay the debt on his behalf; b) when such third party, being himself a creditor, even an unsecured creditor, had paid another creditor ranking before him by reason of a real security; c) when, having acquired an immovable, he has paid the price to creditors having a real security upon the immovable in question; d) when the law expressly gives him the right of subrogation.",
+      "Article 330\nArabic:\nفلا يضار الدائن، ( اذا وفي الغير الدائن جزءا من حقه وحل محل فيه١) ما، ويكون في استيفاء ما بقي له من حق مقدما على من وفاه، بهذا الوفاء .لم يوجد اتفاق يقضي بغير ذلك ( فاذا حل شخص اخر محل الدائن فيما بقي له من حق رجع من حل٢) اخيرا هو ومن تقدمه في الحلول كل بقدر ما هو مستحق له وتقاسما قسمة .الغرماء\n\nEnglish:\nIn the absence of an agreement to the contrary, when a third party pays part of a debt to a creditor and is subrogated into the rights of the creditor as regards such part, the creditor shall not be prejudiced by such partial payment and may exercise his rights for that which remains due, in preference to the third party. When a further third party is subrogated in the rights of the creditor, as regards that which remains due to this creditor, this further third party so subrogated, together with the third party subrogated before him, will have a right to claim what is due to each of them pro rata.",
+      "Article 327\nArabic:\nللدائن الذي استوفي حقه من غير المدين ان يتفق مع هذا الغير على ان ولا يصح ان يتاخر هذا الاتفاق عن، ولو لم يقبل المدين ذلك، يحل محله .وقت الوفاء\n\nEnglish:\nA creditor who receives what is due to him from a third party may, by agreement with the third party, subrogate such third party into his rights even if the debtor does not agree to the subrogation. The agreement must not be concluded after the time of payment."
+    ],
+    "reference_contexts": [
+      "Article 326\nArabic:\nحل الموفي محل الدائن الذي استوفي، اذا قام بالوفاء شخص غير المدين :حقه في الاحوال الاتية .( ا ) اذا كان الموفي ملزما بالدين مع المدين او ملزما بوفائه عنه ( ب ) اذا كان الموفي دائنا وفي دائنا اخر مقدما عليه بما له من تامين . ولو لم يكن للموفي اي تامين. عيني (ج) اذا كان الموفي قد اشتري عقارا ودفع ثمنه وفاء لدائنين خصص .العقار لضمان حقوقهم .)د ) اذا كان هناك نص خاص يقرر للموفي حق الحلول\n\nEnglish:\nWhen payment is made by a third party, such third party is subrogated in the rights of the creditor who is paid off in the following cases: a) when such third party was liable for the debt jointly with the debtor or was under an obligation to pay the debt on his behalf; b) when such third party, being himself a creditor, even an unsecured creditor, had paid another creditor ranking before him by reason of a real security; c) when, having acquired an immovable, he has paid the price to creditors having a real security upon the immovable in question; d) when the law expressly gives him the right of subrogation."
+    ],
+    "expected_articles": [
+      326
+    ],
+    "retrieved_article_numbers": [
+      326,
+      330,
+      327
+    ],
+    "generation_provider": "groq",
+    "generation_model": "qwen/qwen3.8-27b"
+  }
+]

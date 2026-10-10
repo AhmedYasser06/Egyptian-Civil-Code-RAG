@@ -1,0 +1,182 @@
+[
+    {
+        "id": "q01_ar",
+        "pair_id": "q01",
+        "language": "ar",
+        "question": "ما هي الحالات التي يكون فيها استعمال الحق غير مشروع؟",
+        "expected_articles": [
+            5
+        ]
+    },
+    {
+        "id": "q01_en",
+        "pair_id": "q01",
+        "language": "en",
+        "question": "What are the cases in which the exercise of a right is considered unlawful?",
+        "expected_articles": [
+            5
+        ]
+    },
+    {
+        "id": "q02_ar",
+        "pair_id": "q02",
+        "language": "ar",
+        "question": "ماذا يجوز للمالك أن يفعل إذا استمر المنتفع في استعمال العين استعمالا غير مشروع؟",
+        "expected_articles": [
+            988
+        ]
+    },
+    {
+        "id": "q02_en",
+        "pair_id": "q02",
+        "language": "en",
+        "question": "What may the owner do if the usufructuary continues to use the property unlawfully?",
+        "expected_articles": [
+            988
+        ]
+    },
+    {
+        "id": "q03_ar",
+        "pair_id": "q03",
+        "language": "ar",
+        "question": "ما الذي يمكن أن يطلبه الشخص إذا استعمل شخص آخر اسمه بصورة غير مشروعة؟",
+        "expected_articles": [
+            51
+        ]
+    },
+    {
+        "id": "q03_en",
+        "pair_id": "q03",
+        "language": "en",
+        "question": "What can a person demand when another person unlawfully uses his name?",
+        "expected_articles": [
+            51
+        ]
+    },
+    {
+        "id": "q04_ar",
+        "pair_id": "q04",
+        "language": "ar",
+        "question": "ما حدود استعمال المالك لحقه إذا كان ذلك يضر بملك جاره؟",
+        "expected_articles": [
+            807
+        ]
+    },
+    {
+        "id": "q04_en",
+        "pair_id": "q04",
+        "language": "en",
+        "question": "What are the limits on an owner's exercise of his rights when it is detrimental to his neighbor's property?",
+        "expected_articles": [
+            807
+        ]
+    },
+    {
+        "id": "q05_ar",
+        "pair_id": "q05",
+        "language": "ar",
+        "question": "ماذا يحدث لحق الارتفاق إذا تغير وضع الأشياء بحيث أصبح استعمال الحق غير ممكن؟",
+        "expected_articles": [
+            1028
+        ]
+    },
+    {
+        "id": "q05_en",
+        "pair_id": "q05",
+        "language": "en",
+        "question": "What happens to a servitude when the state of things changes so that the right can no longer be exercised?",
+        "expected_articles": [
+            1028
+        ]
+    },
+    {
+        "id": "q06_ar",
+        "pair_id": "q06",
+        "language": "ar",
+        "question": "متى يعتبر الالتزام لأجل مرتبطا بأمر مستقبل محقق الوقوع؟",
+        "expected_articles": [
+            271
+        ]
+    },
+    {
+        "id": "q06_en",
+        "pair_id": "q06",
+        "language": "en",
+        "question": "When is an obligation for a term dependent on a future event that is certain to occur?",
+        "expected_articles": [
+            271
+        ]
+    },
+    {
+        "id": "q07_ar",
+        "pair_id": "q07",
+        "language": "ar",
+        "question": "ماذا يفعل القاضي عندما يكون المدين ملتزما بالوفاء عند المقدرة أو الميسرة؟",
+        "expected_articles": [
+            272
+        ]
+    },
+    {
+        "id": "q07_en",
+        "pair_id": "q07",
+        "language": "en",
+        "question": "What does the judge do when a debtor is required to perform only when able or when he has the means to do so?",
+        "expected_articles": [
+            272
+        ]
+    },
+    {
+        "id": "q08_ar",
+        "pair_id": "q08",
+        "language": "ar",
+        "question": "ما الحقوق التي يقررها القانون للمقاولين والمهندسين المعماريين عن أعمال تشييد أو إصلاح العقارات؟",
+        "expected_articles": [
+            1148
+        ]
+    },
+    {
+        "id": "q08_en",
+        "pair_id": "q08",
+        "language": "en",
+        "question": "What rights does the law grant to contractors and architects for construction or repair work on buildings?",
+        "expected_articles": [
+            1148
+        ]
+    },
+    {
+        "id": "q09_ar",
+        "pair_id": "q09",
+        "language": "ar",
+        "question": "ما حق الشركاء الذين اقتسموا عقارا في الرجوع على بعضهم البعض؟",
+        "expected_articles": [
+            1149
+        ]
+    },
+    {
+        "id": "q09_en",
+        "pair_id": "q09",
+        "language": "en",
+        "question": "What rights do co-owners who have partitioned an immovable have against each other?",
+        "expected_articles": [
+            1149
+        ]
+    },
+    {
+        "id": "q10_ar",
+        "pair_id": "q10",
+        "language": "ar",
+        "question": "كيف يمكن اكتساب حق الانتفاع؟",
+        "expected_articles": [
+            985
+        ]
+    },
+    {
+        "id": "q10_en",
+        "pair_id": "q10",
+        "language": "en",
+        "question": "How may the right of usufruct be acquired?",
+        "expected_articles": [
+            985
+        ]
+    }
+]
