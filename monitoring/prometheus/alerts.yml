@@ -1,0 +1,33 @@
+groups:
+  - name: legal-rag-quality
+    rules:
+      - alert: LowFaithfulness            # the rubric alert: faithfulness < 0.80
+        expr: rag_ragas_faithfulness < 0.80
+        for: 0m
+        labels: { severity: critical }
+        annotations:
+          summary: "RAGAS faithfulness {{ $value | printf \"%.3f\" }} is below 0.80"
+          description: "The last RAGAS monitor run scored below the faithfulness threshold."
+
+      - alert: OnlineFaithfulnessDrop     # sampled live traffic (ONLINE_FAITHFULNESS_SAMPLE_RATE)
+        expr: rag_online_faithfulness < 0.80
+        for: 10m
+        labels: { severity: warning }
+        annotations:
+          summary: "Live-traffic faithfulness {{ $value | printf \"%.3f\" }} is below 0.80"
+
+      - alert: QueryDriftHigh              # semantic shift in incoming questions
+        expr: rag_query_cosine_drift > 0.15
+        for: 5m
+        labels: { severity: warning }
+        annotations:
+          summary: "Query cosine drift {{ $value | printf \"%.3f\" }} - users ask about topics outside the reference set"
+
+  - name: legal-rag-latency
+    rules:
+      - alert: HighP95Latency
+        expr: histogram_quantile(0.95, sum(rate(rag_request_latency_seconds_bucket[5m])) by (le)) > 10
+        for: 5m
+        labels: { severity: warning }
+        annotations:
+          summary: "p95 /ask latency above 10 s"

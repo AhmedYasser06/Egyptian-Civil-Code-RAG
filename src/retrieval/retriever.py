@@ -27,16 +27,8 @@ class LegalRetriever:
                 "http://localhost:6333",
             )
 
-        self.reranker = LegalReranker(
-            model_id=os.getenv(
-                "RERANKER_MODEL_ID",
-                "BAAI/bge-reranker-v2-m3",
-            ),
-            device=os.getenv(
-                "RERANKER_DEVICE",
-                "cpu",
-            ),
-        )
+        # Loaded on first use (a cold import of the API must not download a 2 GB model).
+        self._reranker: LegalReranker | None = None
 
         self.collection_name = collection_name
 
@@ -64,10 +56,23 @@ class LegalRetriever:
 
         self.embedding_provider = HuggingFaceEmbedding(
             model_id=embedding_model,
-            device="cpu",
+            device=os.getenv("EMBEDDING_DEVICE", "cpu"),
             normalize_embeddings=True,
             embedding_size=1024,
         )
+
+    @property
+    def reranker(self) -> LegalReranker:
+        if self._reranker is None:
+            self._reranker = LegalReranker(
+                model_id=os.getenv("RERANKER_MODEL_ID", "BAAI/bge-reranker-v2-m3"),
+                device=os.getenv("RERANKER_DEVICE", "cpu"),
+            )
+        return self._reranker
+
+    @reranker.setter
+    def reranker(self, value: LegalReranker) -> None:
+        self._reranker = value
 
     # ============================================================
     # ARTICLE NUMBER DETECTION

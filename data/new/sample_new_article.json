@@ -1,0 +1,14 @@
+[
+  {
+    "article_number": 9001,
+    "book": "Test Addendum",
+    "chapter": "Sample",
+    "section": "Sample",
+    "topic": "Electronic contracts",
+    "text_ar": "يتم العقد الإلكتروني بمجرد تبادل الإيجاب والقبول عبر الوسائل الإلكترونية، ويرتب جميع الآثار التي يرتبها العقد التقليدي.",
+    "text_en": "An electronic contract is concluded as soon as offer and acceptance are exchanged by electronic means, and has all the effects of a traditional contract.",
+    "is_repealed": false,
+    "source_page": 1,
+    "citation": "Egyptian Civil Code, Article 9001"
+  }
+]

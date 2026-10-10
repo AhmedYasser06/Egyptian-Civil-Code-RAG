@@ -1,0 +1,4 @@
+# Extra dependencies for BentoML serving + load testing (kept apart: BentoML pins its own web stack)
+-r requirements.txt
+bentoml>=1.4,<2
+locust>=2.32

@@ -1,0 +1,13 @@
+# Set the webhook URL (Slack / Discord (append /slack) / Teams / any HTTP endpoint) to receive
+# the "faithfulness < 0.80" notification. Without it alerts are still visible in the Prometheus
+# and Alertmanager UIs (localhost:9090/alerts, localhost:9093).
+route:
+  receiver: default
+  group_by: [alertname]
+  group_wait: 10s
+  repeat_interval: 1h
+receivers:
+  - name: default
+    webhook_configs:
+      - url: "http://host.docker.internal:5001/alert"   # replace with your webhook receiver
+        send_resolved: true

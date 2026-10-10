@@ -1,0 +1,12 @@
+# BentoML serving image:  docker build -f Dockerfile.bento -t legal-rag-bento .
+FROM python:3.11-slim
+WORKDIR /app
+ENV PYTHONUNBUFFERED=1 PYTHONPATH=/app
+RUN apt-get update && apt-get install -y --no-install-recommends build-essential \
+    && rm -rf /var/lib/apt/lists/*
+COPY requirements-api.txt .
+RUN pip install --upgrade pip && pip install -r requirements-api.txt "bentoml>=1.4,<2"
+COPY src ./src
+COPY reports ./reports
+EXPOSE 3000
+CMD ["bentoml", "serve", "src.serving.bento_service:LegalRAG", "--port", "3000"]

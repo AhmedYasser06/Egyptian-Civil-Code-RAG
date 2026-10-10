@@ -1,0 +1,26 @@
+# Canary demo:  STABLE_IMAGE=ghcr.io/<you>/egyptian-civil-code-rag:<old-sha> \
+#               CANARY_IMAGE=ghcr.io/<you>/egyptian-civil-code-rag:<new-sha> \
+#               docker compose -f docker-compose.canary.yml up -d
+# Every image tag is built and pushed by CI (sha-<commit>); `latest` = main.
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.19.0
+    volumes: [qdrant_data:/qdrant/storage]
+  api_stable:
+    image: ${STABLE_IMAGE:?set STABLE_IMAGE}
+    environment: &env
+      QDRANT_URL: http://qdrant:6333
+      LLM_PROVIDER: ${LLM_PROVIDER:-GROQ}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+    depends_on: [qdrant]
+  api_canary:
+    image: ${CANARY_IMAGE:?set CANARY_IMAGE}
+    environment: *env
+    depends_on: [qdrant]
+  gateway:
+    image: nginx:1.27-alpine
+    ports: ["8080:80"]
+    volumes: ["./deploy/canary/nginx.conf:/etc/nginx/conf.d/default.conf:ro"]
+    depends_on: [api_stable, api_canary]
+volumes:
+  qdrant_data:

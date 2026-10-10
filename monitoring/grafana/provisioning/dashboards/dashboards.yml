@@ -1,0 +1,6 @@
+apiVersion: 1
+providers:
+  - name: legal-rag
+    type: file
+    options:
+      path: /var/lib/grafana/dashboards

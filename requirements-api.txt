@@ -1,0 +1,26 @@
+# Runtime dependencies of the API image (no MLflow / DVC / RAGAS: those are for the pipelines).
+# CPU-only PyTorch keeps the image ~2 GB smaller; the extra index is read by pip in the Dockerfile.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+fastapi==0.115.9
+uvicorn==0.34.2
+pydantic==2.13.5
+python-dotenv==1.2.3
+
+langchain==0.3.17
+langchain-core==0.3.86
+langchain-ollama==0.3.2
+langchain-groq==0.3.2
+langchain-google-genai==2.1.3
+langchain-openai==0.3.35
+openai==1.109.1
+
+qdrant-client==1.19.1
+sentence-transformers==4.1.0
+transformers==4.57.1
+torch==2.13.0
+numpy==1.26.4
+
+langfuse==4.17.0
+prometheus-client==0.26.0
+requests==2.32.5

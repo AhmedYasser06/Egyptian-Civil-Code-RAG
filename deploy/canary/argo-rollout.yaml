@@ -1,0 +1,55 @@
+# Kubernetes equivalent (Argo Rollouts): 10% -> 50% -> 100% with automatic abort when the
+# canary's p95 latency or error rate is bad (metrics come from the /metrics endpoint).
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: legal-rag
+spec:
+  replicas: 4
+  selector:
+    matchLabels: { app: legal-rag }
+  template:
+    metadata:
+      labels: { app: legal-rag }
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/ahmedyasser06/egyptian-civil-code-rag:latest
+          ports: [{ containerPort: 8000 }]
+          readinessProbe:
+            httpGet: { path: /health, port: 8000 }
+            initialDelaySeconds: 30
+  strategy:
+    canary:
+      steps:
+        - setWeight: 10
+        - pause: { duration: 10m }
+        - analysis: { templates: [{ templateName: rag-health }] }
+        - setWeight: 50
+        - pause: { duration: 10m }
+        - setWeight: 100
+---
+apiVersion: argoproj.io/v1alpha1
+kind: AnalysisTemplate
+metadata:
+  name: rag-health
+spec:
+  metrics:
+    - name: p95-latency
+      interval: 1m
+      count: 5
+      successCondition: result[0] < 10
+      failureLimit: 1
+      provider:
+        prometheus:
+          address: http://prometheus:9090
+          query: histogram_quantile(0.95, sum(rate(rag_request_latency_seconds_bucket[5m])) by (le))
+    - name: error-rate
+      interval: 1m
+      count: 5
+      successCondition: result[0] < 0.05
+      failureLimit: 1
+      provider:
+        prometheus:
+          address: http://prometheus:9090
+          query: sum(rate(rag_requests_total{status="error"}[5m])) / sum(rate(rag_requests_total[5m]))

@@ -1,69 +1,152 @@
-name: Legal RAG CI
+name: Legal RAG CI/CD
 
+# lint -> test -> RAGAS quality gate -> rebuild index -> build + (on main) push Docker image
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-    branches:
-      - main
+    branches: [main]
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  IMAGE: ghcr.io/${{ github.repository }}
 
 jobs:
-  ci:
+  lint-test:
+    name: Lint + unit tests
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
-
-      - name: Install dependencies
+          cache: pip
+          cache-dependency-path: requirements-api.txt
+      - name: Install
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
+          pip install -r requirements-api.txt ruff==0.16.5 pytest==8.4.2 httpx pyyaml
       - name: Lint
-        run: |
-          ruff check src main.py
+        run: ruff check src main.py scripts tests
+      - name: Unit tests (API contract, 422, streaming, drift, alerts, indexing, gate)
+        run: pytest -q
 
-      - name: Verify project imports
+  ragas-gate:
+    name: RAGAS quality gate (faithfulness >= 0.75 on 20 questions)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+      - name: Gate
+        run: python scripts/ragas_gate.py --report reports/ragas_ci.json --threshold 0.75
+
+  rebuild-index:
+    name: Pull corpus, validate it, rebuild the vector index
+    needs: [lint-test]
+    runs-on: ubuntu-latest
+    services:
+      qdrant:
+        image: qdrant/qdrant:v1.19.0
+        ports: ["6333:6333"]
+    env:
+      QDRANT_URL: http://localhost:6333
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-api.txt
+      - name: Install
+        run: |
+          pip install -r requirements-api.txt pytest==8.4.2 httpx pyyaml
+          pip install dvc==3.67.1 dvc-s3==3.3.0
+      - name: dvc pull (corpus + embeddings)
+        env:
+          DVC_USER: ${{ secrets.DVC_USER }}
+          DVC_PASSWORD: ${{ secrets.DVC_PASSWORD }}
+        run: |
+          if [ -n "$DVC_USER" ]; then
+            dvc remote modify --local origin auth basic
+            dvc remote modify --local origin user "$DVC_USER"
+            dvc remote modify --local origin password "$DVC_PASSWORD"
+          fi
+          dvc pull
+          dvc status
+      - name: Validate the corpus (contiguous numbers, Arabic text, repealed flags, ...)
+        run: pytest -q -m corpus
+      - name: Rebuild the index from the tracked embeddings
+        run: python -m src.scripts.ensure_index
+      - name: Check the rebuilt index
         run: |
           python - <<'PY'
-          import fastapi
-          import pydantic
-          import qdrant_client
-          import sentence_transformers
-          import transformers
-          import torch
-          import ragas
-          import mlflow
-          import dvc
-          import langchain
-          import langchain_ollama
-          import langchain_groq
-          import langchain_google_genai
-          import openai
-
-          print("All Legal RAG imports: OK")
-          print("FastAPI:", fastapi.__version__)
-          print("Pydantic:", pydantic.__version__)
-          print("Torch:", torch.__version__)
-          print("Transformers:", transformers.__version__)
-          print("Sentence Transformers:", sentence_transformers.__version__)
-          print("RAGAS:", ragas.__version__)
-          print("MLflow:", mlflow.__version__)
-          print("DVC:", dvc.__version__)
+          from qdrant_client import QdrantClient
+          from src.retrieval import indexing
+          c = QdrantClient(url="http://localhost:6333")
+          n_chunks = indexing.count_chunks(c, indexing.DEFAULT_COLLECTION)
+          n_articles = indexing.count_articles(c, indexing.DEFAULT_COLLECTION)
+          print("chunks:", n_chunks, "articles:", n_articles)
+          assert n_chunks > 0 and n_articles >= 1000, "index looks empty or truncated"
           PY
 
-      - name: Verify FastAPI application
+  docker:
+    name: Build image, smoke-test it, push (main only)
+    needs: [lint-test, ragas-gate, rebuild-index]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: dvc pull (the image bakes in the corpus and embeddings)
+        env:
+          DVC_USER: ${{ secrets.DVC_USER }}
+          DVC_PASSWORD: ${{ secrets.DVC_PASSWORD }}
         run: |
-          python -c "from main import app; print('FastAPI app import: OK'); print('Title:', app.title)"
-      
-      - name: Run tests
+          pip install dvc==3.67.1 dvc-s3==3.3.0
+          if [ -n "$DVC_USER" ]; then
+            dvc remote modify --local origin auth basic
+            dvc remote modify --local origin user "$DVC_USER"
+            dvc remote modify --local origin password "$DVC_PASSWORD"
+          fi
+          dvc pull
+      - uses: docker/setup-buildx-action@v3
+      - name: Smoke test with docker compose (Qdrant + API)
         run: |
-          pytest -q
+          docker compose up -d --build
+          for i in $(seq 1 60); do
+            curl -sf localhost:8000/health && break || sleep 5
+          done
+          curl -sf localhost:8000/health | tee health.json
+          python -c "import json; d=json.load(open('health.json')); assert d['status']=='healthy' and d['documents_indexed']>0"
+          test "$(curl -s -o /dev/null -w '%{http_code}' -X POST localhost:8000/ask -H 'Content-Type: application/json' -d '{\"question\":\"\"}')" = "422"
+      - name: Log in to GHCR
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Tags
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ${{ env.IMAGE }}
+          tags: |
+            type=sha
+            type=raw,value=latest,enable={{is_default_branch}}
+      - name: Build (+ push on main)
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max

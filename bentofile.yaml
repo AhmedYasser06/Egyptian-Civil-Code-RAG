@@ -1,0 +1,14 @@
+service: "src.serving.bento_service:LegalRAG"
+labels:
+  project: egyptian-civil-code-rag
+include:
+  - "src/**/*.py"
+  - "reports/drift_reference.np*"
+python:
+  requirements_txt: "./requirements-api.txt"
+  packages:
+    - bentoml>=1.4,<2
+docker:
+  python_version: "3.11"
+  system_packages:
+    - build-essential

@@ -1,0 +1,18 @@
+{
+  "reference_questions": 25,
+  "threshold": 0.15,
+  "in_domain": {
+    "drift": 0.03210526864117691,
+    "similarity": 0.7147198204591674,
+    "similarity_drop": 0.01142042911129848,
+    "n": 25,
+    "alert": false
+  },
+  "family_law": {
+    "drift": 0.22722456263542035,
+    "similarity": 0.5674632969562263,
+    "similarity_drop": 0.15867695261423953,
+    "n": 20,
+    "alert": true
+  }
+}
