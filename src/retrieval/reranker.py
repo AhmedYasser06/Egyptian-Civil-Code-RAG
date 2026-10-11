@@ -29,13 +29,13 @@ class LegalReranker:
 
         self.tokenizer = AutoTokenizer.from_pretrained(model_id)
 
+        # Load straight in fp16 on GPU: never materialise an fp32 copy there
+        # (that spike is what ran out of memory next to vLLM on a T4).
+        kwargs = {"torch_dtype": torch.float16} if self.device.type == "cuda" else {}
         self.model = AutoModelForSequenceClassification.from_pretrained(
-            model_id
+            model_id, **kwargs
         )
-
         self.model.to(self.device)
-        if self.device.type == "cuda":
-            self.model.half()  # fp16 on GPU: half the memory, same ranking
         self.model.eval()
 
         print("[RERANKER] Model loaded successfully.")
