@@ -1,0 +1,32 @@
+{
+  "config": {
+    "strategy": "article",
+    "max_tokens": 512,
+    "overlap_tokens": 0,
+    "context_header": "full",
+    "doc_prefix": "",
+    "special_tokens": 2,
+    "balanced": true,
+    "min_tail_tokens": 24
+  },
+  "tokenizer": "BAAI/bge-m3",
+  "tokenizer_exact": true,
+  "total_chunks": 2298,
+  "by_language": {
+    "ar": 1148,
+    "en": 1150
+  },
+  "by_type": {
+    "article": 2184,
+    "repealed_notice": 112,
+    "article_part": 2
+  },
+  "articles_split": 1,
+  "tokens": {
+    "min": 24,
+    "median": 115.0,
+    "mean": 125.0,
+    "p95": 221,
+    "max": 480
+  }
+}

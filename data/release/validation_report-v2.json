@@ -1,0 +1,230 @@
+{
+  "ok": true,
+  "total_records": 1149,
+  "unique_article_numbers": 1149,
+  "min_article": 1,
+  "max_article": 1149,
+  "duplicate_article_numbers": [],
+  "empty_arabic_records": [
+    1022
+  ],
+  "empty_english_records": [],
+  "huge_english_records": [],
+  "huge_arabic_records": [],
+  "all_gaps": [],
+  "unexplained_gaps": [],
+  "repealed_articles": [
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417
+  ],
+  "missing_repealed_articles": [],
+  "suspect_trailing_heading_en": [],
+  "suspect_trailing_heading_ar": [],
+  "hierarchy_null_counts": {
+    "book": 88,
+    "chapter": 88,
+    "section": 34,
+    "topic": 731
+  },
+  "source_status_counts": {
+    "normal": 1092,
+    "repealed_no_individual_body_in_source": 56,
+    "missing_arabic_text_in_source_pdf": 1
+  },
+  "warnings": [
+    "records with empty text_ar: [1022]",
+    "87 English texts lack final punctuation: [53, 88, 172, 175, 180, 187, 303, 427, 455, 464, 465, 468, 472, 476, 478, 492, 499, 506, 515, 525]"
+  ],
+  "problems": [],
+  "extraction_metadata": {
+    "page_count": 170,
+    "parser_stats": {
+      "running_header_keys": 0,
+      "section_headings": 53,
+      "topic_headings": 27,
+      "rejected_heading_candidates": 4,
+      "book_headings": 4,
+      "chapter_headings": 17
+    },
+    "repealed_ranges": [
+      {
+        "start_article": 54,
+        "end_article": 80,
+        "source_page": 7
+      },
+      {
+        "start_article": 389,
+        "end_article": 417,
+        "source_page": 53
+      }
+    ],
+    "rejected_heading_candidates": [
+      {
+        "page": 7,
+        "text": "1. The state, the provinces (mudirias), towns and villages"
+      },
+      {
+        "page": 7,
+        "text": "2. Religious groups and communities which the state has"
+      },
+      {
+        "page": 7,
+        "text": "5. Associations and foundations created in accordance"
+      },
+      {
+        "page": 7,
+        "text": "6. Any group of persons or properties recognized as a"
+      }
+    ],
+    "rejected_article_anchors": [],
+    "arabic_number_mismatches": [],
+    "uncertain_line_count": 18,
+    "uncertain_lines": [
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "القانون المدني المصري"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "قانون اإلصدار"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "مادة ١"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "يلغي القانون المدني المعمول به أمام المحاكم الوطنية والصادر في ٢٨أكتوبر سنة"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "١٨٨٣والقانون المدني المعمول به أمام المحاكم المختلطة والصادر في ٢٨يونيو"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "سنة ١٨٧٥ويستعاض عنهما بالقانون المدني المرافق لهذا القانون"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "مادة ٢"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "على وزير العدل تنفيذ هذا القانون ويعمل به ابتداء من ٥١أكتوبر سنة"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "١٩٤٩."
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "نأمر بأن يبصم هذا القانون بخاتم الدولة وأن ينشر في الجريدة الرسمية وينفذ"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "كقانون من قوانين الدولة."
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "صدر بقصر القبة في ٩رمضان سنة ١٦ ١٣٦٧يوليو سنة ١٩٤٨"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "نصوص القانون المدنى"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "باب تمهيدي"
+      },
+      {
+        "source_page": 1,
+        "english": "",
+        "arabic": "أحكام عامة"
+      },
+      {
+        "source_page": 7,
+        "english": "Decree.",
+        "arabic": "ثم ألغي١٩٥٦/١١/٣ مكرر (ج) في٨٨ الوقائع المصرية عدد١٩٥٦"
+      },
+      {
+        "source_page": 7,
+        "english": "",
+        "arabic": "٣٧ الجريدة الرسمية عدد١٩٦٤ لسنة٣٢ القانون بالقرار الجمهوري رقم"
+      },
+      {
+        "source_page": 7,
+        "english": "",
+        "arabic": "١٢/٣/١٩٦٤. في"
+      }
+    ],
+    "ligature_repair_enabled": true
+  }
+}
