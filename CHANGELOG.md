@@ -1,5 +1,10 @@
 # Changelog (per course session)
 
+## Session 8 - data distribution without a DVC remote
+- `src/scripts/fetch_data.py` + git snapshot `data/release/`: CI, Kaggle and Docker no longer need the laptop-only MinIO remote.
+- CI `rebuild-index` / `docker` jobs and the three Kaggle notebooks use it; `requirements-kaggle.txt` keeps Kaggle's own torch.
+- `scripts/make_reports.py` generates `reports/SUMMARY.md` and the RAGAS / drift / retrieval charts.
+
 ## Session 7 - merge with local tree, RAGAS fix
 - RAGAS judge: max_tokens 4096 with auto-doubling on `IncompleteOutputException`, 429 back-off, per-metric null instead of crash, `--retry-failed`; Groq/Gemini/OpenRouter/OpenAI/vLLM presets.
 - Eval paths now `data/evaluation/*` (30 / 50 / 20 question sets); 50-question monitor defaults to `rag_eval_gemini_50.json`.

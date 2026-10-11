@@ -40,6 +40,7 @@ ignore = []
 "src/evaluation/*" = ["E402"]
 "src/evaluation/evaluate_rag_gemini_50.py" = ["E402", "E501"]
 "src/mlflow/*" = ["E402"]
+"scripts/make_reports.py" = ["E501"]
 "src/optimization/*" = ["E402"]
 
 [tool.pytest.ini_options]

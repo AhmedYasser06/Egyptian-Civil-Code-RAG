@@ -70,7 +70,10 @@ def test_alert_posts_to_webhook(tmp_path, monkeypatch):
     assert sent["url"] == "http://hook" and "0.500" in sent["text"]
 
 
-def test_tracer_is_a_silent_noop_without_keys():
+def test_tracer_is_a_silent_noop_without_keys(monkeypatch):
+    # a developer's .env may hold real Langfuse keys: the test must not depend on it
+    monkeypatch.delenv("LANGFUSE_PUBLIC_KEY", raising=False)
+    monkeypatch.delenv("LANGFUSE_SECRET_KEY", raising=False)
     tracer = Tracer()
     assert tracer.enabled is False
     span = tracer.start("ask", input={"q": "x"})

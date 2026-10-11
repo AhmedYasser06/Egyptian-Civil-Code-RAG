@@ -66,19 +66,8 @@ jobs:
       - name: Install
         run: |
           pip install -r requirements-api.txt pytest==8.4.2 httpx pyyaml
-          pip install dvc==3.67.1 dvc-s3==3.3.0
-      - name: dvc pull (corpus + embeddings)
-        env:
-          DVC_USER: ${{ secrets.DVC_USER }}
-          DVC_PASSWORD: ${{ secrets.DVC_PASSWORD }}
-        run: |
-          if [ -n "$DVC_USER" ]; then
-            dvc remote modify --local origin auth basic
-            dvc remote modify --local origin user "$DVC_USER"
-            dvc remote modify --local origin password "$DVC_PASSWORD"
-          fi
-          dvc pull
-          dvc status
+      - name: Get corpus + embeddings (git snapshot data/release, no remote needed)
+        run: python -m src.scripts.fetch_data
       - name: Validate the corpus (contiguous numbers, Arabic text, repealed flags, ...)
         run: pytest -q -m corpus
       - name: Rebuild the index from the tracked embeddings
@@ -104,18 +93,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: dvc pull (the image bakes in the corpus and embeddings)
-        env:
-          DVC_USER: ${{ secrets.DVC_USER }}
-          DVC_PASSWORD: ${{ secrets.DVC_PASSWORD }}
+      - name: Get corpus + embeddings (the image bakes them in)
         run: |
-          pip install dvc==3.67.1 dvc-s3==3.3.0
-          if [ -n "$DVC_USER" ]; then
-            dvc remote modify --local origin auth basic
-            dvc remote modify --local origin user "$DVC_USER"
-            dvc remote modify --local origin password "$DVC_PASSWORD"
-          fi
-          dvc pull
+          pip install numpy pyyaml
+          python -m src.scripts.fetch_data
       - uses: docker/setup-buildx-action@v3
       - name: Smoke test with docker compose (Qdrant + API)
         run: |

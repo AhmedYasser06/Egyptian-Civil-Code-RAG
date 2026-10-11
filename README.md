@@ -14,8 +14,9 @@ POST /ask   {"question": "ما هي شروط العقد؟"}
 
 ```bash
 git clone https://github.com/AhmedYasser06/Egyptian-Civil-Code-RAG.git && cd Egyptian-Civil-Code-RAG
-pip install "dvc[s3]==3.67.1" && dvc pull                    # corpus + embeddings from the DVC remote
-cp .env.example .env && docker compose up --build            # add GROQ_API_KEY to .env first (or GOOGLE_API_KEY)
+cp .env.example .env                                         # add GROQ_API_KEY (or GOOGLE_API_KEY) first
+pip install numpy pyyaml && python -m src.scripts.fetch_data  # corpus + embeddings from the git snapshot data/release (no DVC remote needed)
+docker compose up --build
 ```
 
 Then (the first request downloads BGE-M3 and the reranker, ~4.5 GB, into a Docker volume):
@@ -89,6 +90,8 @@ Package: `pip install -e .` then `civil-rag ingest` / `civil-rag query "..."` (`
   → screenshots in `reports/`.
 * **DVC** — `data/raw/egyptian_civil_code.pdf` and every stage output are tracked;
   `git checkout <rev> && dvc pull && dvc repro` rebuilds the corpus, chunks, embeddings and the index.
+  CI, Kaggle and Docker use the git snapshot `data/release/` instead of a DVC remote
+  (`python -m src.scripts.fetch_data`; refresh it with `--make-release` after `dvc repro`).
 * **CI/CD** (`.github/workflows/ci.yml`): ruff → pytest → **RAGAS gate** (fails if faithfulness < 0.75 on
   the 20-question set, or if the report is stale vs the corpus) → pull corpus + validate + rebuild Qdrant
   index → build, smoke-test and push the image to `ghcr.io/ahmedyasser06/egyptian-civil-code-rag`.

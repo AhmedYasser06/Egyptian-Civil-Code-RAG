@@ -31,7 +31,7 @@ COPY main.py pyproject.toml ./
 COPY src ./src
 COPY docker/entrypoint.sh ./entrypoint.sh
 COPY reports ./reports
-# The DVC-tracked corpus (run `dvc pull` before building)
+# The corpus + embeddings (run `python -m src.scripts.fetch_data` before building)
 COPY data/processed/final-articles-v2.json data/processed/final-articles-v2.json
 COPY data/processed/final-chunks-bgem3-v2.json data/processed/final-chunks-bgem3-v2.json
 COPY data/processed/embedded-chunks-v2.json data/processed/embedded-chunks-v2.json
