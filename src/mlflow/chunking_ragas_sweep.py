@@ -151,18 +151,17 @@ def main() -> None:
     ap.add_argument("--only", nargs="*", help="config names to run (default: all 5)")
     args = ap.parse_args()
 
-    from sentence_transformers import SentenceTransformer
-
+    from src.retrieval.gpu import load_sentence_transformer
     from src.retrieval.reranker import LegalReranker
 
     items = pick_subset(load_eval(args.questions), args.n)
     articles = load_articles(INPUT_FILE)
     print(f"[sweep] {len(items)} questions, {len(articles)} articles")
 
-    embed_model = SentenceTransformer(EMBEDDING_MODEL, device=args.device)
+    embed_model = load_sentence_transformer(EMBEDDING_MODEL, args.device)
     reranker = LegalReranker(RERANKER_MODEL, device=args.device)
     llm_bundle = make_llm_from_env()
-    judge = RagasJudge(embed_device=args.device)
+    judge = RagasJudge(embed_device="cpu")  # only embeds a few answers; keeps the GPU free
 
     mlflow.set_tracking_uri(args.mlflow_uri)
     mlflow.set_experiment(args.experiment)

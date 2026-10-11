@@ -91,9 +91,8 @@ def load_teacher_scorer(model_id: str, device: str, fp16: bool):
 
 # ----------------------------------------------------------------------------- build-data
 def cmd_build_data(args) -> None:
-    from sentence_transformers import SentenceTransformer
-
     from src.mlflow.chunking_experiment import EMBEDDING_MODEL, INPUT_FILE
+    from src.retrieval.gpu import load_sentence_transformer
     from src.retrieval.memory_retriever import InMemoryRetriever, load_articles
 
     random.seed(0)
@@ -101,7 +100,7 @@ def cmd_build_data(args) -> None:
     chunks = json.loads(Path(args.chunks).read_text(encoding="utf-8"))
     held_out = {a for q in load_eval(args.questions) for a in q["expected_articles"]}
 
-    embed = SentenceTransformer(EMBEDDING_MODEL, device=args.device)
+    embed = load_sentence_transformer(EMBEDDING_MODEL, args.device)
     retriever = InMemoryRetriever(chunks, articles, embed, reranker=None, candidate_k=GROUP)
     score = load_teacher_scorer(TEACHER, args.device, fp16=True)
 
@@ -220,17 +219,16 @@ def cmd_train(args) -> None:
 
 # ----------------------------------------------------------------------------- evaluate
 def cmd_evaluate(args) -> None:
-    from sentence_transformers import SentenceTransformer
-
     import mlflow
     from src.mlflow.chunking_experiment import EMBEDDING_MODEL, INPUT_FILE
+    from src.retrieval.gpu import load_sentence_transformer
     from src.retrieval.memory_retriever import InMemoryRetriever, load_articles
     from src.retrieval.reranker import LegalReranker
 
     articles = load_articles(INPUT_FILE)
     chunks = json.loads(Path(args.chunks).read_text(encoding="utf-8"))
     questions = [q for q in load_eval(args.questions) if q["expected_articles"]]
-    embed = SentenceTransformer(EMBEDDING_MODEL, device=args.device)
+    embed = load_sentence_transformer(EMBEDDING_MODEL, args.device)
     base = InMemoryRetriever(chunks, articles, embed, reranker=None, candidate_k=15)
     candidates = {q["id"]: base.retrieve(q["question"], top_k=15) for q in questions}
 

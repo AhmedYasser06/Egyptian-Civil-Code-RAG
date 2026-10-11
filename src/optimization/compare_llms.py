@@ -64,15 +64,14 @@ class CachedRetriever:
 
 
 def build_base_retriever(args):
-    from sentence_transformers import SentenceTransformer
-
     from src.mlflow.chunking_experiment import EMBEDDING_MODEL, INPUT_FILE
+    from src.retrieval.gpu import load_sentence_transformer
     from src.retrieval.memory_retriever import InMemoryRetriever, load_articles
     from src.retrieval.reranker import LegalReranker
 
     chunks = json.loads(Path(args.chunks).read_text(encoding="utf-8"))
     articles = load_articles(INPUT_FILE)
-    model = SentenceTransformer(EMBEDDING_MODEL, device=args.device)
+    model = load_sentence_transformer(EMBEDDING_MODEL, args.device)
     reranker = LegalReranker(args.reranker, device=args.device)
     return InMemoryRetriever(chunks, articles, model, reranker)
 
@@ -164,7 +163,7 @@ def cmd_score(args) -> None:
         base_url=args.judge_base_url,
         api_key="EMPTY",
         model=args.judge_model,
-        embed_device=args.device,
+        embed_device="cpu",
     )
     for label in args.labels:
         data = json.loads((OUT / f"{label}.json").read_text(encoding="utf-8"))

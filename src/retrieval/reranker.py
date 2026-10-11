@@ -34,6 +34,8 @@ class LegalReranker:
         )
 
         self.model.to(self.device)
+        if self.device.type == "cuda":
+            self.model.half()  # fp16 on GPU: half the memory, same ranking
         self.model.eval()
 
         print("[RERANKER] Model loaded successfully.")
@@ -66,7 +68,7 @@ class LegalReranker:
         logits = self.model(**inputs).logits.view(-1)
 
         # Convert logits to [0, 1]
-        scores = torch.sigmoid(logits)
+        scores = torch.sigmoid(logits.float())
 
         return scores.cpu().tolist()
 
