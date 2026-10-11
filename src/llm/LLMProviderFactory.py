@@ -1,10 +1,7 @@
 import os
 
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_groq import ChatGroq
-from langchain_ollama import ChatOllama
-from langchain_openai import ChatOpenAI
-
+# Provider SDKs are imported lazily: each environment (Kaggle, CI, laptop) only
+# installs the ones it uses, so a missing package must not break the others.
 from .Enums import LLMEnums
 
 
@@ -15,17 +12,22 @@ class LLMProviderFactory:
     def create(self, provider: str, model_id: str = None, model_temperature: float = 0.2):
         
         if provider == LLMEnums.OLLAMA.value:
+            from langchain_ollama import ChatOllama
             return ChatOllama(model=model_id, temperature=model_temperature)
         
         elif provider == LLMEnums.GOOGLE_GENAI.value:
+            from langchain_google_genai import ChatGoogleGenerativeAI
             return ChatGoogleGenerativeAI(model=model_id, temperature=model_temperature)
         
         elif provider == LLMEnums.GROQ.value:
+            from langchain_groq import ChatGroq
             return ChatGroq(model=model_id, temperature=model_temperature)
 
         elif provider == LLMEnums.VLLM.value:
             # vLLM exposes an OpenAI-compatible API (`vllm serve <model>`).
             # Qwen3 "thinking" is switched off: it would burn tokens and break citations.
+            from langchain_openai import ChatOpenAI
+
             return ChatOpenAI(
                 model=model_id,
                 temperature=model_temperature,
