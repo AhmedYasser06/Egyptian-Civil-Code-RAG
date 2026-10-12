@@ -159,6 +159,11 @@ def cmd_generate(args) -> None:
 def cmd_score(args) -> None:
     from src.evaluation.ragas_runner import RagasJudge
 
+    # The judge is a local vLLM Qwen3: without this its hidden "thinking" fills max_tokens, every
+    # metric is retried with 2x / 4x tokens and scoring takes hours instead of minutes.
+    os.environ.setdefault(
+        "JUDGE_EXTRA_BODY", '{"chat_template_kwargs": {"enable_thinking": false}}'
+    )
     judge = RagasJudge(
         base_url=args.judge_base_url,
         api_key="EMPTY",
