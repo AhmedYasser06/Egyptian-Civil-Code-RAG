@@ -1,553 +1,344 @@
 {
   "meta": {
-    "n_questions": 30,
-    "source": "data/evaluation/ragas_results.json",
-    "judge_model": null,
+    "n_questions": 20,
     "questions_md5": "72ea5ea0f5ffbeedc1ebe5f34d740f47",
-    "corpus_md5": "c20ba3bf35ef591f91fb793d85cfd5cd"
+    "corpus_md5": "c20ba3bf35ef591f91fb793d85cfd5cd",
+    "config": "article_256",
+    "llm_model": "Qwen/Qwen3-8B",
+    "judge_model": "Qwen/Qwen3-8B",
+    "timestamp": "2026-10-12T08:33:48"
   },
   "aggregate": {
-    "faithfulness": 0.8910642135642135,
-    "faithfulness_n": 30,
-    "answer_relevancy": 0.7494886679074074,
-    "answer_relevancy_n": 30,
-    "context_precision": 0.955555555466111,
-    "context_precision_n": 30,
-    "context_recall": 0.8666666666666667,
-    "context_recall_n": 30
+    "faithfulness": 0.9083333333333334,
+    "faithfulness_n": 20,
+    "answer_relevancy": 0.748240179165461,
+    "answer_relevancy_n": 20,
+    "context_precision": 0.929930555519275,
+    "context_precision_n": 20,
+    "context_recall": 0.975,
+    "context_recall_n": 20,
+    "article_hit_rate": 0.95
   },
   "rows": [
     {
       "id": "q01_ar",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.7406550131650796,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        5
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         5,
         988,
-        51,
         1028,
-        807
+        51,
+        4
       ],
-      "generation_provider": null,
-      "generation_model": null
+      "tokens": 1352,
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.8626357316824776,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
     },
     {
       "id": "q01_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.8521522733834432,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        5
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         5,
-        51,
         988,
         21,
-        470
+        51,
+        965
       ],
-      "generation_provider": null,
-      "generation_model": null
-    },
-    {
-      "id": "q02_ar",
+      "tokens": 1511,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.7172760349949615,
+      "answer_relevancy": 0.7575783463157181,
       "context_precision": 0.9999999999,
-      "context_recall": 0.0,
-      "expected_articles": [
-        988
-      ],
-      "retrieved_article_numbers": [
-        988,
-        989,
-        583
-      ],
-      "generation_provider": null,
-      "generation_model": null
+      "context_recall": 1.0
     },
     {
       "id": "q02_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.6188187722293547,
-      "context_precision": 0.9999999999,
-      "context_recall": 0.0,
-      "expected_articles": [
-        988
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         988,
         989,
-        991
+        991,
+        994,
+        990
       ],
-      "generation_provider": null,
-      "generation_model": null
+      "tokens": 1719,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7278945452783158,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
     },
     {
       "id": "q03_ar",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.6166294323012281,
-      "context_precision": 0.99999999995,
-      "context_recall": 1.0,
-      "expected_articles": [
-        51
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         51,
         50,
-        164
+        164,
+        154,
+        988
       ],
-      "generation_provider": null,
-      "generation_model": null
-    },
-    {
-      "id": "q03_en",
+      "tokens": 1541,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.8083068432636743,
-      "context_precision": 0.99999999995,
-      "context_recall": 1.0,
-      "expected_articles": [
-        51
-      ],
-      "retrieved_article_numbers": [
-        51,
-        50,
-        154
-      ],
-      "generation_provider": null,
-      "generation_model": null
+      "answer_relevancy": 0.7999170109229401,
+      "context_precision": 0.9999999999666667,
+      "context_recall": 1.0
     },
     {
       "id": "q04_ar",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.6510318568862615,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        807
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         807,
         818,
-        857
+        857,
+        815,
+        1023
       ],
-      "generation_provider": null,
-      "generation_model": null
+      "tokens": 2035,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7099361415041751,
+      "context_precision": 0.99999999998,
+      "context_recall": 1.0
     },
     {
       "id": "q04_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.7446508202105525,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        807
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         807,
         818,
+        857,
+        1018,
         813
       ],
-      "generation_provider": null,
-      "generation_model": null
-    },
-    {
-      "id": "q05_ar",
+      "tokens": 1606,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.4764023051327735,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        1028
-      ],
-      "retrieved_article_numbers": [
-        1028,
-        1023,
-        1025
-      ],
-      "generation_provider": null,
-      "generation_model": null
+      "answer_relevancy": 0.687432214792158,
+      "context_precision": 0.999999999975,
+      "context_recall": 1.0
     },
     {
       "id": "q05_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.6919455609780453,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        1028
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         1028,
+        1023,
         1027,
-        1023
+        1025,
+        1026
       ],
-      "generation_provider": null,
-      "generation_model": null
+      "tokens": 1640,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5321419182891358,
+      "context_precision": 0.99999999998,
+      "context_recall": 1.0
     },
     {
       "id": "q06_ar",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.46556715835507906,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        271
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         271,
         265,
-        272
-      ],
-      "generation_provider": null,
-      "generation_model": null
-    },
-    {
-      "id": "q06_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.6637708792097379,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        271
-      ],
-      "retrieved_article_numbers": [
-        271,
-        265,
+        272,
+        381,
         268
       ],
-      "generation_provider": null,
-      "generation_model": null
+      "tokens": 1330,
+      "faithfulness": 0.6666666666666666,
+      "answer_relevancy": 0.922976828470793,
+      "context_precision": 0.99999999998,
+      "context_recall": 1.0
     },
     {
       "id": "q07_ar",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.6639298999070516,
-      "context_precision": 0.8333333332916666,
-      "context_recall": 1.0,
-      "expected_articles": [
-        272
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         272,
         221,
-        346
+        346,
+        211,
+        317
       ],
-      "generation_provider": null,
-      "generation_model": null
+      "tokens": 1656,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6754941476370847,
+      "context_precision": 0.8333333332916666,
+      "context_recall": 1.0
     },
     {
       "id": "q07_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.9395489583933063,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        272
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         272,
         213,
-        214
+        346,
+        214,
+        203
       ],
-      "generation_provider": null,
-      "generation_model": null
-    },
-    {
-      "id": "q08_ar",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.942751451725984,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        1148
-      ],
-      "retrieved_article_numbers": [
-        1148,
-        651,
-        660
-      ],
-      "generation_provider": null,
-      "generation_model": null
+      "tokens": 1404,
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.762424980087325,
+      "context_precision": 0.7555555555303703,
+      "context_recall": 1.0
     },
     {
       "id": "q08_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.6846968607237791,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        1148
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         1148,
         651,
-        653
+        653,
+        662,
+        660
       ],
-      "generation_provider": null,
-      "generation_model": null
+      "tokens": 1943,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5991923556472426,
+      "context_precision": 0.999999999975,
+      "context_recall": 1.0
     },
     {
       "id": "q09_ar",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.7327511312217642,
-      "context_precision": 0.8333333332916666,
-      "context_recall": 1.0,
-      "expected_articles": [
-        1149
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         1149,
+        832,
         829,
-        844
+        844,
+        1039
       ],
-      "generation_provider": null,
-      "generation_model": null
-    },
-    {
-      "id": "q09_en",
+      "tokens": 2051,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.838566598906954,
-      "context_precision": 0.9999999999,
-      "context_recall": 0.0,
-      "expected_articles": [
-        1149
-      ],
-      "retrieved_article_numbers": [
-        1149,
-        1146,
-        833
-      ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b"
+      "answer_relevancy": 0.9984991208087344,
+      "context_precision": 0.99999999998,
+      "context_recall": 1.0
     },
     {
       "id": "q10_ar",
-      "faithfulness": 0.6666666666666666,
-      "answer_relevancy": 0.545812650417724,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        985
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         985,
         1016,
+        992,
+        988,
         993
       ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b"
+      "tokens": 1570,
+      "faithfulness": 0.3333333333333333,
+      "answer_relevancy": 0.9999999999970027,
+      "context_precision": 0.999999999975,
+      "context_recall": 1.0
     },
     {
       "id": "q10_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.8438396521280637,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        985
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         985,
         994,
-        988
+        988,
+        936,
+        993
       ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b"
-    },
-    {
-      "id": "q11_ar",
-      "faithfulness": 0.5714285714285714,
-      "answer_relevancy": 0.8898194074527531,
+      "tokens": 2034,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6573167306004106,
       "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        216
-      ],
-      "retrieved_article_numbers": [
-        216,
-        224,
-        221
-      ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b"
+      "context_recall": 1.0
     },
     {
       "id": "q11_en",
-      "faithfulness": 0.5,
-      "answer_relevancy": 0.9847235864609979,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        216
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         216,
         224,
-        229
+        229,
+        221,
+        129
       ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b",
-      "judge_provider": "GROQ",
-      "judge_model": "qwen/qwen3.8-27b"
+      "tokens": 1653,
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.7974085425047335,
+      "context_precision": 0.8055555555287036,
+      "context_recall": 1.0
     },
     {
       "id": "q12_ar",
-      "faithfulness": 0.7142857142857143,
-      "answer_relevancy": 0.63219453540236,
-      "context_precision": 0.0,
-      "context_recall": 0.0,
-      "expected_articles": [
-        141
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": false,
+      "retrieved_articles": [
         142,
+        129,
         120,
-        129
+        119,
+        158
       ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b",
-      "judge_provider": "GROQ",
-      "judge_model": "qwen/qwen3.8-27b"
-    },
-    {
-      "id": "q12_en",
+      "tokens": 1377,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.7360696758583746,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        141
-      ],
-      "retrieved_article_numbers": [
-        141,
-        142,
-        136
-      ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b",
-      "judge_provider": "GROQ",
-      "judge_model": "qwen/qwen3.8-27b"
+      "answer_relevancy": 0.5740102106559375,
+      "context_precision": 0.4499999999775,
+      "context_recall": 0.5
     },
     {
       "id": "q13_ar",
-      "faithfulness": 0.625,
-      "answer_relevancy": 0.688597547526247,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        120
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         120,
-        121,
-        128
+        126,
+        128,
+        125,
+        121
       ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b",
-      "judge_provider": "GROQ",
-      "judge_model": "qwen/qwen3.8-27b"
+      "tokens": 1416,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6789629101859259,
+      "context_precision": 0.8874999999778125,
+      "context_recall": 1.0
     },
     {
       "id": "q13_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.9721804570186471,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        120
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         120,
+        121,
         126,
+        128,
         140
       ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b",
-      "judge_provider": "GROQ",
-      "judge_model": "qwen/qwen3.8-27b"
-    },
-    {
-      "id": "q14_ar",
-      "faithfulness": 0.2,
-      "answer_relevancy": 0.6371484725662323,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        339
-      ],
-      "retrieved_article_numbers": [
-        339,
-        347,
-        334
-      ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b",
-      "judge_provider": "GROQ",
-      "judge_model": "qwen/qwen3.8-27b"
+      "tokens": 1503,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7865301649451332,
+      "context_precision": 0.99999999995,
+      "context_recall": 1.0
     },
     {
       "id": "q14_en",
-      "faithfulness": 1.0,
-      "answer_relevancy": 0.8899745014700534,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        339
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         339,
         340,
+        317,
+        332,
         314
       ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b",
-      "judge_provider": "GROQ",
-      "judge_model": "qwen/qwen3.8-27b"
+      "tokens": 1536,
+      "faithfulness": 0.8333333333333334,
+      "answer_relevancy": 0.7306852257529313,
+      "context_precision": 0.8666666666377778,
+      "context_recall": 1.0
     },
     {
       "id": "q15_ar",
-      "faithfulness": 0.45454545454545453,
-      "answer_relevancy": 0.8297269858869151,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        326
-      ],
-      "retrieved_article_numbers": [
+      "article_hit": true,
+      "retrieved_articles": [
         326,
         330,
-        327
+        327,
+        328,
+        350
       ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b",
-      "judge_provider": "GROQ",
-      "judge_model": "qwen/qwen3.8-27b"
-    },
-    {
-      "id": "q15_en",
+      "tokens": 1652,
       "faithfulness": 1.0,
-      "answer_relevancy": 0.9851207140448249,
-      "context_precision": 0.9999999999,
-      "context_recall": 1.0,
-      "expected_articles": [
-        326
-      ],
-      "retrieved_article_numbers": [
-        326,
-        330,
-        327
-      ],
-      "generation_provider": "groq",
-      "generation_model": "qwen/qwen3.8-27b",
-      "judge_provider": "GROQ",
-      "judge_model": "qwen/qwen3.8-27b"
+      "answer_relevancy": 0.7037664572310464,
+      "context_precision": 0.99999999998,
+      "context_recall": 1.0
     }
   ]
 }

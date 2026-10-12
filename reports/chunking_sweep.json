@@ -1,0 +1,86 @@
+{
+  "best": {
+    "name": "article_256",
+    "strategy": "article",
+    "max_tokens": 256,
+    "overlap": 0
+  },
+  "registered": {
+    "name": "civil-code-rag-chunking",
+    "version": "1",
+    "run_id": "84f25322edb84b1e93d3c8570dfed348",
+    "stage_set": true
+  },
+  "runs": [
+    {
+      "config": "article_256",
+      "chunk_size": 256,
+      "overlap": 0,
+      "faithfulness": 0.9083333333333334,
+      "faithfulness_n": 20,
+      "answer_relevancy": 0.748240179165461,
+      "answer_relevancy_n": 20,
+      "context_precision": 0.929930555519275,
+      "context_precision_n": 20,
+      "context_recall": 0.975,
+      "context_recall_n": 20,
+      "article_hit_rate": 0.95
+    },
+    {
+      "config": "article_384",
+      "chunk_size": 384,
+      "overlap": 0,
+      "faithfulness": 0.8916666666666666,
+      "faithfulness_n": 20,
+      "answer_relevancy": 0.7427298213094209,
+      "answer_relevancy_n": 20,
+      "context_precision": 0.9232638888536637,
+      "context_precision_n": 20,
+      "context_recall": 0.975,
+      "context_recall_n": 20,
+      "article_hit_rate": 0.95
+    },
+    {
+      "config": "article_512",
+      "chunk_size": 512,
+      "overlap": 0,
+      "faithfulness": 0.8916666666666666,
+      "faithfulness_n": 20,
+      "answer_relevancy": 0.7427298213094209,
+      "answer_relevancy_n": 20,
+      "context_precision": 0.9232638888536637,
+      "context_precision_n": 20,
+      "context_recall": 0.975,
+      "context_recall_n": 20,
+      "article_hit_rate": 0.95
+    },
+    {
+      "config": "article_768",
+      "chunk_size": 768,
+      "overlap": 0,
+      "faithfulness": 0.8916666666666666,
+      "faithfulness_n": 20,
+      "answer_relevancy": 0.7427298213094209,
+      "answer_relevancy_n": 20,
+      "context_precision": 0.9232638888536637,
+      "context_precision_n": 20,
+      "context_recall": 0.975,
+      "context_recall_n": 20,
+      "article_hit_rate": 0.95
+    },
+    {
+      "config": "window_512",
+      "chunk_size": 512,
+      "overlap": 0,
+      "faithfulness": 0.8916666666666666,
+      "faithfulness_n": 20,
+      "answer_relevancy": 0.7427298213094209,
+      "answer_relevancy_n": 20,
+      "context_precision": 0.9232638888536637,
+      "context_precision_n": 20,
+      "context_recall": 0.975,
+      "context_recall_n": 20,
+      "article_hit_rate": 0.95
+    }
+  ]
+}
