@@ -88,6 +88,23 @@ Package: `pip install -e .` then `civil-rag ingest` / `civil-rag query "..."` (`
   GPU, notebook `notebooks/kaggle_1_mlflow_ragas_sweep.ipynb`). Winner is registered as
   `civil-code-rag-chunking` (alias `production`, stage *Production*). `mlflow ui --backend-store-uri sqlite:///mlflow.db`
   → screenshots in `reports/`.
+
+  Results (20 questions per config, Qwen3-8B as generator and RAGAS judge, `reports/chunking_sweep.json`):
+
+  | config | chunks | faithfulness | answer relevancy | context precision | context recall | article hit rate |
+  |---|---:|---:|---:|---:|---:|---:|
+  | **article_256** (registered) | 2363 | **0.908** | 0.748 | 0.930 | 0.975 | 0.95 |
+  | article_384 | 2299 | 0.892 | 0.743 | 0.923 | 0.975 | 0.95 |
+  | article_512 | 2298 | 0.892 | 0.743 | 0.923 | 0.975 | 0.95 |
+  | article_768 | 2297 | 0.892 | 0.743 | 0.923 | 0.975 | 0.95 |
+  | window_512 | 2298 | 0.892 | 0.743 | 0.923 | 0.975 | 0.95 |
+
+  Finding: Civil Code articles are short (mean ≈ 125 tokens), so for `chunk_size` ≥ 384 the splitter almost
+  never cuts anything and those four configs produce (nearly) the same chunks and identical scores. Only 256
+  actually splits long articles; it scores slightly higher, but with 20 questions the 0.016 gap is within noise.
+
+  ![MLflow compare](reports/mlflow_comparison_ui.png)
+  ![MLflow registry](reports/mlflow_registry.png)
 * **DVC** — `data/raw/egyptian_civil_code.pdf` and every stage output are tracked;
   `git checkout <rev> && dvc pull && dvc repro` rebuilds the corpus, chunks, embeddings and the index.
   CI, Kaggle and Docker use the git snapshot `data/release/` instead of a DVC remote
