@@ -122,9 +122,34 @@ Package: `pip install -e .` then `civil-rag ingest` / `civil-rag query "..."` (`
   <!-- paste the p50 / p95 / p99 table from reports/load_test.md here -->
 
 * **Optimization** (`notebooks/kaggle_2_optimization.ipynb`): AWQ 4-bit generator and a distilled
-  re-ranker (568M → 118M params), RAGAS before vs after.
+  re-ranker (568M → 118M params), RAGAS before vs after (`reports/quantization.md`,
+  `reports/reranker_distillation.md`).
 
-  <!-- paste reports/quantization.md and reports/reranker_distillation.md here -->
+  **Quantization** — judge Qwen3-8B for every row, 30 questions, same retrieved contexts per reranker:
+
+  | label | faithfulness | answer rel. | ctx prec. | ctx recall | p50 s | p95 s | tok/s | weights GiB/GPU |
+  |---|---:|---:|---:|---:|---:|---:|---:|---:|
+  | fp16 | 0.932 | 0.740 | 0.919 | 0.983 | 9.11 | 26.03 | 52.0 | 7.64 |
+  | AWQ 4-bit | 0.972 | 0.720 | 0.915 | 0.983 | 10.72 | 41.28 | 58.8 | 2.85 |
+  | AWQ + distilled reranker | 0.894 | 0.737 | 0.896 | 1.000 | 9.81 | 40.59 | 67.2 | 2.85 |
+
+  AWQ cuts weight memory by 63% with no faithfulness loss (gate: drop ≤ 0.03, PASS). It is not faster on
+  these T4 GPUs (p50 0.85×), probably because Turing lacks fast 4-bit kernels and both servers ran with
+  `--enforce-eager`; the benefit here is memory (a 4-bit 8B model fits one T4). With 30 questions,
+  differences of ~0.04 are within noise. The fp16 server ran with the custom all-reduce disabled (it crashes
+  on T4s) and the AWQ server with it on, so the latency comparison is close but not strictly like-for-like.
+
+  **Reranker distillation** — `bge-reranker-v2-m3` (teacher) → `multilingual-e5-small` (student), 20 retrieval questions:
+
+  | reranker | R@1 | R@3 | R@5 | MRR | ms/query (mean) | ms p95 | params (M) |
+  |---|---:|---:|---:|---:|---:|---:|---:|
+  | no_rerank | 0.950 | 1.000 | 1.000 | 0.975 | 0 | 0 | 0 |
+  | teacher | 1.000 | 1.000 | 1.000 | 1.000 | 226 | 242 | 568 |
+  | student | 0.850 | 0.950 | 1.000 | 0.912 | 38 | 52 | 118 |
+
+  The student is 5.9× faster and 4.8× smaller and keeps recall@5 on these 20 questions, but its top-1
+  accuracy is lower (0.85 vs 1.00) and end-to-end faithfulness drops by ~0.08 (0.894 vs 0.972). Note that
+  even with no reranking R@1 is already 0.95 on this small set, so the reranker's gain is modest here.
 
 ## Monitoring
 

@@ -1,0 +1,41 @@
+{
+  "n_questions": 20,
+  "results": [
+    {
+      "name": "no_rerank",
+      "recall@1": 0.95,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 0.975,
+      "rerank_ms_mean": 0.0008648499715491198,
+      "rerank_ms_p95": 0.0011730003279808443,
+      "params_m": 0,
+      "size_mb_fp32": 0
+    },
+    {
+      "name": "teacher",
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr": 1.0,
+      "rerank_ms_mean": 226.162838849973,
+      "rerank_ms_p95": 241.9484800002465,
+      "params_m": 567.755777,
+      "size_mb_fp32": 2271.023108
+    },
+    {
+      "name": "student",
+      "recall@1": 0.85,
+      "recall@3": 0.95,
+      "recall@5": 1.0,
+      "mrr": 0.9125,
+      "rerank_ms_mean": 38.261962950014095,
+      "rerank_ms_p95": 52.082163999784825,
+      "params_m": 117.654145,
+      "size_mb_fp32": 470.61658
+    }
+  ],
+  "speedup": 5.910905280668296,
+  "size_ratio": 4.825633444533552,
+  "recall@5_retained": 1.0
+}

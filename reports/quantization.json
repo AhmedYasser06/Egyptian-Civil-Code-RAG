@@ -1,0 +1,75 @@
+{
+  "labels": {
+    "fp16": {
+      "label": "fp16",
+      "model": "Qwen/Qwen3-8B",
+      "reranker": "BAAI/bge-reranker-v2-m3",
+      "n": 30,
+      "latency_p50_s": 9.10942070299916,
+      "latency_p95_s": 26.033505809050162,
+      "ttft_p50_s": 0.8644041384995944,
+      "throughput_tokens_per_s": 51.96677146416391,
+      "concurrent_wall_s": 79.8972089859999,
+      "weights_gib_per_gpu": 7.64,
+      "mean_output_tokens": 138.06666666666666,
+      "ragas": {
+        "faithfulness": 0.9322222222222222,
+        "faithfulness_n": 30,
+        "answer_relevancy": 0.740113564431912,
+        "answer_relevancy_n": 30,
+        "context_precision": 0.9192592592263626,
+        "context_precision_n": 30,
+        "context_recall": 0.9833333333333333,
+        "context_recall_n": 30
+      }
+    },
+    "awq": {
+      "label": "awq",
+      "model": "Qwen/Qwen3-8B-AWQ",
+      "reranker": "BAAI/bge-reranker-v2-m3",
+      "n": 30,
+      "latency_p50_s": 10.723474126999918,
+      "latency_p95_s": 41.28458495170021,
+      "ttft_p50_s": 0.8805914934998782,
+      "throughput_tokens_per_s": 58.77251740183926,
+      "concurrent_wall_s": 74.1332886969999,
+      "weights_gib_per_gpu": 2.85,
+      "mean_output_tokens": 152.53333333333333,
+      "ragas": {
+        "faithfulness": 0.9717592592592593,
+        "faithfulness_n": 30,
+        "answer_relevancy": 0.7198007276832538,
+        "answer_relevancy_n": 30,
+        "context_precision": 0.9148148147826218,
+        "context_precision_n": 30,
+        "context_recall": 0.9833333333333333,
+        "context_recall_n": 30
+      }
+    },
+    "awq_student": {
+      "label": "awq_student",
+      "model": "Qwen/Qwen3-8B-AWQ",
+      "reranker": "models/reranker-student",
+      "n": 30,
+      "latency_p50_s": 9.814556469499848,
+      "latency_p95_s": 40.5905446241,
+      "ttft_p50_s": 0.77342185349994,
+      "throughput_tokens_per_s": 67.23099234016314,
+      "concurrent_wall_s": 61.93572123600006,
+      "weights_gib_per_gpu": 2.85,
+      "mean_output_tokens": 137.53333333333333,
+      "ragas": {
+        "faithfulness": 0.8940740740740741,
+        "faithfulness_n": 30,
+        "answer_relevancy": 0.7365424871255172,
+        "answer_relevancy_n": 30,
+        "context_precision": 0.8955555555238287,
+        "context_precision_n": 30,
+        "context_recall": 1.0,
+        "context_recall_n": 30
+      }
+    }
+  },
+  "faithfulness_drop": -0.03953703703703715,
+  "verdict": "PASS"
+}
