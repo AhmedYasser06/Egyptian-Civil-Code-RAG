@@ -1,11 +1,7 @@
 [core]
-    remote = local_minio
+    remote = origin
 ['remote "local_minio"']
-    # laptop-only MinIO (docker run minio on :9000). CI, Kaggle and Docker builds do NOT use it:
-    # they restore the data from the git snapshot `data/release/` via `python -m src.scripts.fetch_data`.
     url = s3://egyptian-civil-code-dvc
     endpointurl = http://localhost:9000
 ['remote "origin"']
-    # OPTIONAL shared remote for reviewers (`dvc pull`): create it on DagsHub, then
-    #   dvc remote default origin
     url = https://dagshub.com/AhmedYasser06/Egyptian-Civil-Code-RAG.dvc

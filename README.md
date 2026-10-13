@@ -1,5 +1,8 @@
 # Egyptian Civil Code — Arabic/English Legal RAG
 
+[![CI](https://github.com/AhmedYasser06/Egyptian-Civil-Code-RAG/actions/workflows/ci.yml/badge.svg)](https://github.com/AhmedYasser06/Egyptian-Civil-Code-RAG/actions/workflows/ci.yml)
+![python](https://img.shields.io/badge/python-3.11-blue) ![RAGAS gate](https://img.shields.io/badge/RAGAS%20faithfulness%20gate-%E2%89%A5%200.75-informational)
+
 Ask questions about the Egyptian Civil Code (Law No. 131 of 1948) in Arabic or English and get an
 answer **with article citations** — never chunk ids. Hallucinations are unacceptable in legal work,
 so every answer is generated only from retrieved articles, repealed articles are flagged, and
@@ -34,6 +37,23 @@ embedded chunks; on start `src/scripts/ensure_index.py` loads them into Qdrant (
 `docker compose build --build-arg PRELOAD_MODELS=true` bakes the model weights in for offline start.
 Fully local, no API key: `LLM_PROVIDER=OLLAMA`, or on a GPU `docker compose --profile gpu up`
 with `LLM_PROVIDER=VLLM`.
+
+## Corpus and extraction notes
+
+Source: the official bilingual PDF of Law No. 131 of 1948 (DVC-tracked, `data/raw/`). `src/scripts/extract_civil_code.py`
+turns it into one JSON record per article (`article_number`, Arabic + English text, book / chapter / section
+hierarchy, `repealed` flag, `source_status`). `tests/test_corpus.py` validates the result on every CI run
+(`validation_report-v2.json`):
+
+| check | result |
+|---|---|
+| article records | **1,149**, numbers 1–1149, no duplicates, no unexplained gaps |
+| repealed articles | 56 (arts. 54–80 and 389–417), flagged and cited as repealed, never presented as current law |
+| article 1022 | the source PDF has no Arabic text; kept with `source_status = missing_arabic_text_in_source_pdf` |
+| leaked headings | 0 trailing book / chapter headings inside article bodies |
+
+The extractor prints a spot-check of article ends (`--spot-check 5,6,51,52,53,554,556,988,1022`) to catch headings
+that leak into the previous article.
 
 ## Architecture
 
@@ -107,7 +127,7 @@ Package: `pip install -e .` then `civil-rag ingest` / `civil-rag query "..."` (`
   ![MLflow registry](reports/mlflow_registry.png)
 * **DVC** — `data/raw/egyptian_civil_code.pdf` and every stage output are tracked;
   `git checkout <rev> && dvc pull && dvc repro` rebuilds the corpus, chunks, embeddings and the index.
-  CI, Kaggle and Docker use the git snapshot `data/release/` instead of a DVC remote
+  The default remote `origin` is DagsHub (`.dvc/config`); `local_minio` is a laptop-only fallback. CI, Kaggle and Docker use the git snapshot `data/release/` instead of a DVC remote
   (`python -m src.scripts.fetch_data`; refresh it with `--make-release` after `dvc repro`).
 * **CI/CD** (`.github/workflows/ci.yml`): ruff → pytest → **RAGAS gate** (fails if faithfulness < 0.75 on
   the 20-question set, or if the report is stale vs the corpus) → pull corpus + validate + rebuild Qdrant
@@ -164,6 +184,19 @@ scores. Alert: faithfulness < 0.80. Setup and commands: [`docs/MONITORING.md`](d
 
 ![grafana](reports/grafana_dashboard.png)
 
+`LowFaithfulness` firing in Prometheus. The alert was demonstrated once by temporarily pushing
+`rag_ragas_faithfulness = 0.70` to the Pushgateway; the real value (0.874) was restored afterwards.
+
+![alert firing](reports/alert_firing.png)
+
+Every `/ask` is a Langfuse trace (self-hosted): `ask` root, `retrieval` and `generation` spans, token counts and cost.
+
+![langfuse trace](reports/langfuse_trace.png)
+
+A sampled live request also carries its RAGAS `faithfulness` score (online evaluation, `ONLINE_FAITHFULNESS_SAMPLE_RATE`):
+
+![langfuse scores](reports/langfuse_scores.png)
+
 ## Operations
 
 * **Batch re-indexing**: `python -m src.scripts.reindex_documents --input data/new/` chunks, embeds and upserts
@@ -173,6 +206,28 @@ scores. Alert: faithfulness < 0.80. Setup and commands: [`docs/MONITORING.md`](d
   the stable and the new image (CI tags every build `sha-<commit>`). Promote by editing the weight and
   `nginx -s reload`; roll back by setting 0/100. Kubernetes equivalent with automatic analysis
   (p95 latency, error rate): `deploy/canary/argo-rollout.yaml`.
+
+## Evidence index
+
+| rubric item | where |
+|---|---|
+| MLflow ≥ 5 runs + Registry | `reports/chunking_sweep.json`, `reports/mlflow_comparison_ui.png`, `reports/mlflow_registry.png` |
+| RAGAS ≥ 50 questions | `reports/ragas_monitor_session-6*.json`, `reports/SUMMARY.md`, `reports/ragas_trend.png` |
+| CI gate (≥ 0.75, 20 questions) | `reports/ragas_ci.json`, `scripts/ragas_gate.py`, `.github/workflows/ci.yml` |
+| Locust, 50 users | `reports/load_test.md`, `reports/locust_u50.html` |
+| Quantization / distillation | `reports/quantization.md`, `reports/reranker_distillation.md` |
+| Drift | `reports/drift_demo.json`, `reports/drift_demo.png` |
+| Monitoring stack | `docs/MONITORING.md`, `monitoring/`, `docker-compose.monitoring.yml` |
+| Session history | [`CHANGELOG.md`](CHANGELOG.md) |
+
+## Limitations (honest notes)
+
+* Evaluation sets are small (20–50 questions); differences of a few hundredths in RAGAS scores are within noise.
+* The Locust run used a 2×T4 Kaggle machine with `--enforce-eager`; 50 users gave p95 ≈ 71 s on `/ask_json`, so this is a
+  proof of stability (0 failures), not a production-latency claim. Streaming time-to-first-token p50 was 1.9 s.
+* AWQ 4-bit saved memory but was not faster on T4 GPUs; the distilled reranker is faster but less accurate at top-1.
+* The 50-question monitoring run used Groq as generator and judge; the chunking sweep and the optimization study used Qwen3-8B.
+* This is a research/education tool, not legal advice.
 
 ## Development
 
