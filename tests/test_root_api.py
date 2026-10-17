@@ -41,7 +41,7 @@ class FakeLLM:
 def fakes(monkeypatch):
     monkeypatch.setattr(legal, "retriever", FakeRetriever())
     monkeypatch.setattr(legal, "llm", FakeLLM())
-    root._health_cache.update(at=0.0, n=None)
+    root._health_cache.update(at=0.0, articles=None, chunks=None)
 
 
 def test_ask_contract():
@@ -64,18 +64,32 @@ def test_ask_stream_is_sse_with_tokens_then_sources():
     assert "Egyptian Civil Code, Article 5" in body
 
 
-def test_health_reports_indexed_articles(monkeypatch):
-    monkeypatch.setattr(root, "_count_articles", lambda: 1149)
-    assert client.get("/health").json() == {"status": "healthy", "documents_indexed": 1149}
+def test_health_reports_article_and_chunk_counts(monkeypatch):
+    monkeypatch.setattr(root, "_count_index", lambda: (1149, 2298))
+    body = client.get("/health").json()
+    assert body == {
+        "status": "healthy",
+        "documents_indexed": 1149,  # alias of articles_indexed, kept for older clients
+        "articles_indexed": 1149,
+        "chunks_indexed": 2298,
+    }
 
 
 def test_health_is_503_when_vector_store_is_down(monkeypatch):
     def boom():
         raise ConnectionError("qdrant down")
 
-    monkeypatch.setattr(root, "_count_articles", boom)
+    monkeypatch.setattr(root, "_count_index", boom)
     r = client.get("/health")
-    assert r.status_code == 503 and r.json()["status"] == "unhealthy"
+    body = r.json()
+    assert r.status_code == 503 and body["status"] == "unhealthy"
+    assert body["articles_indexed"] == 0 and body["chunks_indexed"] == 0
+
+
+def test_root_redirects_to_docs():
+    r = client.get("/", follow_redirects=False)
+    assert r.status_code in (302, 307)
+    assert r.headers["location"] == "/docs"
 
 
 def test_metrics_endpoint_exposes_rag_metrics():

@@ -13,7 +13,19 @@ POST /ask   {"question": "ما هي شروط العقد؟"}
 ->          {"answer": "...", "sources": ["Egyptian Civil Code, Article 89", "Egyptian Civil Code, Article 90"]}
 ```
 
-## Quick start (3 commands)
+## Before you start
+
+- **Docker must be running** before `docker compose up` (Docker Desktop on Windows/macOS, or the daemon on Linux).
+- **First build:** 30-40 minutes on a slow connection (large Python dependencies).
+- **First request:** downloads BGE-M3 and the reranker (~4.5 GB) into a Docker volume. Wait until
+  `docker compose logs -f api` stops printing download/loading messages before your first `/ask`, or
+  build with `--build-arg PRELOAD_MODELS=true` to bake the models in.
+- **Memory:** 8 GB RAM recommended. With 4 GB the stack starts, but loading the models and answering
+  on CPU can take several minutes per question.
+- **One restart is normal on the very first start:** the API can exit once while Qdrant warms up
+  (`ensure_index.py` waits longer and retries), then it comes up healthy.
+
+## Quick start (4 commands)
 
 ```bash
 git clone https://github.com/AhmedYasser06/Egyptian-Civil-Code-RAG.git && cd Egyptian-Civil-Code-RAG
@@ -22,7 +34,8 @@ pip install numpy pyyaml && python -m src.scripts.fetch_data  # corpus + embeddi
 docker compose up --build
 ```
 
-Then (the first request downloads BGE-M3 and the reranker, ~4.5 GB, into a Docker volume):
+Then open <http://localhost:8000/> (redirects to the interactive docs at `/docs`) and try
+(the first request downloads BGE-M3 and the reranker, ~4.5 GB, into a Docker volume):
 
 ```bash
 curl localhost:8000/health
@@ -94,7 +107,8 @@ flowchart LR
 |---|---|
 | `POST /ask` | `{question}` → `{answer, sources}`. `question` ≥ 2 chars after trimming, else **422**. |
 | `POST /ask/stream` | server-sent events: `token` … `sources` |
-| `GET /health` | `{"status": "healthy", "documents_indexed": N}` (N = articles in Qdrant; 503 if Qdrant is down) |
+| `GET /` | redirects to `/docs` |
+| `GET /health` | `{"status", "articles_indexed": 1149, "chunks_indexed": 2298, "documents_indexed": 1149}` (`documents_indexed` is an alias of `articles_indexed`; 503 if Qdrant is down) |
 | `GET /metrics` | Prometheus (latency per stage, tokens, cost, drift) |
 | `GET /drift` | cosine drift of recent queries vs the reference set |
 | `/api/v1/legal/*` | original v1 routes (kept) |
@@ -132,6 +146,12 @@ Package: `pip install -e .` then `civil-rag ingest` / `civil-rag query "..."` (`
 * **CI/CD** (`.github/workflows/ci.yml`): ruff → pytest → **RAGAS gate** (fails if faithfulness < 0.75 on
   the 20-question set, or if the report is stale vs the corpus) → pull corpus + validate + rebuild Qdrant
   index → build, smoke-test and push the image to `ghcr.io/ahmedyasser06/egyptian-civil-code-rag`.
+
+* **Evaluation scripts** (they use the shared `RAGPipeline`, so they match what the API serves):
+  * `python -m src.evaluation.evaluate_rag [--limit N --start I]` generates answers (`LLM_PROVIDER` defaults to GROQ there).
+  * `python -m src.evaluation.prepare_ragas_dataset` builds the RAGAS dataset from those answers.
+  * `python -m src.evaluation.evaluate_ragas [--dataset ... --results ... --provider groq|gemini|openrouter|openai|vllm --metrics ... --limit N --delay S --embed-device cpu|cuda --retry-failed]`
+    scores them. The `evaluate_ragas_gemini*.py` scripts are thin wrappers of it, kept only for old commands.
 
 ## Serving, load test, optimization
 
@@ -220,6 +240,16 @@ A sampled live request also carries its RAGAS `faithfulness` score (online evalu
 | Monitoring stack | `docs/MONITORING.md`, `monitoring/`, `docker-compose.monitoring.yml` |
 | Session history | [`CHANGELOG.md`](CHANGELOG.md) |
 
+## Troubleshooting
+
+| Symptom | Cause / fix |
+|---|---|
+| `Cannot connect to the Docker daemon` | Start Docker first. |
+| API container exits once after the build | Qdrant was still warming up; `ensure_index.py` now retries (3 attempts, `QDRANT_TIMEOUT`, default 120 s) and the container restarts by itself. |
+| `/ask` hangs on the first call | The models are downloading/loading (~4.5 GB). Watch `docker compose logs -f api`; build with `PRELOAD_MODELS=true` to avoid it. |
+| `/ask` takes minutes | CPU-only or under 8 GB RAM. Use more memory, or a GPU with vLLM (`docker compose --profile gpu up`). |
+| `/` returned 404 | Fixed: it redirects to `/docs`. |
+
 ## Limitations (honest notes)
 
 * Evaluation sets are small (20–50 questions); differences of a few hundredths in RAGAS scores are within noise.
@@ -234,6 +264,8 @@ A sampled live request also carries its RAGAS `faithfulness` score (online evalu
 ```bash
 pip install -e ".[dev]" && pytest -q && ruff check src main.py scripts tests
 ```
+
+Tests set `ONLINE_FAITHFULNESS_SAMPLE_RATE=0`, so no real judge call is made while testing.
 
 See [`CHANGELOG.md`](CHANGELOG.md) for the session-by-session history and
 [`docs/COMPLETION_GUIDE.md`](docs/COMPLETION_GUIDE.md) for the build/run order.

@@ -11,7 +11,7 @@ import json
 import time
 
 from fastapi import APIRouter, HTTPException, Response
-from fastapi.responses import JSONResponse, StreamingResponse
+from fastapi.responses import JSONResponse, RedirectResponse, StreamingResponse
 
 from src.monitoring import metrics
 from src.monitoring.online_eval import OnlineFaithfulness
@@ -25,6 +25,12 @@ router = APIRouter(tags=["Legal RAG"])
 
 _cache: dict = {}
 online_eval = OnlineFaithfulness()  # off unless ONLINE_FAITHFULNESS_SAMPLE_RATE > 0
+
+
+@router.get("/", include_in_schema=False)
+def index() -> RedirectResponse:
+    """Friendlier than a 404: send browsers to the interactive API docs."""
+    return RedirectResponse(url="/docs")
 
 
 def get_pipeline() -> RAGPipeline:
@@ -85,28 +91,45 @@ async def ask_stream(request: LegalQueryRequest) -> StreamingResponse:
 
 
 # ----------------------------------------------------------------------------- /health
-_health_cache: dict = {"at": 0.0, "n": None}
+_health_cache: dict = {"at": 0.0, "articles": None, "chunks": None}
 
 
-def _count_articles() -> int:
+def _count_index() -> tuple[int, int]:
     retriever = legal.retriever
-    return indexing.count_articles(retriever.client, retriever.collection_name)
+    return (
+        indexing.count_articles(retriever.client, retriever.collection_name),
+        indexing.count_chunks(retriever.client, retriever.collection_name),
+    )
 
 
 @router.get("/health")
 async def health():
-    """``{"status": "healthy", "documents_indexed": N}`` where N = articles in the vector store."""
+    """Index counts: ``articles_indexed`` (distinct articles, 1149) and ``chunks_indexed`` (2298).
+
+    ``documents_indexed`` is kept as an alias of ``articles_indexed`` for older clients.
+    """
     try:
-        if _health_cache["n"] is None or time.time() - _health_cache["at"] > 60:
-            _health_cache["n"] = await asyncio.to_thread(_count_articles)
-            _health_cache["at"] = time.time()
-        n = _health_cache["n"]
+        if _health_cache["articles"] is None or time.time() - _health_cache["at"] > 60:
+            articles, chunks = await asyncio.to_thread(_count_index)
+            _health_cache.update(at=time.time(), articles=articles, chunks=chunks)
+        articles, chunks = _health_cache["articles"], _health_cache["chunks"]
     except Exception as exc:
         return JSONResponse(
             status_code=503,
-            content={"status": "unhealthy", "documents_indexed": 0, "detail": str(exc)},
+            content={
+                "status": "unhealthy",
+                "documents_indexed": 0,
+                "articles_indexed": 0,
+                "chunks_indexed": 0,
+                "detail": str(exc),
+            },
         )
-    return {"status": "healthy" if n > 0 else "unhealthy", "documents_indexed": n}
+    return {
+        "status": "healthy" if articles > 0 else "unhealthy",
+        "documents_indexed": articles,
+        "articles_indexed": articles,
+        "chunks_indexed": chunks,
+    }
 
 
 # ----------------------------------------------------------------------------- ops
